@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="41" nptitleid="PPSA01617_00" schema_ver="1.0">
+<app_tag content_id="UP1018-PPSA01617_00-00MORTALKOMBAT11" name="_Import20201111065357" revision="195">
+<package bootable_content_ver="01.000.002" content_ver="01.000.002" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01617_00/app/pkg/9/f_83a3dc48179ed21bb739c605b30934ef0368f9e0d6569be248d106e78c2b1e30/UP1018-PPSA01617_00-00MORTALKOMBAT11-DP.pkg" digest="2af81632a9fcf80c16f38a220b1ecadf01236c3cc939826de1c5a9d4c3662080" mandatory="true" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/app/info/195/f_d83ef69663886cd3e0eef623bbf02d6dd63d75f4af2d578d34ec51297878f5d7/UP1018-PPSA01617_00-00MORTALKOMBAT11.json" metadata_ver="195" pfs_revision="9" system_ver="33554432"/>
+</app_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-AFTERMATHCONTENT" name="_Import20200921175148" revision="113">
+<package content_ver="01.000.000" digest="a2c5b86e7b6208ae67e8b7146b1816d2e08cf6dfb599817ca747d38ed40e8e55" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-AFTERMATHCONTENT/info/113/f_3109feb69ac6b359d37e04410b6c1a437e608269179159aad13e3011d4689a8f/UP1018-PPSA01617_00-AFTERMATHCONTENT.json" metadata_ver="113" pfs_revision="64" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-AFTERMATHSKINPAK" name="_Import20200921181824" revision="153">
+<package content_ver="01.000.000" digest="09849e1984f2c9dbc8f17c2ed79ceff5ee1545a3488407603650b6aa160193f2" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-AFTERMATHSKINPAK/info/153/f_89cda38ef212f7a2ea15948efaa9eabb824129f96dcc5c810e26a5712979b7dc/UP1018-PPSA01617_00-AFTERMATHSKINPAK.json" metadata_ver="153" pfs_revision="71" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-AFTERMPACKINSKIN" name="_Import20200921181519" revision="152">
+<package content_ver="01.000.000" digest="b7958d8039d5cb83dc38bfc3152d5b95687fd7c123aac1f6411218f7367fd41c" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-AFTERMPACKINSKIN/info/152/f_b07813b91ce6ec1692d0517225ff64412b5b6a28c0fc5d1626088d899ffa6582/UP1018-PPSA01617_00-AFTERMPACKINSKIN.json" metadata_ver="152" pfs_revision="62" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-AFTERMSKINPACK01" name="_Import20200921182125" revision="154">
+<package content_ver="01.000.000" digest="c63a54e35cd6f7fe88fecba91bea5bea53a0908836188a0dc1af0910feb4b33f" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-AFTERMSKINPACK01/info/154/f_3e5df9f9c14ae2daba7362c95a94d62383199b67a5f7824f622eddcaefc8aa98/UP1018-PPSA01617_00-AFTERMSKINPACK01.json" metadata_ver="154" pfs_revision="59" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-AFTERMSKINPACK02" name="_Import20200921175303" revision="117">
+<package content_ver="01.000.000" digest="a534e3de554c8a91b9209223bc2c401685d66baced3d5c6cecd55d701d635b3b" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-AFTERMSKINPACK02/info/117/f_30ef8287b8a249243ede6e77545b6d43775d3e5aa3f8554a96aa729015613931/UP1018-PPSA01617_00-AFTERMSKINPACK02.json" metadata_ver="117" pfs_revision="72" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-AFTERMSKINPACK03" name="_Import20200921182502" revision="155">
+<package content_ver="01.000.000" digest="88e6a4f5309729a7b42e8f31d03b8180797a8b84c84383d3ad18e8c98c8c961a" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-AFTERMSKINPACK03/info/155/f_af7210105e31bcd8ada7def0f435c0610a66524f2644e1e981bceb4a188902a1/UP1018-PPSA01617_00-AFTERMSKINPACK03.json" metadata_ver="155" pfs_revision="61" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-BRAZILEDSKIN0000" name="_Import20200921182949" revision="156">
+<package content_ver="01.000.000" digest="a835c4e62878f5166c92872966d80bef2aa55ddf5b8e34c65648f553e2e9da4a" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-BRAZILEDSKIN0000/info/156/f_35bfd61c597e5c4d359e74ac792d245e79531e523433c9a501f208dc7877f352/UP1018-PPSA01617_00-BRAZILEDSKIN0000.json" metadata_ver="156" pfs_revision="73" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-DLC2SKINPACK0000" name="_Import20200921191007" revision="161">
+<package content_ver="01.000.000" digest="ba97040924355e2f689c21c5ee6334289d5c00a4d1c2b7e089badffc8db2f08b" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-DLC2SKINPACK0000/info/161/f_b42f019aca4d1a335f09c9e1b2e71ed708a05ddcd21ec4127646c199bdcebee2/UP1018-PPSA01617_00-DLC2SKINPACK0000.json" metadata_ver="161" pfs_revision="68" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-DLC3SKINPACK0000" name="_Import20200921194634" revision="163">
+<package content_ver="01.000.000" digest="c134c1cb797ea0d69524213076d67cadbb52b8ee7cc9b96c711492e1a7928bd2" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-DLC3SKINPACK0000/info/163/f_515f2cafa31d1dcaa9cf9e03e4387d85ee76f264f85075aee1288dd8f8249dd2/UP1018-PPSA01617_00-DLC3SKINPACK0000.json" metadata_ver="163" pfs_revision="56" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-DLC4SKINPACK0000" name="_Import20200921194934" revision="164">
+<package content_ver="01.000.000" digest="70f1ed092a5ab6c8f3ae37c14ba55c1898c177583163e92a8ab7b88e6b96d9ec" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-DLC4SKINPACK0000/info/164/f_2a6b8ced317ad8c17c9817c264dee2642cb6e0bae5cfbc33e1d257481cdf01d4/UP1018-PPSA01617_00-DLC4SKINPACK0000.json" metadata_ver="164" pfs_revision="83" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-DLC5KPEXCLSVSKIN" name="_Import20200921195207" revision="165">
+<package content_ver="01.000.000" digest="06db698d071ad5f5e991c6b3b0a8b2bef5f46a277ecab1980cc6cc8e16c97b17" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-DLC5KPEXCLSVSKIN/info/165/f_b256b3245c92e24f6df71015047d3b260f44f174252c21acf8dcd7ca97b1599e/UP1018-PPSA01617_00-DLC5KPEXCLSVSKIN.json" metadata_ver="165" pfs_revision="81" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-DLC5SKINPACK0000" name="_Import20200921180401" revision="130">
+<package content_ver="01.000.000" digest="5b3282b2bca6a23f6587698bf001448c8e326b74544a690708ec2cfb0330099c" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-DLC5SKINPACK0000/info/130/f_4f1f60dfa7b353f59859c0889846d5a5f9ee190ccba05ed4db2c9a3a08faa9a6/UP1018-PPSA01617_00-DLC5SKINPACK0000.json" metadata_ver="130" pfs_revision="76" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-DLC6KPEXCLSVSKIN" name="_Import20200921195452" revision="166">
+<package content_ver="01.000.000" digest="0ea60040429ccd1a6e119cfb99222499e905307259bd07aaa0d46e4ecf676178" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-DLC6KPEXCLSVSKIN/info/166/f_6b00a6304639c8c3902dd2187c8e56997584bbcbec49260b936c343c09b966ce/UP1018-PPSA01617_00-DLC6KPEXCLSVSKIN.json" metadata_ver="166" pfs_revision="86" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-DLC6SKINPACK0000" name="_Import20200921200411" revision="167">
+<package content_ver="01.000.000" digest="6854b2de6508beaeb837243454a185d1f3d1cd19f0f7e61bb109683ad6d99ad0" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-DLC6SKINPACK0000/info/167/f_26f7998a8be149823ff93c173ec405d9ccb0b68f9aeb3eb209c46d259d0adea2/UP1018-PPSA01617_00-DLC6SKINPACK0000.json" metadata_ver="167" pfs_revision="67" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-FUJCHARACTER0000" name="_Import20200921200758" revision="168">
+<package content_ver="01.000.000" digest="c9431f5c23e8c54aa090c9804c34ee5dc7d79fb3dea3fec769f7c5fee5abb216" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-FUJCHARACTER0000/info/168/f_5f335c6e3b588259210fd8483610b0efefad588372b2725822561b0de23707da/UP1018-PPSA01617_00-FUJCHARACTER0000.json" metadata_ver="168" pfs_revision="82" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-HALLOWEENPACK000" name="_Import20200921201505" revision="169">
+<package content_ver="01.000.000" digest="8d50fdd60c95e5c38da854c8a2537a17baa0e1c4fbc7ab93010ac239eb505ccb" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-HALLOWEENPACK000/info/169/f_eb350d7e197f3c77a71ac697a73940882b03d410f9dddbafc1219066d8e5647c/UP1018-PPSA01617_00-HALLOWEENPACK000.json" metadata_ver="169" pfs_revision="60" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-HQCASSKIN0000000" name="_Import20200921185359" revision="157">
+<package content_ver="01.000.000" digest="2ea991558e9ce2ba7f3eba4e752256b7c1fde8c819a986ea121c2b6cb1522986" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-HQCASSKIN0000000/info/157/f_a7e45c4131da7ed19a624521a4540106ed741003ae61f094753f7b7c263ba58e/UP1018-PPSA01617_00-HQCASSKIN0000000.json" metadata_ver="157" pfs_revision="84" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-JOKCHARACTER0000" name="_Import20200921201747" revision="170">
+<package content_ver="01.000.000" digest="aefdd70e12c945609321a69578a003b0e8721e539d76a68e33b1897221282e9e" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-JOKCHARACTER0000/info/170/f_39cd3df17e3d9eafec5618d6b9c5726820d2d0a2ca95f18271c9b939c888d123/UP1018-PPSA01617_00-JOKCHARACTER0000.json" metadata_ver="170" pfs_revision="80" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-KLASSICCASSIE000" name="_Import20200921202015" revision="171">
+<package content_ver="01.000.000" digest="38080da30c925b65284aaf7d9226ed3809e963f08af0e51f61b9cac4cf0e3ddf" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-KLASSICCASSIE000/info/171/f_d645e61cbed61132d48c8fa68c0d47dc95ccef75645b6cc5f44ed8c74da6cec9/UP1018-PPSA01617_00-KLASSICCASSIE000.json" metadata_ver="171" pfs_revision="88" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-KLASSICNINJAS000" name="_Import20200921180532" revision="136">
+<package content_ver="01.000.000" digest="849674542be652e191f1cfeed92217baf3f9341906d88d834cec1bb9f5459da2" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-KLASSICNINJAS000/info/136/f_177504e18eb58e710842c49976f86f78e0c5256fc1af0fd4cfc8cc30c167285d/UP1018-PPSA01617_00-KLASSICNINJAS000.json" metadata_ver="136" pfs_revision="63" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-KOLLECTOREDSKIN0" name="_Import20200921202346" revision="172">
+<package content_ver="01.000.000" digest="13ec913f050e13980cad258d027073282089a9d3041c8bd559ba8dc4322ffbeb" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-KOLLECTOREDSKIN0/info/172/f_841261c55313cc18b27348bd0457fc4824f8b24b2996729a9f8c6c0ad153808c/UP1018-PPSA01617_00-KOLLECTOREDSKIN0.json" metadata_ver="172" pfs_revision="50" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-KPPREORDEREUSKIN" name="_Import20200925200643" revision="186">
+<package content_ver="01.000.000" digest="e1f36ef18d005843d2c51e3952e3350800ae48b309eb16a797191a2e4d2c62c1" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-KPPREORDEREUSKIN/info/186/f_938a478c414e73627e89acd138bf2af8a63bb36be9569b7c9ef359fcc9d9e538/UP1018-PPSA01617_00-KPPREORDEREUSKIN.json" metadata_ver="186" pfs_revision="66" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-KPPREORDERSKINPK" name="_Import20200921202858" revision="174">
+<package content_ver="01.000.000" digest="f4db44b0188ad420d940bfefaa9f857e3b4019add3297dd049b23ddf8c2b0ae2" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-KPPREORDERSKINPK/info/174/f_cf99cfeb0dc744965cf65d9246202f0e008e7220eeef677e35c5e45d69ff884b/UP1018-PPSA01617_00-KPPREORDERSKINPK.json" metadata_ver="174" pfs_revision="54" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-MILCHARACTER0000" name="_Import20200921180737" revision="141">
+<package content_ver="01.000.000" digest="2cea976eb629d31f5ff69a01be2f67971570c418bc9252a6e927f913b7f52f5e" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-MILCHARACTER0000/info/141/f_ce9c339c484cfa4e804bc4a45362aad899233805de55c2ac7d9a99a611f87f94/UP1018-PPSA01617_00-MILCHARACTER0000.json" metadata_ver="141" pfs_revision="70" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-MOVIESKINPACK000" name="_Import20201111031924" revision="193">
+<package content_ver="01.000.000" digest="8a6f64db031403e1e9c8131e4cd3e1ca8b1e02a0a60079fb13ef7071507a968d" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-MOVIESKINPACK000/info/193/f_e14124bcafac51c69407c8d5e6934e72efe22c2e0563c6a8e6b210d2a700bb75/UP1018-PPSA01617_00-MOVIESKINPACK000.json" metadata_ver="193" pfs_revision="90" system_ver="33554432"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-NITCHARACTER0000" name="_Import20200921185733" revision="158">
+<package content_ver="01.000.000" digest="cb8a27d263abff80b0524705199dd3b8937116432296d95239f97836b9acaa95" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-NITCHARACTER0000/info/158/f_4e7454eec83e4878b778aac2fddffc165b5278900856b38d1ece9f44f19fa11a/UP1018-PPSA01617_00-NITCHARACTER0000.json" metadata_ver="158" pfs_revision="58" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-PREMIUMEDSKIN000" name="_Import20200921203321" revision="175">
+<package content_ver="01.000.000" digest="ad3abb6c8caea08f332adf604a199c2f286da4fef9d906a351ac47b7a6455241" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-PREMIUMEDSKIN000/info/175/f_16ce174ac186052e2e419881d176b52f3b716e5a3e6cb64fa3401b3304944e54/UP1018-PPSA01617_00-PREMIUMEDSKIN000.json" metadata_ver="175" pfs_revision="49" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-RAMCHARACTER0000" name="_Import20200921180850" revision="144">
+<package content_ver="01.000.000" digest="b94216d30a40d64d5e607a5f485c2994fd7c36a36d481cedadc0c9771ffeda71" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-RAMCHARACTER0000/info/144/f_fc15272c370a40262820b458eae2b550f193bf5c31b27510710b4164f9a126c0/UP1018-PPSA01617_00-RAMCHARACTER0000.json" metadata_ver="144" pfs_revision="57" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-RANCHARACTER0000" name="_Import20200921203734" revision="176">
+<package content_ver="01.000.000" digest="70696b06a1dc6c39a5a631e4a595558e0eca7545f12e451abc65abefd3d64279" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-RANCHARACTER0000/info/176/f_9f318381b15e35496e3c41514970acf22a9e4f6922c3c611bb6f23cd4bd9f1e6/UP1018-PPSA01617_00-RANCHARACTER0000.json" metadata_ver="176" pfs_revision="69" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-ROBCHARACTER0000" name="_Import20200921204152" revision="177">
+<package content_ver="01.000.000" digest="9e20db53c9199b35e55aab287897fb755150129728491f1e5aad155d5d5debe8" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-ROBCHARACTER0000/info/177/f_dba0d452494bd7bc9e85db4d4bf2785f9939294830b19fc20e301a59e7c81fb6/UP1018-PPSA01617_00-ROBCHARACTER0000.json" metadata_ver="177" pfs_revision="53" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-RUSSIAEDSKIN0000" name="_Import20200921204614" revision="178">
+<package content_ver="01.000.000" digest="f61cd1f3b2e906249de1f9c67c06df2e74e5d626fee4ee5c227270c7fe1fc875" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-RUSSIAEDSKIN0000/info/178/f_118dc8e221ec2d5aa9eae31057d8508b5bf620c9af03389fc6c4c72eb5373601/UP1018-PPSA01617_00-RUSSIAEDSKIN0000.json" metadata_ver="178" pfs_revision="77" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-SHACHARACTER0000" name="_Import20200921175536" revision="123">
+<package content_ver="01.000.000" digest="a3512f466b7dd59a6ca4971d3cba8fb41568f1aa79e52f201884bdd943f30f10" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-SHACHARACTER0000/info/123/f_59760e1cedccc99c5bc2cb37e1f89615c6ba164ea4e125df1c49f4e80088b71e/UP1018-PPSA01617_00-SHACHARACTER0000.json" metadata_ver="123" pfs_revision="51" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-SHECHARACTER0000" name="_Import20200921205200" revision="180">
+<package content_ver="01.000.000" digest="61a78a9b1597f7bae1e8da1af38e9a635255157f2517b7471bf9628a0aad08a3" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-SHECHARACTER0000/info/180/f_22297ba963980b931f74b2b10e754aef0c7bf6756c02c6a82f83a9cd63c05512/UP1018-PPSA01617_00-SHECHARACTER0000.json" metadata_ver="180" pfs_revision="78" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-SHTCHARACTER0000" name="_Import20200921190041" revision="159">
+<package content_ver="01.000.000" digest="d7906603547fbb1359797c89b9365cc50eb55e2af2330d32f499303581e26959" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-SHTCHARACTER0000/info/159/f_451f58532c0784f0e6cac2301de801a880b115228aed9bed090e922f1ac946f2/UP1018-PPSA01617_00-SHTCHARACTER0000.json" metadata_ver="159" pfs_revision="79" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-SHTMOVIEGEAR0000" name="_Import20200921204941" revision="179">
+<package content_ver="01.000.000" digest="07bd4576b7983b941151f08fdab243aae4a9a8e5bc7998b3084c5fe1dc9120d1" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-SHTMOVIEGEAR0000/info/179/f_bb486963441d6a431e29bf5f0356203398e85c4be6af2ef6e8fb4c57f8397ef8/UP1018-PPSA01617_00-SHTMOVIEGEAR0000.json" metadata_ver="179" pfs_revision="87" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-SINCHARACTER0000" name="_Import20200921205440" revision="181">
+<package content_ver="01.000.000" digest="d2551ba0d052e4096ecb27a73e7871cb0c5fdb9894061db1306b3c85b01fb3ec" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-SINCHARACTER0000/info/181/f_d89d0397a9ad0e811a5dca7666270304441de3eb6d0084e0859581f91b61375f/UP1018-PPSA01617_00-SINCHARACTER0000.json" metadata_ver="181" pfs_revision="85" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-SONKPSKIN0000000" name="_Import20200921205715" revision="182">
+<package content_ver="01.000.000" digest="222fb055b9b1acc16cdd4bb464c647521ca165e49ad1e83726fd3cb7bc1198fe" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-SONKPSKIN0000000/info/182/f_5ee9d23658e33af9afc3bdc1ed0f761907c8be2eaf446cfc0a4cc5bb9de0b2e1/UP1018-PPSA01617_00-SONKPSKIN0000000.json" metadata_ver="182" pfs_revision="65" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-SPACHARACTER0000" name="_Import20200921181058" revision="151">
+<package content_ver="01.000.000" digest="cce85feb3d7b07722c56ecc0554be1407445a2066f5d2ad6170394343af96c17" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-SPACHARACTER0000/info/151/f_f3d2dbbf29486f08aa3fd193a5399d1cd0a2a1a057364a06c45fe2be4c6495bd/UP1018-PPSA01617_00-SPACHARACTER0000.json" metadata_ver="151" pfs_revision="55" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-STORYUNLOCKCHAR0" name="_Import20200921190546" revision="160">
+<package content_ver="01.000.000" digest="9b4b53c626117e5609d4ca9891cc19e71842731a93c2b491ec7aff7658a29db8" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-STORYUNLOCKCHAR0/info/160/f_e489d3f7054a3ae9e4ae9a7253d692a1fd5368fb746a61f1b4fab00c8f125759/UP1018-PPSA01617_00-STORYUNLOCKCHAR0.json" metadata_ver="160" pfs_revision="52" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP1018-PPSA01617_00-TRMCHARACTER0000" name="_Import20200921175659" revision="125">
+<package content_ver="01.000.000" digest="d91d9e4f9583390aa28e320bca492a475f95ae1e21545e8b9ab93a3d40764ce0" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01617_00/ac/UP1018-PPSA01617_00-TRMCHARACTER0000/info/125/f_4cd236f415f184812ddcef7c5f3ebbd253d9625fafb86a4ee6614905fbabffb0/UP1018-PPSA01617_00-TRMCHARACTER0000.json" metadata_ver="125" pfs_revision="74" system_ver="18087936"/>
+</ac_tag>
+<pssdc>
+<nptitleid>CUSA11395_00</nptitleid>
+</pssdc>
+</title_patch>

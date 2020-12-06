@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01280_00" schema_ver="1.0">
+<app_tag content_id="IP9100-PPSA01280_00-SFSRELE000000100" name="_Import20201016223154" revision="8">
+<package content_ver="01.500.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01280_00/app/pkg/9/f_edede6d2aaf97c3a879f7cc4a15e581565af5bb9a2418a283ff691bf39304b08/IP9100-PPSA01280_00-SFSRELE000000100-DP.pkg" digest="d0b3ab075fabc2f28108692eabf56d334757e559cc40feb97baa6c9b9ffa5e2b" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01280_00/app/info/8/f_60ffde51cf6adb7cc43390d0ef6294abd182f8e773e9bc22de72e785f54da831/IP9100-PPSA01280_00-SFSRELE000000100.json" metadata_ver="8" pfs_revision="9" system_ver="33554432"/>
+</app_tag>
+</title_patch>
