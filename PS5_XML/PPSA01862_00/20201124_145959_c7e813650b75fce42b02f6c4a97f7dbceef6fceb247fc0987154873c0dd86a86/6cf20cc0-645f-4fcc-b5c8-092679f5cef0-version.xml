@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01862_00" schema_ver="1.0">
+<app_tag content_id="EP0114-PPSA01862_00-MANEATER00000001" name="_Import20201120183629" revision="15">
+<package content_ver="01.000.003" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01862_00/app/pkg/12/f_f78f3d508d3d9bf19be1298826374f279ba7759eb843d912275eeac88a4129f8/EP0114-PPSA01862_00-MANEATER00000001-DP.pkg" digest="048b4bc2d2cafdf8ebe20953251609a406a523d1fbcdea07b95787a3c7bc3213" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01862_00/app/info/15/f_1304dca369521b8b026a6b86615c4c5da3d7cb22300044da59eef2162f3df209/EP0114-PPSA01862_00-MANEATER00000001.json" metadata_ver="15" pfs_revision="12" system_ver="35651584"/>
+</app_tag>
+</title_patch>

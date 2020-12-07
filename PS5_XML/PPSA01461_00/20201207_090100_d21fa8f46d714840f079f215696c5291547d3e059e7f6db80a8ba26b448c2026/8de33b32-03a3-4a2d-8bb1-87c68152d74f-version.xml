@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01461_00" schema_ver="1.0">
+<app_tag content_id="EP9000-PPSA01461_00-MARVELSSMMORALES" name="_Import20201203212650" revision="25">
+<package content_ver="01.006.002" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01411_00/app/pkg/28/f_d190e96624d610d9633fe3284714e47aeb10657913279985253e2937e06c51e0/UP9000-PPSA01411_00-MARVELSSMMORALES-DP.pkg" digest="cef5875a696336846840b911f29fc18ec45a77f7eb40a9cc1eb1946218d0d925" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01461_00/app/info/25/f_09aea0bbfa55682dd4aa261be6e481e4280b2f3868ac2946314b54f8cc64b15f/EP9000-PPSA01461_00-MARVELSSMMORALES.json" metadata_ver="25" pfs_revision="28" system_ver="36044800"/>
+</app_tag>
+<pssdc>
+<nptitleid>PPSA01470_00</nptitleid>
+<nptitleid>PPSA01417_00</nptitleid>
+</pssdc>
+</title_patch>
