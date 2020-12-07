@@ -116,8 +116,10 @@ def download_ps5_xml_tsv(url):
 
 
 def main():
+    print('waiting...')
+    time.sleep(10)
     while True:
-        download_ps5_xml_tsv(sys.argv[1])
+        #download_ps5_xml_tsv(sys.argv[1])
     
         xml_link_dict = {}
         in_file = 'PS5_XML.tsv'
@@ -134,8 +136,7 @@ def main():
             xml_hash_dict = json.load(f_in)
 
 
-        print('waiting...')
-        time.sleep(10)
+
         
         snoretoast('PS5 XML Check', 'チェック開始')
         start = time.time()
