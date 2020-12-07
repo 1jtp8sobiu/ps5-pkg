@@ -95,32 +95,56 @@ def snoretoast(title='Snoretoast', comment='Comment', icon_path=''):
     cmd = [snoretoast_exe, '-t', title, '-p', icon_path, '-m', comment, '-silent']
     subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
+
+def git_commit():
+    cmd = ['git', 'add', '.']
+    proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    print(proc.stdout.decode('utf8'))
+    
+    cmd = ['git', 'commit', '-a', '-m', 'Update xml']
+    proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    print(proc.stdout.decode('utf8'))
+    
+    cmd = ['git', 'push', 'origin', 'master']
+    proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    print(proc.stdout.decode('utf8'))
+
+
+def download_ps5_xml_tsv(url):
+    with urllib.request.urlopen(url) as res, open('PS5_XML.tsv', mode='wb') as f:
+        f.write(res.read())
+
+
 def main():
-    xml_link_dict = {}
-    in_file = 'PS5_XML.tsv'
-    with open(in_file, encoding='utf-8') as f_in:
-        f_in.readline()
-        for row in csv.reader(f_in, delimiter='\t'):
-            title_id = f'{row[0][7:16]}_00'
-            xml_link = row[2]
-            xml_link_dict[title_id] = xml_link
-    
-    in_file = 'XML_HASH.json'
-    with open(in_file) as f_in:
-        xml_hash_dict = json.load(f_in)
-    
     while True:
+        download_ps5_xml_tsv(sys.argv[1])
+    
+        xml_link_dict = {}
+        in_file = 'PS5_XML.tsv'
+        with open(in_file, encoding='utf-8') as f_in:
+            f_in.readline()
+            for row in csv.reader(f_in, delimiter='\t'):
+                title_id = f'{row[0][7:16]}_00'
+                title_name = row[1]
+                xml_link = row[2]
+                xml_link_dict[title_id] = {'XML_LINK': xml_link, 'TITLE_NAME': title_name}
+        
+        in_file = 'XML_HASH.json'
+        with open(in_file) as f_in:
+            xml_hash_dict = json.load(f_in)
+
+
         print('waiting...')
         time.sleep(10)
-        
         
         snoretoast('PS5 XML Check', 'チェック開始')
         start = time.time()
         for title_id in xml_link_dict:
-            xml_link = xml_link_dict[title_id]
+            xml_link = xml_link_dict[title_id]['XML_LINK']
             xml_file_name = xml_link.split('/')[-1]
-            print(f'xml link: {xml_link}')
-            print(f'file_name: {xml_file_name}')
+            title_name = xml_link_dict[title_id]['TITLE_NAME']
+            
+
             try:
                 with urllib.request.urlopen(xml_link) as res:
                     headers = res.getheaders()
@@ -129,7 +153,6 @@ def main():
                     for i in headers:
                         if i[0] == 'Last-Modified':
                             xml_date = conver_date_format(i[1])
-                            print(f'xml_date: {xml_date}')
                             break
             except urllib.error.HTTPError as err:
                 if err.code == 404:
@@ -140,10 +163,15 @@ def main():
                     sys.exit(-1)
             except urllib.error.URLError as err:
                 print(f'error {err}')
-    
+
+            print(f'xml link  : {xml_link}')
+            print(f'file_name : {xml_file_name}')
+            print(f'title_name: {title_name}')
+            print(f'xml_date  : {xml_date}')
+            print()
+
             sha256_hash = get_hash_value(ps5_xml)
 
-            
             try:
                 if sha256_hash == xml_hash_dict[title_id]:
                     continue
@@ -161,9 +189,10 @@ def main():
                 
             out_file = 'LOG/update_check.log'
             with open(out_file, mode='a', encoding='utf-8') as f_out:
-                f_out.write(f'{xml_date} XML更新 {title_id}\n')
-            snoretoast('PS5 XML Check', f'XML更新 {title_id}')
-            
+                f_out.write(f'{xml_date} XML更新 {title_id} {title_name}\n')
+            snoretoast('PS5 XML Check', f'XML 更新 {title_id} | {title_name}')
+        
+        git_commit()
         wait_interval()
 
 
