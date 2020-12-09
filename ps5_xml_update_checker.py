@@ -5,16 +5,17 @@ import urllib.request
 import urllib.error
 import hashlib
 import sys
-import datetime
 import subprocess
 import time
 import ssl
 import csv
+import xml.etree.ElementTree as ET
 ssl._create_default_https_context = ssl._create_unverified_context
 
-def conver_date_format(CURRENT_LASTMODIFIED):
-    modified_yyyy = CURRENT_LASTMODIFIED[12:16]
-    modified_month = CURRENT_LASTMODIFIED[8:11]
+
+def conver_date_format(lastmodified):
+    modified_yyyy = lastmodified[12:16]
+    modified_month = lastmodified[8:11]
     
     if   modified_month == 'Jan':
         modified_mm = '01'
@@ -41,15 +42,16 @@ def conver_date_format(CURRENT_LASTMODIFIED):
     elif modified_month == 'Dec':
         modified_mm = '12'
     
-    modified_dd = CURRENT_LASTMODIFIED[5:7]
-    modified_hh = CURRENT_LASTMODIFIED[17:19]
-    modified_mn = CURRENT_LASTMODIFIED[20:22]
-    modified_ss = CURRENT_LASTMODIFIED[23:25]
+    modified_dd = lastmodified[5:7]
+    modified_hh = lastmodified[17:19]
+    modified_mn = lastmodified[20:22]
+    modified_ss = lastmodified[23:25]
     
     modified_mmdd = modified_mm + modified_dd
     modified_hhmnss = modified_hh + modified_mn + modified_ss
         
     return modified_yyyy + modified_mmdd + '_' + modified_hhmnss
+
 
 def get_hash_value(data, algo='sha256'):
     h = hashlib.new(algo)
@@ -59,39 +61,44 @@ def get_hash_value(data, algo='sha256'):
 
 def wait_interval():
     # チェック中(1) or 待機中(0)かをテキストに書き出し
-
     with open('C:/Settings/running.txt', 'w') as f:
         f.write('0')
+    
+    start = time.time()
+    print('waiting interval')
+    while time.time()-start < 3600 * 1:
+        time.sleep(60)
+        print(time.time()-start, '\r', end='')
         
-    print('waiting...')
-    count = 0
-    while count < 3600 * 1:
-        time.sleep(10)
-        count += 10
-        dt_now = datetime.datetime.now()
-        print(dt_now, '\r', end='')
-        
-    # while True:
-    #     time.sleep(10)
-    #     
-    #     dt_now = datetime.datetime.now()
-    #     print(dt_now, '\r', end='')
-    #     print()
-    #     print(dt_now.strftime('%H'))
-    #     if dt_now.strftime('%H') != '05':
-    #         continue
-    #     print()
-    #     break
-    time.sleep(10) # スリープ復帰後だった場合のwait
+        # check 'PS5_XML.tsv' hash
+        if is_ps5_xml_tsv_updated():
+            break
+    
+    print()
+    time.sleep(15) # スリープ復帰後だった場合のwait
 
     with open('C:/Settings/running.txt', 'w') as f:
         f.write('1')
 
 
+def is_ps5_xml_tsv_updated():
+    global ps5_xml_tsv_hash
+    
+    in_file = 'PS5_XML.tsv'
+    with open(in_file, mode='rb') as f_in:
+        tsv_hash = get_hash_value(f_in.read())
+    
+    if tsv_hash != ps5_xml_tsv_hash:
+        ps5_xml_tsv_hash = tsv_hash
+        return True
+    else:
+        return False
+
+
 def snoretoast(title='Snoretoast', comment='Comment', icon_path=''):
     snoretoast_exe = 'C:/bin/snoretoast/snoretoast.exe'
     if not os.path.isfile(snoretoast_exe):
-        raise
+        return
     cmd = [snoretoast_exe, '-t', title, '-p', icon_path, '-m', comment, '-silent']
     subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
@@ -115,8 +122,31 @@ def download_ps5_xml_tsv(url):
         f.write(res.read())
 
 
+def parse_ps5_xml(xml_data):
+    root = ET.fromstring(xml_data)
+    tag_index = len(root[0]) - 1
+    
+    content_id = root[0].attrib['content_id']
+    content_ver = root[0][tag_index].attrib['content_ver']
+    manifest_url = root[0][tag_index].attrib['manifest_url']
+    system_ver = root[0][tag_index].attrib['system_ver']
+    
+    try:
+        delta_url = root[0][0].attrib['delta_url']
+    except KeyError:
+        delta_url = None
+    
+    system_ver_hex = f'{int(system_ver):x}'
+    fw_version = '0' + system_ver_hex[0] + '.' + system_ver_hex[1:3] + '.' + system_ver_hex[3:5] + '.' + system_ver_hex[5:7]
+    
+    return content_id, content_ver, manifest_url, fw_version, delta_url
+
+
 def main():
-    print('waiting...')
+    os.makedirs(f'LOG', exist_ok=True)
+    
+    
+    print('waiting...10 seconds')
     time.sleep(10)
     while True:
         #download_ps5_xml_tsv(sys.argv[1])
@@ -136,20 +166,18 @@ def main():
             xml_hash_dict = json.load(f_in)
 
 
-
+        # snoretoast('PS5 XML Check', 'チェック開始')
         
-        snoretoast('PS5 XML Check', 'チェック開始')
-        start = time.time()
+        print('Update check started...')
         for title_id in xml_link_dict:
             xml_link = xml_link_dict[title_id]['XML_LINK']
             xml_file_name = xml_link.split('/')[-1]
             title_name = xml_link_dict[title_id]['TITLE_NAME']
             
-
             try:
                 with urllib.request.urlopen(xml_link) as res:
                     headers = res.getheaders()
-                    ps5_xml = res.read()
+                    xml_data = res.read()
                     
                     for i in headers:
                         if i[0] == 'Last-Modified':
@@ -165,19 +193,15 @@ def main():
             except urllib.error.URLError as err:
                 print(f'error {err}')
 
-            print(f'xml link  : {xml_link}')
-            print(f'file_name : {xml_file_name}')
-            print(f'title_name: {title_name}')
-            print(f'xml_date  : {xml_date}')
-            print()
-
-            sha256_hash = get_hash_value(ps5_xml)
-
+            sha256_hash = get_hash_value(xml_data)
             try:
                 if sha256_hash == xml_hash_dict[title_id]:
                     continue
             except KeyError:
                 pass
+                
+            
+            
             xml_hash_dict[title_id] = sha256_hash
             out_file = 'XML_HASH.json'
             with open(out_file, mode='w') as f_out:
@@ -186,17 +210,34 @@ def main():
             os.makedirs(f'PS5_XML/{title_id}/{xml_date}_{sha256_hash}', exist_ok=True)
             out_file = f'PS5_XML/{title_id}/{xml_date}_{sha256_hash}/{xml_file_name}'
             with open(out_file, mode='wb') as f_out:
-                f_out.write(ps5_xml)
+                f_out.write(xml_data)
                 
+
+            content_id, content_ver, manifest_url, fw_version, delta_url = parse_ps5_xml(xml_data)
+            print(f'xml link    : {xml_link}')
+            print(f'title_name  : {title_name}')
+            print(f'xml_date    : {xml_date}')
+            print(f'content_id  : {content_id}')
+            print(f'content_ver : {content_ver}')
+            print(f'fw_version  : {fw_version}')
+            print(f'delta_url   : {delta_url}')
+            print(f'manifest_url: {manifest_url}')
+            print()
+            
+            snoretoast('PS5 XML Check', f'{content_id} | {content_ver} | {title_name}')
             out_file = 'LOG/update_check.log'
             with open(out_file, mode='a', encoding='utf-8') as f_out:
-                f_out.write(f'{xml_date} XML更新 {title_id} {title_name}\n')
-            snoretoast('PS5 XML Check', f'XML 更新 {title_id} | {title_name}')
+                f_out.write(f'{xml_date} | {title_id} | {content_id} | {content_ver} | {fw_version} | {title_name}\n')
         
+        print('Update check ended...')
         git_commit()
         wait_interval()
 
 
 if __name__ == '__main__':
+    in_file = 'PS5_XML.tsv'
+    with open(in_file, mode='rb') as f_in:
+        ps5_xml_tsv_hash = get_hash_value(f_in.read())
+        
     main()
 
