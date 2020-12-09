@@ -144,8 +144,7 @@ def parse_ps5_xml(xml_data):
 
 def main():
     os.makedirs(f'LOG', exist_ok=True)
-    
-    
+
     print('waiting...10 seconds')
     time.sleep(10)
     while True:
@@ -160,20 +159,18 @@ def main():
                 title_name = row[1]
                 xml_link = row[2]
                 xml_link_dict[title_id] = {'XML_LINK': xml_link, 'TITLE_NAME': title_name}
-        
+
         in_file = 'XML_HASH.json'
         with open(in_file) as f_in:
             xml_hash_dict = json.load(f_in)
 
-
         # snoretoast('PS5 XML Check', 'チェック開始')
-        
         print('Update check started...')
         for title_id in xml_link_dict:
             xml_link = xml_link_dict[title_id]['XML_LINK']
             xml_file_name = xml_link.split('/')[-1]
             title_name = xml_link_dict[title_id]['TITLE_NAME']
-            
+
             try:
                 with urllib.request.urlopen(xml_link) as res:
                     headers = res.getheaders()
@@ -199,9 +196,7 @@ def main():
                     continue
             except KeyError:
                 pass
-                
-            
-            
+
             xml_hash_dict[title_id] = sha256_hash
             out_file = 'XML_HASH.json'
             with open(out_file, mode='w') as f_out:
@@ -211,7 +206,6 @@ def main():
             out_file = f'PS5_XML/{title_id}/{xml_date}_{sha256_hash}/{xml_file_name}'
             with open(out_file, mode='wb') as f_out:
                 f_out.write(xml_data)
-                
 
             content_id, content_ver, manifest_url, fw_version, delta_url = parse_ps5_xml(xml_data)
             print(f'xml link    : {xml_link}')
@@ -223,12 +217,12 @@ def main():
             print(f'delta_url   : {delta_url}')
             print(f'manifest_url: {manifest_url}')
             print()
-            
+
             snoretoast('PS5 XML Check', f'{content_id} | {content_ver} | {title_name}')
             out_file = 'LOG/update_check.log'
             with open(out_file, mode='a', encoding='utf-8') as f_out:
                 f_out.write(f'{xml_date} | {title_id} | {content_id} | {content_ver} | {fw_version} | {title_name}\n')
-        
+
         print('Update check ended...')
         git_commit()
         wait_interval()
