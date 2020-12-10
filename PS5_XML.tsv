@@ -1,4 +1,4 @@
-Content ID	Title	Pkg Link (xml)
+contentId	titleName	versionFileUri
 IP9100-PPSA01280_00-SFSRELE000000100	Share Factory Studio	https://sgst.prod.dl.playstation.net/sgst/prod/00/np/PPSA01280_00/d8ec167a-59da-4e54-8e2c-1161c706516a-version.xml
 EP9000-PPSA01288_00-SACKBOYADVENTURE	Sackboy: A Big Adventure	https://sgst.prod.dl.playstation.net/sgst/prod/00/np/PPSA01288_00/1db8a953-699b-47e8-8082-799b1eea8118-version.xml
 UP9000-PPSA01289_00-SACKBOYADVENTURE	Sackboy: A Big Adventure	https://sgst.prod.dl.playstation.net/sgst/prod/00/np/PPSA01289_00/0c1789e3-10b1-41eb-8ede-c159db8ef1e7-version.xml
@@ -75,6 +75,7 @@ JP0020-PPSA02111_00-NOMANSSKYHG00001	No Man's Sky	https://sgst.prod.dl.playstati
 HP2034-PPSA02112_00-NOMANSSKYHG00001	No Man's Sky	https://sgst.prod.dl.playstation.net/sgst/prod/00/np/PPSA02112_00/ccc4d637-789f-4156-bfea-60425c4e164d-version.xml
 EP4176-PPSA02117_00-OBSERVER0SR00000	Observer: System Redux	https://sgst.prod.dl.playstation.net/sgst/prod/00/np/PPSA02117_00/fd6e2163-ffe7-4032-b69d-a6166a5de301-version.xml
 JP1201-PPSA02190_00-8765687607573553	War Thunder	https://sgst.prod.dl.playstation.net/sgst/prod/00/np/PPSA02190_00/cac36118-d25c-4e62-a92c-29217841d5de-version.xml
+UP1260-PPSA02306_00-SPIRITPS5SIEA001	Spirit of the North: Enhanced Edition	https://sgst.prod.dl.playstation.net/sgst/prod/00/np/PPSA02306_00/84f670bc-edde-4891-9cdb-ce0fd951705b-version.xml
 JP0141-PPSA02323_00-8148339690872080	Warframe	https://sgst.prod.dl.playstation.net/sgst/prod/00/np/PPSA02323_00/872fbda4-724c-4a28-915b-4ec801a3966f-version.xml
 JP0177-PPSA02329_00-TENPEXTENPEXDEMO	ぷよぷよ™テトリス®２ たいけんばん	https://sgst.prod.dl.playstation.net/sgst/prod/00/np/PPSA02329_00/01217667-2fea-4a9e-a031-84d772d13311-version.xml
 UP0002-PPSA02409_00-DESTINYTHEGAME02	Destiny 2	https://sgst.prod.dl.playstation.net/sgst/prod/00/np/PPSA02409_00/e10c70a7-b498-417e-a8af-3bf567f09693-version.xml
