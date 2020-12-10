@@ -218,7 +218,7 @@ def main():
             print(f'manifest_url: {manifest_url}')
             print()
 
-            snoretoast('PS5 XML Check', f'{content_id} | {content_ver} | {title_name}')
+            snoretoast('PS5 XML Check', f'{xml_date} | {content_id[0:2]} {title_id} | {content_ver} | {title_name}')
             out_file = 'LOG/update_check.log'
             with open(out_file, mode='a', encoding='utf-8') as f_out:
                 f_out.write(f'{xml_date} | {title_id} | {content_id} | {content_ver} | {fw_version} | {title_name}\n')
