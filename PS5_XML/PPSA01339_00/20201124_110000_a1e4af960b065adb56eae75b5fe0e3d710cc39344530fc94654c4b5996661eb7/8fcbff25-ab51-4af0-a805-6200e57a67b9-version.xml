@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="2" nptitleid="PPSA01339_00" schema_ver="1.0">
+<app_tag content_id="JP9000-PPSA01339_00-DEMONSSOULS00000" name="_Import20201121030343" revision="26">
+<package content_ver="01.003.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01339_00/app/pkg/22/f_b3a1433ce7d57c046196cd4d27fb2ea7f7ad08b0b5addd94a8058b6e4d7c8b39/JP9000-PPSA01339_00-DEMONSSOULS00000-DP.pkg" digest="7815060ed47f9a9cb6bbd6208b9ee08867f243f80c24be1bab93dac8d4fcd20a" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01339_00/app/info/26/f_07a9d0a669b98fa3d56fbb9a59425e597dcd17c7e15cb283f3cd745d2292726a/JP9000-PPSA01339_00-DEMONSSOULS00000.json" metadata_ver="26" pfs_revision="22" system_ver="35651584"/>
+</app_tag>
+<ac_tag content_id="JP9000-PPSA01339_00-DEMONSSOULSGIFT1" name="_Import20200918174424" revision="10">
+<package content_ver="01.000.000" digest="dde68a53a35eb6d9f3291bb840badc01d75ea8685ded0b673abb7d307f54d80c" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01339_00/ac/JP9000-PPSA01339_00-DEMONSSOULSGIFT1/info/10/f_4b3f69a0080b878a03a318ef8a2903fdad49b8f78968adbd4f7075002e1d4701/JP9000-PPSA01339_00-DEMONSSOULSGIFT1.json" metadata_ver="10" pfs_revision="2" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="JP9000-PPSA01339_00-DEMONSSOULSGIFT2" name="_Import20200918174423" revision="9">
+<package content_ver="01.000.000" digest="60f418d06d154120fd4bb822a848240f742c61cb122386a099965de218c2ae6c" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01339_00/ac/JP9000-PPSA01339_00-DEMONSSOULSGIFT2/info/9/f_261882e3b0274cef57e5a4dee30ed3a17a72f55d13ac2476fefd0e4eb58623f2/JP9000-PPSA01339_00-DEMONSSOULSGIFT2.json" metadata_ver="9" pfs_revision="1" system_ver="18087936"/>
+</ac_tag>
+</title_patch>
