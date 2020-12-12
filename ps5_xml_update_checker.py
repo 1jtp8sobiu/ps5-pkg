@@ -164,6 +164,7 @@ def extract_version_xml(url):
     params = get_param(param_json)
     return params['versionFileUri']
 
+
 def extract_param_json(data):
     #  "param.json" の位置を探す
     find_str = 'param.json'.encode()
@@ -268,6 +269,7 @@ def main():
             xml_file_name = xml_link.split('/')[-1]
             title_name = xml_link_dict[title_id]['TITLE_NAME']
 
+            time.sleep(1)
             try:
                 with urllib.request.urlopen(xml_link) as res:
                     headers = res.getheaders()
