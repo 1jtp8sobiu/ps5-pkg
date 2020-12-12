@@ -133,13 +133,110 @@ def parse_ps5_xml(xml_data):
     
     try:
         delta_url = root[0][0].attrib['delta_url']
+        delta_url_titileId = delta_url.split('/')[-1][7:19]
     except KeyError:
         delta_url = None
+        delta_url_titileId = None
     
     system_ver_hex = f'{int(system_ver):x}'
     fw_version = '0' + system_ver_hex[0] + '.' + system_ver_hex[1:3] + '.' + system_ver_hex[3:5] + '.' + system_ver_hex[5:7]
     
-    return content_id, content_ver, manifest_url, fw_version, delta_url
+    return content_id, content_ver, manifest_url, fw_version, delta_url, delta_url_titileId
+
+
+def extract_version_xml(url):
+    # ファイルを64KBのみダウンロード
+    chunk_size = 1024 * 64
+    try:
+        with urllib.request.urlopen(url) as res:
+            delta_pkg_chunk = res.read(chunk_size)
+    except urllib.error.HTTPError as err:
+        if err.code == 404:
+            print(f'error {err.code}')
+        elif err.code == 403:
+            snoretoast('PS5 XML Check', f'ERROR! http_code: {err.code}')
+            print(f'ERROR! http_code: {err.code}')
+            sys.exit(-1)
+    except urllib.error.URLError as err:
+        print(f'error {err}')
+        
+    param_json = extract_param_json(delta_pkg_chunk)
+    params = get_param(param_json)
+    return params['versionFileUri']
+
+def extract_param_json(data):
+    #  "param.json" の位置を探す
+    find_str = 'param.json'.encode()
+    temp_position = data.find(find_str)
+    
+    find_str = b'\x7b\x0d\x0a'
+    start_position = data.find(find_str, temp_position)
+    
+    find_str = 'version.xml'.encode()
+    temp_position = data.find(find_str)
+    
+    # 0x00 の部分を探す
+    find_str = b'\x00'
+    end_position = data.find(find_str, temp_position)
+    
+    json_data = data[start_position:end_position]
+    return json.loads(json_data)
+
+
+def get_param(param_json):
+    applicationCategoryType         = param_json['applicationCategoryType']
+    applicationDrmType              = param_json['applicationDrmType']
+    attribute                       = hex(param_json['attribute'])
+    attribute2                      = hex(param_json['attribute2'])
+    attribute3                      = hex(param_json['attribute3'])
+    contentId                       = param_json['contentId']
+    contentVersion                  = param_json['contentVersion']
+    defaultLanguage                 = param_json['localizedParameters']['defaultLanguage']
+    titleName                       = param_json['localizedParameters'][defaultLanguage]['titleName']
+    creationDate                    = param_json['pubtools']['creationDate']
+    pubtools_toolVersion            = param_json['pubtools']['toolVersion']
+    try:
+        targetContentVersion        = param_json['targetContentVersion']
+    except KeyError:
+        targetContentVersion        = None
+    versionFileUri                  = param_json['versionFileUri'].strip()
+    fw                              = param_json['requiredSystemSoftwareVersion']
+    requiredSystemSoftwareVersion   = '.'.join([fw[2:4], fw[4:6], fw[6:8], fw[8:10]]) + '-' + '.'.join([fw[10:12], fw[12:14], fw[14:16], fw[16:17], fw[17:18]])
+    
+    # pprint.pprint(param_json)
+    print(f'contentId                       = {contentId}')
+    print(f'applicationCategoryType         = {applicationCategoryType}')
+    print(f'applicationDrmType              = {applicationDrmType}')
+    print(f'attribute                       = {attribute}')
+    print(f'attribute2                      = {attribute2}')
+    print(f'attribute3                      = {attribute3}')
+    print(f'requiredSystemSoftwareVersion   = {requiredSystemSoftwareVersion}')
+    print(f'contentVersion                  = {contentVersion}')
+    print(f'targetContentVersion            = {targetContentVersion}')
+    print(f'defaultLanguage                 = {defaultLanguage}')
+    print(f'titleName                       = {titleName}')
+    print(f'creationDate                    = {creationDate}')
+    print(f'pubtools_toolVersion            = {pubtools_toolVersion}')
+    print(f'versionFileUri                  = {versionFileUri}')
+
+    return {'applicationCategoryType': applicationCategoryType,
+            'applicationDrmType': applicationDrmType,
+            'attribute': attribute,
+            'attribute2': attribute2,
+            'attribute3': attribute3,
+            'contentId': contentId,
+            'contentVersion': contentVersion,
+            'defaultLanguage': defaultLanguage,
+            'titleName': titleName,
+            'creationDate': creationDate,
+            'pubtools_toolVersion': pubtools_toolVersion,
+            'requiredSystemSoftwareVersion': requiredSystemSoftwareVersion,
+            'targetContentVersion': targetContentVersion,
+            'versionFileUri': versionFileUri}
+
+
+def add_tittle_id_to_tsv():
+    pass
 
 
 def main():
@@ -186,6 +283,7 @@ def main():
                     continue
                 elif err.code == 403:
                     snoretoast('PS5 XML Check', f'ERROR! http_code: {err.code}')
+                    print(f'ERROR! http_code: {err.code}')
                     sys.exit(-1)
             except urllib.error.URLError as err:
                 print(f'error {err}')
@@ -207,7 +305,8 @@ def main():
             with open(out_file, mode='wb') as f_out:
                 f_out.write(xml_data)
 
-            content_id, content_ver, manifest_url, fw_version, delta_url = parse_ps5_xml(xml_data)
+            content_id, content_ver, manifest_url, fw_version, delta_url, delta_url_titileId = parse_ps5_xml(xml_data)
+            
             print(f'xml link    : {xml_link}')
             print(f'title_name  : {title_name}')
             print(f'xml_date    : {xml_date}')
@@ -215,6 +314,7 @@ def main():
             print(f'content_ver : {content_ver}')
             print(f'fw_version  : {fw_version}')
             print(f'delta_url   : {delta_url}')
+            print(f'delta__TID  : {delta_url_titileId}')
             print(f'manifest_url: {manifest_url}')
             print()
 
@@ -222,6 +322,11 @@ def main():
             out_file = 'LOG/update_check.log'
             with open(out_file, mode='a', encoding='utf-8') as f_out:
                 f_out.write(f'{xml_date} | {title_id} | {content_id} | {content_ver} | {fw_version} | {title_name}\n')
+
+            # delta_titleID が PS5_XML.tsv 内に存在しない場合は追記
+            if delta_url_titileId and delta_url_titileId not in xml_link_dict:
+                extract_version_xml(delta_url)
+                add_tittle_id_to_tsv()
 
         print('Update check ended...')
         git_commit()
