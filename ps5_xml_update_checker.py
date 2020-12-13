@@ -144,7 +144,7 @@ def parse_ps5_xml(xml_data):
     return content_id, content_ver, manifest_url, fw_version, delta_url, delta_url_titileId
 
 
-def extract_version_xml(url):
+def get_pkg_meta_data(url):
     # ファイルを64KBのみダウンロード
     chunk_size = 1024 * 64
     try:
@@ -161,8 +161,8 @@ def extract_version_xml(url):
         print(f'error {err}')
         
     param_json = extract_param_json(delta_pkg_chunk)
-    params = get_param(param_json)
-    return params['versionFileUri']
+    return get_param(param_json)
+    
 
 
 def extract_param_json(data):
@@ -327,7 +327,9 @@ def main():
 
             # delta_titleID が PS5_XML.tsv 内に存在しない場合は追記
             if delta_url_titileId and delta_url_titileId not in xml_link_dict:
-                extract_version_xml(delta_url)
+                params = get_pkg_meta_data(delta_url)
+                new_versionFileUri = params['versionFileUri']
+                
                 add_tittle_id_to_tsv()
 
         print('Update check ended...')
