@@ -145,6 +145,38 @@ def parse_ps5_xml(xml_data):
 
 
 def get_pkg_meta_data(url):
+    url = url.strip()
+    
+    if 'gst.prod.dl.playstation.net' not in url:
+        return
+    
+    if '/ac/' in url:
+        print('[Note] ac pkg is not supported yet')
+        return
+    
+    if 'version.xml' in url:
+        try:
+            with urllib.request.urlopen(url) as res:
+                xml_data = res.read()
+        except urllib.error.HTTPError as err:
+            if err.code == 404:
+                print(f'error {err.code}')
+                return
+            elif err.code == 403:
+                snoretoast('PS5 XML Check', f'ERROR! http_code: {err.code}')
+                print(f'ERROR! http_code: {err.code}')
+                sys.exit(-1)
+        except urllib.error.URLError as err:
+            print(f'error {err}')
+            return 
+        url = parse_ps5_xml(xml_data)[2].replace('.json', '_sc.pkg')
+    elif url[-5:] == '.json':
+        url = url.replace('.json', '_sc.pkg')
+    elif url[-6:] == 'DP.pkg':
+        pass
+    else:
+        return
+    
     # ファイルを64KBのみダウンロード
     chunk_size = 1024 * 64
     try:
@@ -162,7 +194,6 @@ def get_pkg_meta_data(url):
         
     param_json = extract_param_json(delta_pkg_chunk)
     return get_param(param_json)
-    
 
 
 def extract_param_json(data):
@@ -201,8 +232,12 @@ def get_param(param_json):
     except KeyError:
         targetContentVersion        = None
     versionFileUri                  = param_json['versionFileUri'].strip()
+    
     fw                              = param_json['requiredSystemSoftwareVersion']
     requiredSystemSoftwareVersion   = '.'.join([fw[2:4], fw[4:6], fw[6:8], fw[8:10]]) + '-' + '.'.join([fw[10:12], fw[12:14], fw[14:16], fw[16:17], fw[17:18]])
+    
+    sdk                             = param_json['sdkVersion']
+    sdkVersion                      = '.'.join([sdk[2:4], sdk[4:6], sdk[6:8], sdk[8:10]]) + '-' + '.'.join([sdk[10:12], sdk[12:14], sdk[14:16], sdk[16:17], sdk[17:18]])
     
     # pprint.pprint(param_json)
     print(f'contentId                       = {contentId}')
@@ -217,6 +252,7 @@ def get_param(param_json):
     print(f'defaultLanguage                 = {defaultLanguage}')
     print(f'titleName                       = {titleName}')
     print(f'creationDate                    = {creationDate}')
+    print(f'sdkVersion                      = {sdkVersion}')
     print(f'pubtools_toolVersion            = {pubtools_toolVersion}')
     print(f'versionFileUri                  = {versionFileUri}')
 
@@ -232,6 +268,7 @@ def get_param(param_json):
             'creationDate': creationDate,
             'pubtools_toolVersion': pubtools_toolVersion,
             'requiredSystemSoftwareVersion': requiredSystemSoftwareVersion,
+            'sdkVersion': sdkVersion,
             'targetContentVersion': targetContentVersion,
             'versionFileUri': versionFileUri}
 
