@@ -144,14 +144,10 @@ def parse_ps5_xml(xml_data):
     return content_id, content_ver, manifest_url, fw_version, delta_url, delta_url_titileId
 
 
-def get_pkg_meta_data(url):
+def get_param_json(url):
     url = url.strip()
     
     if 'gst.prod.dl.playstation.net' not in url:
-        return
-    
-    if '/ac/' in url:
-        print('[Note] ac pkg is not supported yet')
         return
     
     if 'version.xml' in url:
@@ -181,7 +177,7 @@ def get_pkg_meta_data(url):
     chunk_size = 1024 * 64
     try:
         with urllib.request.urlopen(url) as res:
-            delta_pkg_chunk = res.read(chunk_size)
+            chunk = res.read(chunk_size)
     except urllib.error.HTTPError as err:
         if err.code == 404:
             print(f'error {err.code}')
@@ -191,9 +187,9 @@ def get_pkg_meta_data(url):
             sys.exit(-1)
     except urllib.error.URLError as err:
         print(f'error {err}')
-        
-    param_json = extract_param_json(delta_pkg_chunk)
-    return get_param(param_json)
+
+    param_json = extract_param_json(chunk)
+    return adjust_param_value(param_json)
 
 
 def extract_param_json(data):
@@ -215,66 +211,72 @@ def extract_param_json(data):
     return json.loads(json_data)
 
 
-def get_param(param_json):
-    applicationCategoryType         = param_json['applicationCategoryType']
-    applicationDrmType              = param_json['applicationDrmType']
-    attribute                       = hex(param_json['attribute'])
-    attribute2                      = hex(param_json['attribute2'])
-    attribute3                      = hex(param_json['attribute3'])
-    contentId                       = param_json['contentId']
-    contentVersion                  = param_json['contentVersion']
-    defaultLanguage                 = param_json['localizedParameters']['defaultLanguage']
-    titleName                       = param_json['localizedParameters'][defaultLanguage]['titleName']
-    creationDate                    = param_json['pubtools']['creationDate']
-    pubtools_toolVersion            = param_json['pubtools']['toolVersion']
+def adjust_param_value(param_json):
+    # Sub Keyの取得
+    param_json['defaultLanguage'] = param_json['localizedParameters']['defaultLanguage']
+    param_json['titleName'] = param_json['localizedParameters'][param_json['defaultLanguage']]['titleName']
+    param_json['creationDate'] =  param_json['pubtools']['creationDate']
+    param_json['toolVersion'] = param_json['pubtools']['toolVersion']
+
+    # 値の変換
+    param_json['versionFileUri'] = param_json['versionFileUri'].strip()
+    param_json['titleId'] = param_json['titleId'] + '_00'
+    
+    fw = param_json['requiredSystemSoftwareVersion']
+    param_json['requiredSystemSoftwareVersion'] = '.'.join([fw[2:4], fw[4:6], fw[6:8], fw[8:10]]) + '-' + '.'.join([fw[10:12], fw[12:14], fw[14:16], fw[16:17], fw[17:18]])
+
     try:
-        targetContentVersion        = param_json['targetContentVersion']
-    except KeyError:
-        targetContentVersion        = None
-    versionFileUri                  = param_json['versionFileUri'].strip()
+        param_json['attribute'] = hex(param_json['attribute'])
+        param_json['attribute2'] = hex(param_json['attribute2'])
+        param_json['attribute3'] = hex(param_json['attribute3'])
+        
+        sdk = param_json['sdkVersion']
+        param_json['sdkVersion'] = '.'.join([sdk[2:4], sdk[4:6], sdk[6:8], sdk[8:10]]) + '-' + '.'.join([sdk[10:12], sdk[12:14], sdk[14:16], sdk[16:17], sdk[17:18]])
+    except Exception:
+        pass
     
-    fw                              = param_json['requiredSystemSoftwareVersion']
-    requiredSystemSoftwareVersion   = '.'.join([fw[2:4], fw[4:6], fw[6:8], fw[8:10]]) + '-' + '.'.join([fw[10:12], fw[12:14], fw[14:16], fw[16:17], fw[17:18]])
+    return param_json
     
-    sdk                             = param_json['sdkVersion']
-    sdkVersion                      = '.'.join([sdk[2:4], sdk[4:6], sdk[6:8], sdk[8:10]]) + '-' + '.'.join([sdk[10:12], sdk[12:14], sdk[14:16], sdk[16:17], sdk[17:18]])
     
-    # pprint.pprint(param_json)
-    print(f'contentId                       = {contentId}')
-    print(f'applicationCategoryType         = {applicationCategoryType}')
-    print(f'applicationDrmType              = {applicationDrmType}')
-    print(f'attribute                       = {attribute}')
-    print(f'attribute2                      = {attribute2}')
-    print(f'attribute3                      = {attribute3}')
-    print(f'requiredSystemSoftwareVersion   = {requiredSystemSoftwareVersion}')
-    print(f'contentVersion                  = {contentVersion}')
-    print(f'targetContentVersion            = {targetContentVersion}')
-    print(f'defaultLanguage                 = {defaultLanguage}')
-    print(f'titleName                       = {titleName}')
-    print(f'creationDate                    = {creationDate}')
-    print(f'sdkVersion                      = {sdkVersion}')
-    print(f'pubtools_toolVersion            = {pubtools_toolVersion}')
-    print(f'versionFileUri                  = {versionFileUri}')
+def print_param(param_json):
+    pprint.pprint(param_json)
+    print('-'*100)
+    
+    target_keys = ['titleId',
+                    'contentId',
+                    'applicationCategoryType',
+                    'applicationDrmType',
+                    'attribute',
+                    'attribute2',
+                    'attribute3',
+                    'requiredSystemSoftwareVersion'
+                    'contentVersion',
+                    'targetContentVersion',
+                    'defaultLanguage',
+                    'titleName',
+                    'creationDate',
+                    'sdkVersion',
+                    'versionFileUri']
 
-    return {'applicationCategoryType': applicationCategoryType,
-            'applicationDrmType': applicationDrmType,
-            'attribute': attribute,
-            'attribute2': attribute2,
-            'attribute3': attribute3,
-            'contentId': contentId,
-            'contentVersion': contentVersion,
-            'defaultLanguage': defaultLanguage,
-            'titleName': titleName,
-            'creationDate': creationDate,
-            'pubtools_toolVersion': pubtools_toolVersion,
-            'requiredSystemSoftwareVersion': requiredSystemSoftwareVersion,
-            'sdkVersion': sdkVersion,
-            'targetContentVersion': targetContentVersion,
-            'versionFileUri': versionFileUri}
+    for key in target_keys:
+        try:
+            value = param_json[key]
+        except KeyError:
+            value = None
+        
+        print(f'{key: <50} = {value}')
+    print('-'*100)
 
 
-def add_tittle_id_to_tsv():
-    pass
+def append_new_tittle_id_to_tsv(param_json):
+    new_contentId = param_json['contentId']
+    new_vtitleName = param_json['titleName']
+    new_versionFileUri = param_json['versionFileUri']
+
+    in_file = 'PS5_XML.tsv'
+    with open(in_file, mode='a', encoding='utf-8') as f_in:
+        f_in.write('\n')
+        f_in.write('{new_contentId}\t{new_vtitleName}\t{new_versionFileUri}')
 
 
 def main():
@@ -353,7 +355,7 @@ def main():
             print(f'content_ver : {content_ver}')
             print(f'fw_version  : {fw_version}')
             print(f'delta_url   : {delta_url}')
-            print(f'delta__TID  : {delta_url_titileId}')
+            print(f'delta_TID   : {delta_url_titileId}')
             print(f'manifest_url: {manifest_url}')
             print()
 
@@ -364,10 +366,11 @@ def main():
 
             # delta_titleID が PS5_XML.tsv 内に存在しない場合は追記
             if delta_url_titileId and delta_url_titileId not in xml_link_dict:
-                params = get_pkg_meta_data(delta_url)
-                new_versionFileUri = params['versionFileUri']
+                param_json = get_param_json(delta_url)
+                print_param(param_json)
+                append_new_tittle_id_to_tsv(param_json)
                 
-                add_tittle_id_to_tsv()
+                snoretoast('PS5 XML Check', f'TSV追加 {delta_url_titileId}')
 
         print('Update check ended...')
         git_commit()
