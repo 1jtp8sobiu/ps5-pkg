@@ -145,6 +145,7 @@ def parse_ps5_xml(xml_data):
 
 
 def get_param_json(url):
+    # URLの正当性を検証
     url = url.strip()
     
     if 'gst.prod.dl.playstation.net' not in url:
@@ -165,12 +166,13 @@ def get_param_json(url):
         except urllib.error.URLError as err:
             print(f'error {err}')
             return 
-        url = parse_ps5_xml(xml_data)[2].replace('.json', '_sc.pkg')
-    elif url[-5:] == '.json':
+        url = parse_ps5_xml(xml_data)[2]
         url = url.replace('.json', '_sc.pkg')
-    elif url[-6:] == 'DP.pkg':
-        pass
-    else:
+        
+    if '.json' in url:
+        url = url.replace('.json', '_sc.pkg')
+    
+    if 'DP.pkg' not in url and 'sc.pkg' not in url:
         return
     
     # ファイルを64KBのみダウンロード
@@ -273,10 +275,9 @@ def append_new_tittle_id_to_tsv(param_json):
     new_vtitleName = param_json['titleName']
     new_versionFileUri = param_json['versionFileUri']
 
-    in_file = 'PS5_XML.tsv'
-    with open(in_file, mode='a', encoding='utf-8') as f_in:
-        f_in.write('\n')
-        f_in.write('{new_contentId}\t{new_vtitleName}\t{new_versionFileUri}')
+    with open('PS5_XML.tsv', mode='a', encoding='utf-8') as f:
+        f.write('\n')
+        f.write('{new_contentId}\t{new_vtitleName}\t{new_versionFileUri}')
 
 
 def main():
