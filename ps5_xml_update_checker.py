@@ -273,7 +273,7 @@ def print_param(param_json):
 def append_new_tittle_id_to_tsv(param_json):
     new_contentId = param_json['contentId']
     new_vtitleName = param_json['titleName']
-    new_versionFileUri = param_json['versionFileUri']
+    new_versionFileUri = param_json['versionFileUri'].strip()
 
     with open('PS5_XML.tsv', mode='a', encoding='utf-8') as f:
         f.write('\n')
