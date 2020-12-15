@@ -360,7 +360,7 @@ def main():
             print(f'manifest_url: {manifest_url}')
             print()
 
-            snoretoast('PS5 XML Check', f'{xml_date} | {content_id[0:2]} {title_id} | {content_ver} | {title_name}')
+            #snoretoast('PS5 XML Check', f'{xml_date} | {content_id[0:2]} {title_id} | {content_ver} | {title_name}')
             out_file = 'LOG/update_check.log'
             with open(out_file, mode='a', encoding='utf-8') as f_out:
                 f_out.write(f'{xml_date} | {title_id} | {content_id} | {content_ver} | {fw_version} | {title_name}\n')
@@ -374,6 +374,7 @@ def main():
                 snoretoast('PS5 XML Check', f'TSV追加 {delta_url_titileId}')
 
         print('Update check ended...')
+        snoretoast('PS5 XML Check', f'XML 更新')
         git_commit()
         wait_interval()
 
