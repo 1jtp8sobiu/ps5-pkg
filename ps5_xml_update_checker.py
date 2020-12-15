@@ -343,7 +343,7 @@ def main():
             xml_hash_dict[title_id] = sha256_hash
             out_file = 'XML_HASH.json'
             with open(out_file, mode='w') as f_out:
-                json.dump(xml_hash_dict, f_out)
+                json.dump(xml_hash_dict, f_out, indent=4)
 
             os.makedirs(f'PS5_XML/{title_id}/{xml_date}_{sha256_hash}', exist_ok=True)
             out_file = f'PS5_XML/{title_id}/{xml_date}_{sha256_hash}/{xml_file_name}'
