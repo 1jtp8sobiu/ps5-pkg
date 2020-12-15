@@ -304,7 +304,10 @@ def main():
 
         # snoretoast('PS5 XML Check', 'チェック開始')
         print('Update check started...')
+        
         for title_id in xml_link_dict:
+            updated_title = []
+            
             xml_link = xml_link_dict[title_id]['XML_LINK']
             xml_file_name = xml_link.split('/')[-1]
             title_name = xml_link_dict[title_id]['TITLE_NAME']
@@ -341,14 +344,13 @@ def main():
             out_file = 'XML_HASH.json'
             with open(out_file, mode='w') as f_out:
                 json.dump(xml_hash_dict, f_out)
-                    
+
             os.makedirs(f'PS5_XML/{title_id}/{xml_date}_{sha256_hash}', exist_ok=True)
             out_file = f'PS5_XML/{title_id}/{xml_date}_{sha256_hash}/{xml_file_name}'
             with open(out_file, mode='wb') as f_out:
                 f_out.write(xml_data)
 
             content_id, content_ver, manifest_url, fw_version, delta_url, delta_url_titileId = parse_ps5_xml(xml_data)
-            
             print(f'xml link    : {xml_link}')
             print(f'title_name  : {title_name}')
             print(f'xml_date    : {xml_date}')
@@ -372,9 +374,11 @@ def main():
                 append_new_tittle_id_to_tsv(param_json)
                 
                 snoretoast('PS5 XML Check', f'TSV追加 {delta_url_titileId}')
-
+            
+            updated_title.append(title_id)
         print('Update check ended...')
-        snoretoast('PS5 XML Check', f'XML 更新')
+        if updated_title:
+            snoretoast('PS5 XML Check', f'XML 更新')
         git_commit()
         wait_interval()
 
