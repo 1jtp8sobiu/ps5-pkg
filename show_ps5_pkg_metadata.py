@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 
-
-### Extract param.json from the PS5 pkg file and display some information.
+### Extract param.json from the PS5 pkg link and display some information.
 ### 
-### [Usage] show_ps5_pkg_metadata.py [URL of PS5 pkg (xml/json/DP.pkg/sc.pkg)]
+### [Usage] show_ps5_pkg_metadata.py [--output] [URL of PS5 pkg (version.xml / .json / .DP.pkg / .sc.pkg)]
 ### [Examples]
 ### show_ps5_pkg_metadata.py https://sgst.prod.dl.playstation.net/sgst/prod/00/np/PPSA01280_00/d8ec167a-59da-4e54-8e2c-1161c706516a-version.xml
 ### show_ps5_pkg_metadata.py http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01280_00/app/pkg/14/f_79cafe1a822dd62c55ebb4d08844deafe89d9e42366ddd8ade1d54de8f2f8eac/IP9100-PPSA01280_00-SFSRELE000000100-DP.pkg
 ### show_ps5_pkg_metadata.py https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01280_00/app/info/13/f_504bd9d060d0861ae60bc680146dba2093041c29da446558392446d6eecc7330/IP9100-PPSA01280_00-SFSRELE000000100_sc.pkg
-
+### show_ps5_pkg_metadata.py --output https://sgst.prod.dl.playstation.net/sgst/prod/00/np/PPSA01280_00/d8ec167a-59da-4e54-8e2c-1161c706516a-version.xml
 
 import json
 import urllib.request
@@ -26,8 +25,16 @@ def get_param_json(url, output=False):
     url = url.strip()
     
     if 'gst.prod.dl.playstation.net' not in url:
-        return
-    
+        print(f'ERROR! Not PS5 pkg link')
+        sys.exit(-1)
+
+    if '.json' in url:
+        url = url.replace('.json', '_sc.pkg')
+
+    if 'DP.pkg' not in url and 'sc.pkg' not in url:
+        print(f'ERROR! Not PS5 pkg link')
+        sys.exit(-1)
+
     if 'version.xml' in url:
         try:
             with urllib.request.urlopen(url) as res:
@@ -45,13 +52,7 @@ def get_param_json(url, output=False):
             return 
         url = parse_ps5_xml(xml_data)[2]
         url = url.replace('.json', '_sc.pkg')
-        
-    if '.json' in url:
-        url = url.replace('.json', '_sc.pkg')
-    
-    if 'DP.pkg' not in url and 'sc.pkg' not in url:
-        return
-    
+
     # ファイルを64KBのみダウンロード
     chunk_size = 1024 * 64
     try:
@@ -184,7 +185,7 @@ def adjust_param_value(param_json):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Show PS5 Pkg Metadata')
-    parser.add_argument('url', help='URL of PS5 pkg (.xml / .json / .DP.pkg / _sc.pkg)')
+    parser.add_argument('url', help='URL of PS5 pkg (version.xml / .json / .DP.pkg / _sc.pkg)')
     parser.add_argument('--output', action='store_true', help='Output param.json file to the same folder in the script')
     args = parser.parse_args()
 
