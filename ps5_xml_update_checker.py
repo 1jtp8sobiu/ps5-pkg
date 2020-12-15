@@ -125,28 +125,6 @@ def download_ps5_xml_tsv(url):
         f.write(res.read())
 
 
-def parse_ps5_xml(xml_data):
-    root = ET.fromstring(xml_data)
-    tag_index = len(root[0]) - 1
-    
-    content_id = root[0].attrib['content_id']
-    content_ver = root[0][tag_index].attrib['content_ver']
-    manifest_url = root[0][tag_index].attrib['manifest_url']
-    system_ver = root[0][tag_index].attrib['system_ver']
-    
-    try:
-        delta_url = root[0][0].attrib['delta_url']
-        delta_url_titileId = delta_url.split('/')[-1][7:19]
-    except KeyError:
-        delta_url = None
-        delta_url_titileId = None
-    
-    system_ver_hex = f'{int(system_ver):x}'
-    fw_version = '0' + system_ver_hex[0] + '.' + system_ver_hex[1:3] + '.' + system_ver_hex[3:5] + '.' + system_ver_hex[5:7]
-    
-    return content_id, content_ver, manifest_url, fw_version, delta_url, delta_url_titileId
-
-
 def append_new_tittle_id_to_tsv(param_json):
     new_contentId = param_json['contentId']
     new_defaultLanguage = param_json['localizedParameters']['defaultLanguage']

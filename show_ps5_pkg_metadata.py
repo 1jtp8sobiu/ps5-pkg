@@ -2,7 +2,7 @@
 
 ### Extract param.json from the PS5 pkg link and display some information.
 ### 
-### [Usage] show_ps5_pkg_metadata.py [--output] [URL of PS5 pkg (version.xml / .json / .DP.pkg / .sc.pkg)]
+### [Usage] show_ps5_pkg_metadata.py [-h] [--output] [URL of PS5 pkg (version.xml / .json / .DP.pkg / .sc.pkg)]
 ### [Examples]
 ### show_ps5_pkg_metadata.py https://sgst.prod.dl.playstation.net/sgst/prod/00/np/PPSA01280_00/d8ec167a-59da-4e54-8e2c-1161c706516a-version.xml
 ### show_ps5_pkg_metadata.py http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01280_00/app/pkg/14/f_79cafe1a822dd62c55ebb4d08844deafe89d9e42366ddd8ade1d54de8f2f8eac/IP9100-PPSA01280_00-SFSRELE000000100-DP.pkg
@@ -24,16 +24,9 @@ def get_param_json(url, output=False):
     # URLの正当性を検証
     url = url.strip()
     
-    if 'gst.prod.dl.playstation.net' not in url:
-        print(f'ERROR! Not PS5 pkg link')
-        sys.exit(-1)
-
-    if '.json' in url:
-        url = url.replace('.json', '_sc.pkg')
-
-    if 'DP.pkg' not in url and 'sc.pkg' not in url:
-        print(f'ERROR! Not PS5 pkg link')
-        sys.exit(-1)
+    #if 'gst.prod.dl.playstation.net' not in url:
+    #    print(f'ERROR! Not PS5 pkg link')
+    #    sys.exit(-1)
 
     if 'version.xml' in url:
         try:
@@ -52,6 +45,13 @@ def get_param_json(url, output=False):
             return 
         url = parse_ps5_xml(xml_data)[2]
         url = url.replace('.json', '_sc.pkg')
+
+    if '.json' in url:
+        url = url.replace('.json', '_sc.pkg')
+
+    if 'DP.pkg' not in url and 'sc.pkg' not in url:
+        print(f'ERROR! Not PS5 pkg link')
+        sys.exit(-1)
 
     # ファイルを64KBのみダウンロード
     chunk_size = 1024 * 64
@@ -95,7 +95,7 @@ def parse_ps5_xml(xml_data):
         delta_url_titileId = None
     
     system_ver_hex = f'{int(system_ver):x}'
-    fw_version = '0' + system_ver_hex[0] + '.' + system_ver_hex[1:3] + '.' + system_ver_hex[3:5] + '.' + system_ver_hex[5:7]
+    fw_version = '0' + '.'.join([system_ver_hex[0], system_ver_hex[1:3], system_ver_hex[3:5], system_ver_hex[5:7]])
     
     return content_id, content_ver, manifest_url, fw_version, delta_url, delta_url_titileId
 
@@ -111,7 +111,7 @@ def extract_param_json(data):
     find_str = 'version.xml'.encode()
     temp_position = data.find(find_str)
     
-    # 0x7D 0D 0A の部分を探す
+    # 0x7D 0D 0A json終端部分を探す
     find_str = b'\x7d\x0d\x0a'
     end_position = data.find(find_str, temp_position) + 3
     
