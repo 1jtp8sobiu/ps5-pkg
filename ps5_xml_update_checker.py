@@ -13,6 +13,9 @@ import xml.etree.ElementTree as ET
 ssl._create_default_https_context = ssl._create_unverified_context
 
 
+import show_ps5_pkg_metadata
+
+
 def conver_date_format(lastmodified):
     modified_yyyy = lastmodified[12:16]
     modified_month = lastmodified[8:11]
@@ -144,140 +147,15 @@ def parse_ps5_xml(xml_data):
     return content_id, content_ver, manifest_url, fw_version, delta_url, delta_url_titileId
 
 
-def get_param_json(url):
-    # URLの正当性を検証
-    url = url.strip()
-    
-    if 'gst.prod.dl.playstation.net' not in url:
-        return
-    
-    if 'version.xml' in url:
-        try:
-            with urllib.request.urlopen(url) as res:
-                xml_data = res.read()
-        except urllib.error.HTTPError as err:
-            if err.code == 404:
-                print(f'error {err.code}')
-                return
-            elif err.code == 403:
-                snoretoast('PS5 XML Check', f'ERROR! http_code: {err.code}')
-                print(f'ERROR! http_code: {err.code}')
-                sys.exit(-1)
-        except urllib.error.URLError as err:
-            print(f'error {err}')
-            return 
-        url = parse_ps5_xml(xml_data)[2]
-        url = url.replace('.json', '_sc.pkg')
-        
-    if '.json' in url:
-        url = url.replace('.json', '_sc.pkg')
-    
-    if 'DP.pkg' not in url and 'sc.pkg' not in url:
-        return
-    
-    # ファイルを64KBのみダウンロード
-    chunk_size = 1024 * 64
-    try:
-        with urllib.request.urlopen(url) as res:
-            chunk = res.read(chunk_size)
-    except urllib.error.HTTPError as err:
-        if err.code == 404:
-            print(f'error {err.code}')
-        elif err.code == 403:
-            snoretoast('PS5 XML Check', f'ERROR! http_code: {err.code}')
-            print(f'ERROR! http_code: {err.code}')
-            sys.exit(-1)
-    except urllib.error.URLError as err:
-        print(f'error {err}')
-
-    param_json = extract_param_json(chunk)
-    return adjust_param_value(param_json)
-
-
-def extract_param_json(data):
-    #  "param.json" の位置を探す
-    find_str = 'param.json'.encode()
-    temp_position = data.find(find_str)
-    
-    find_str = b'\x7b\x0d\x0a'
-    start_position = data.find(find_str, temp_position)
-    
-    find_str = 'version.xml'.encode()
-    temp_position = data.find(find_str)
-    
-    # 0x00 の部分を探す
-    find_str = b'\x00'
-    end_position = data.find(find_str, temp_position)
-    
-    json_data = data[start_position:end_position]
-    return json.loads(json_data)
-
-
-def adjust_param_value(param_json):
-    # Sub Keyの取得
-    param_json['defaultLanguage'] = param_json['localizedParameters']['defaultLanguage']
-    param_json['titleName'] = param_json['localizedParameters'][param_json['defaultLanguage']]['titleName']
-    param_json['creationDate'] =  param_json['pubtools']['creationDate']
-    param_json['toolVersion'] = param_json['pubtools']['toolVersion']
-
-    # 値の変換
-    param_json['versionFileUri'] = param_json['versionFileUri'].strip()
-    param_json['titleId'] = param_json['titleId'] + '_00'
-    
-    fw = param_json['requiredSystemSoftwareVersion']
-    param_json['requiredSystemSoftwareVersion'] = '.'.join([fw[2:4], fw[4:6], fw[6:8], fw[8:10]]) + '-' + '.'.join([fw[10:12], fw[12:14], fw[14:16], fw[16:17], fw[17:18]])
-
-    try:
-        param_json['attribute'] = hex(param_json['attribute'])
-        param_json['attribute2'] = hex(param_json['attribute2'])
-        param_json['attribute3'] = hex(param_json['attribute3'])
-        
-        sdk = param_json['sdkVersion']
-        param_json['sdkVersion'] = '.'.join([sdk[2:4], sdk[4:6], sdk[6:8], sdk[8:10]]) + '-' + '.'.join([sdk[10:12], sdk[12:14], sdk[14:16], sdk[16:17], sdk[17:18]])
-    except Exception:
-        pass
-    
-    return param_json
-    
-    
-def print_param(param_json):
-    pprint.pprint(param_json)
-    print('-'*100)
-    
-    target_keys = ['titleId',
-                    'contentId',
-                    'applicationCategoryType',
-                    'applicationDrmType',
-                    'attribute',
-                    'attribute2',
-                    'attribute3',
-                    'requiredSystemSoftwareVersion'
-                    'contentVersion',
-                    'targetContentVersion',
-                    'defaultLanguage',
-                    'titleName',
-                    'creationDate',
-                    'sdkVersion',
-                    'versionFileUri']
-
-    for key in target_keys:
-        try:
-            value = param_json[key]
-        except KeyError:
-            value = None
-        
-        print(f'{key: <50} = {value}')
-    print('-'*100)
-
-
 def append_new_tittle_id_to_tsv(param_json):
     new_contentId = param_json['contentId']
-    new_vtitleName = param_json['titleName']
+    new_defaultLanguage = param_json['localizedParameters']['defaultLanguage']
+    new_titleName = param_json['localizedParameters'][new_defaultLanguage]['titleName']
     new_versionFileUri = param_json['versionFileUri'].strip()
 
     with open('PS5_XML.tsv', mode='a', encoding='utf-8') as f:
-        f.write('\n')
-        f.write('{new_contentId}\t{new_vtitleName}\t{new_versionFileUri}')
+        f.write(f'\n')
+        f.write(f'{new_contentId}\t{new_titleName}\t{new_versionFileUri}')
 
 
 def main():
@@ -312,7 +190,7 @@ def main():
             xml_file_name = xml_link.split('/')[-1]
             title_name = xml_link_dict[title_id]['TITLE_NAME']
 
-            time.sleep(1)
+            time.sleep(3)
             try:
                 with urllib.request.urlopen(xml_link) as res:
                     headers = res.getheaders()
@@ -350,7 +228,7 @@ def main():
             with open(out_file, mode='wb') as f_out:
                 f_out.write(xml_data)
 
-            content_id, content_ver, manifest_url, fw_version, delta_url, delta_url_titileId = parse_ps5_xml(xml_data)
+            content_id, content_ver, manifest_url, fw_version, delta_url, delta_url_titileId = show_ps5_pkg_metadata.parse_ps5_xml(xml_data)
             print(f'xml link    : {xml_link}')
             print(f'title_name  : {title_name}')
             print(f'xml_date    : {xml_date}')
@@ -369,11 +247,11 @@ def main():
 
             # delta_titleID が PS5_XML.tsv 内に存在しない場合は追記
             if delta_url_titileId and delta_url_titileId not in xml_link_dict:
-                param_json = get_param_json(delta_url)
-                print_param(param_json)
+                param_json = show_ps5_pkg_metadata.get_param_json(delta_url)
                 append_new_tittle_id_to_tsv(param_json)
                 
-                snoretoast('PS5 XML Check', f'TSV追加 {delta_url_titileId}')
+                #show_ps5_pkg_metadata.print_param(param_json)
+                snoretoast('PS5 XML Check', f'PS5_XML.tsv 追加 {delta_url_titileId}')
             
             updated_title.append(title_id)
         print('Update check ended...')
