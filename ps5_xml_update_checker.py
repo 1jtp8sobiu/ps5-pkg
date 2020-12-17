@@ -69,7 +69,7 @@ def wait_interval():
     
     start = time.time()
     print('waiting interval')
-    while time.time()-start < 3600 * 1:
+    while time.time()-start < 1800 * 1:
         time.sleep(60)
         print(time.time()-start, '\r', end='')
         
