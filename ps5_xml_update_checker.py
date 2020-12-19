@@ -13,7 +13,7 @@ import xml.etree.ElementTree as ET
 ssl._create_default_https_context = ssl._create_unverified_context
 
 
-import show_ps5_pkg_metadata
+import show_ps5_pkg_metadata as ps5meta
 
 
 def conver_date_format(lastmodified):
@@ -70,7 +70,7 @@ def wait_interval():
     start = time.time()
     print('waiting interval')
     while time.time()-start < 1800 * 1:
-        time.sleep(60)
+        time.sleep(180)
         print(time.time()-start, '\r', end='')
         
         # check 'PS5_XML.tsv' hash
@@ -106,12 +106,12 @@ def snoretoast(title='Snoretoast', comment='Comment', icon_path=''):
     subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
 
-def git_commit():
+def git_commit(comment):
     cmd = ['git', 'add', '.']
     proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     print(proc.stdout.decode('utf8'))
     
-    cmd = ['git', 'commit', '-a', '-m', 'Update xml']
+    cmd = ['git', 'commit', '-a', '-m', comment]
     proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     print(proc.stdout.decode('utf8'))
     
@@ -162,13 +162,15 @@ def main():
         print('Update check started...')
         
         for title_id in xml_link_dict:
+            # データ初期化
+            xml_data = None
             updated_title = []
             
             xml_link = xml_link_dict[title_id]['XML_LINK']
             xml_file_name = xml_link.split('/')[-1]
             title_name = xml_link_dict[title_id]['TITLE_NAME']
 
-            time.sleep(3)
+            time.sleep(1)
             try:
                 with urllib.request.urlopen(xml_link) as res:
                     headers = res.getheaders()
@@ -188,6 +190,11 @@ def main():
                     sys.exit(-1)
             except urllib.error.URLError as err:
                 print(f'error {err}')
+                continue
+            
+            # エラーチェック
+            if not xml_data:
+                continue
 
             sha256_hash = get_hash_value(xml_data)
             try:
@@ -206,8 +213,9 @@ def main():
             with open(out_file, mode='wb') as f_out:
                 f_out.write(xml_data)
 
-            content_id, content_ver, manifest_url, fw_version, delta_url, delta_url_titileId = show_ps5_pkg_metadata.parse_ps5_xml(xml_data)
-            print(f'xml link    : {xml_link}')
+            content_id, content_ver, manifest_url, fw_version, delta_url, delta_url_titileId = ps5meta.parse_ps5_xml(xml_data)
+            print(f'title_id    : {title_id}')
+            print(f'xml_link    : {xml_link}')
             print(f'title_name  : {title_name}')
             print(f'xml_date    : {xml_date}')
             print(f'content_id  : {content_id}')
@@ -225,17 +233,20 @@ def main():
 
             # delta_titleID が PS5_XML.tsv 内に存在しない場合は追記
             if delta_url_titileId and delta_url_titileId not in xml_link_dict:
-                param_json = show_ps5_pkg_metadata.get_param_json(delta_url)
+                param_json = ps5meta.get_param_json(delta_url)
                 append_new_tittle_id_to_tsv(param_json)
                 
-                #show_ps5_pkg_metadata.print_param(param_json)
+                #ps5meta.print_param(param_json)
                 snoretoast('PS5 XML Check', f'PS5_XML.tsv 追加 {delta_url_titileId}')
             
             updated_title.append(title_id)
         print('Update check ended...')
+        
         if updated_title:
             snoretoast('PS5 XML Check', f'XML 更新')
-        git_commit()
+            git_commit('Update xml')
+        
+        git_commit('Update')
         wait_interval()
 
 
