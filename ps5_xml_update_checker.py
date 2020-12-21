@@ -245,8 +245,9 @@ def main():
         if updated_title:
             snoretoast('PS5 XML Check', f'XML 更新')
             git_commit('Update xml')
-        
-        git_commit('Update')
+        else:
+            git_commit('Update')
+
         wait_interval()
 
 
