@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="1" nptitleid="PPSA01565_00" schema_ver="1.0">
+<app_tag content_id="JP0031-PPSA01565_00-GOGOGOJIGENNEPR1" name="_Import20201124083913" revision="45">
+<package content_ver="01.001.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01565_00/app/pkg/30/f_53dc05da364f4c3577df6ea6cfc07ca13d4b5fc415641fdbc7eaffdde96a2382/JP0031-PPSA01565_00-GOGOGOJIGENNEPR1-DP.pkg" digest="657071015a9698a53c02a81a86300fe2f85098bf64ad8698b219e50303f37f0e" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01565_00/app/info/45/f_a6dfbd6a13e7617be9c79c9707353c7165db3d8f516dd43d9899845f5bc841b3/JP0031-PPSA01565_00-GOGOGOJIGENNEPR1.json" metadata_ver="45" pfs_revision="30" system_ver="35979264"/>
+</app_tag>
+<ac_tag content_id="JP0031-PPSA01565_00-ADDCONTENTDLC002" name="_Import20201028110627" revision="33">
+<package content_ver="01.000.000" digest="bec3d58820371bde59c6caab65b26f3edd6c701709e4795624e90fe7a7f02c8d" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01565_00/ac/JP0031-PPSA01565_00-ADDCONTENTDLC002/info/33/f_ebb1684e9b2919ee81b7250fdaae48fa0bd737c4138769da5af9b6714b5adac8/JP0031-PPSA01565_00-ADDCONTENTDLC002.json" metadata_ver="33" pfs_revision="5" system_ver="33554432"/>
+</ac_tag>
+</title_patch>
