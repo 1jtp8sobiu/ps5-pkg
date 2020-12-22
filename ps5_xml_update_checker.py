@@ -160,11 +160,13 @@ def main():
 
         # snoretoast('PS5 XML Check', 'チェック開始')
         print('Update check started...')
-        
+
+        # データ初期化
+        updated_title = []
         for title_id in xml_link_dict:
             # データ初期化
             xml_data = None
-            updated_title = []
+
             
             xml_link = xml_link_dict[title_id]['XML_LINK']
             xml_file_name = xml_link.split('/')[-1]
