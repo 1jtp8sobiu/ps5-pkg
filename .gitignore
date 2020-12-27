@@ -1,3 +1,4 @@
 error.log
 running.log
-/*.out
+*.out
+*.pyc

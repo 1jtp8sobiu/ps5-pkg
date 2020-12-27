@@ -15,11 +15,10 @@ import xml.etree.ElementTree as ET
 ssl._create_default_https_context = ssl._create_unverified_context
 
 
-import git
 import show_ps5_pkg_metadata as ps5meta
 
 
-def conver_date_format(lastmodified):
+def convert_date_format(lastmodified):
     modified_yyyy = lastmodified[12:16]
     modified_month = lastmodified[8:11]
     
@@ -137,6 +136,7 @@ def git_commit(comment):
     except:
         pass
 
+
 def download_ps5_xml_tsv(url):
     with urllib.request.urlopen(url) as res, open('PS5_XML.tsv', mode='wb') as f:
         f.write(res.read())
@@ -201,7 +201,7 @@ def main():
                     
                     for i in headers:
                         if i[0] == 'Last-Modified':
-                            xml_date = conver_date_format(i[1])
+                            xml_date = convert_date_format(i[1])
                             break
             except urllib.error.HTTPError as err:
                 if err.code == 404:
@@ -273,10 +273,10 @@ def main():
         
         if updated_title:
             snoretoast('PS5 XML Check', f'XML 更新')
-            #git_commit('Update xml')
+            git_commit('Update xml')
             running_log('XML Updated')
         else:
-            #git_commit('Update')
+            git_commit('Update')
             pass
             
         wait_interval(1800)
