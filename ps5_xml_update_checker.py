@@ -98,6 +98,12 @@ def running_log(comment):
         f.write(f"[{datetime.datetime.now()}] {comment}\n")
 
 
+def error_log(comment):
+    with open('LOG/error.log', mode='a', encoding='utf-8', newline='\r\n') as f:
+        f.write(f"[{datetime.datetime.now()}] {'-'*80}\n")
+        f.write(f'{comment}\n')
+
+
 def is_ps5_xml_tsv_updated():
     global ps5_xml_tsv_hash
     
@@ -155,7 +161,7 @@ def append_new_tittle_id_to_tsv(param_json):
 
 def main():
     print('waiting...10 seconds')
-    time.sleep(10)
+    #time.sleep(10)
     while True:
         #download_ps5_xml_tsv(sys.argv[1])
     
@@ -206,13 +212,17 @@ def main():
             except urllib.error.HTTPError as err:
                 if err.code == 404:
                     print(f'error {err.code}')
+                    
                     continue
                 elif err.code == 403:
                     snoretoast('PS5 XML Check', f'ERROR! http_code: {err.code}')
                     print(f'ERROR! http_code: {err.code}')
-                    sys.exit(-1)
+                    raise
+                else:
+                    raise
             except urllib.error.URLError as err:
                 print(f'error {err}')
+                error_log(f'error {err}')
                 continue
             
             ## エラーチェック
@@ -276,7 +286,7 @@ def main():
             git_commit('Update xml')
             running_log('XML Updated')
         else:
-            git_commit('Update')
+            #git_commit('Update')
             pass
             
         wait_interval(1800)
@@ -301,9 +311,5 @@ if __name__ == '__main__':
     try:
         main()
     except Exception as e:
-        in_file = 'LOG/error.log'
-        with open(in_file, mode='a', newline='\r\n') as f_in:
-            f_in.write(f"[{datetime.datetime.now()}] {'-'*80}\n")
-            traceback.print_exc(file=f_in)
-            f_in.write('\n')
+        error_log(traceback.format_exc())
         sys.exit(1)
