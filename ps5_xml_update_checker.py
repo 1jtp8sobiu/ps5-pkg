@@ -21,7 +21,7 @@ import show_ps5_pkg_metadata as ps5meta
 def convert_date_format(lastmodified):
     modified_yyyy = lastmodified[12:16]
     modified_month = lastmodified[8:11]
-    
+
     if   modified_month == 'Jan':
         modified_mm = '01'
     elif modified_month == 'Feb':
@@ -46,7 +46,7 @@ def convert_date_format(lastmodified):
         modified_mm = '11'
     elif modified_month == 'Dec':
         modified_mm = '12'
-    
+
     modified_dd = lastmodified[5:7]
     modified_hh = lastmodified[17:19]
     modified_mn = lastmodified[20:22]
@@ -71,7 +71,7 @@ def wait_interval(seconds):
             f.write('0')
     except:
         pass
-    
+
     start = time.time()
     print('waiting interval...next check is in')
     count = seconds
@@ -106,11 +106,11 @@ def error_log(comment):
 
 def is_ps5_xml_tsv_updated():
     global ps5_xml_tsv_hash
-    
+
     in_file = 'PS5_XML.tsv'
     with open(in_file, mode='rb') as f_in:
         tsv_hash = get_hash_value(f_in.read())
-    
+
     if tsv_hash != ps5_xml_tsv_hash:
         ps5_xml_tsv_hash = tsv_hash
         return True
@@ -131,11 +131,11 @@ def git_commit(comment):
         cmd = ['git', 'add', '.']
         proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         print(proc.stdout.decode('utf8'))
-        
+
         cmd = ['git', 'commit', '-a', '-m', comment]
         proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         print(proc.stdout.decode('utf8'))
-        
+
         cmd = ['git', 'push', 'origin', 'master']
         proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         print(proc.stdout.decode('utf8'))
@@ -162,12 +162,12 @@ def append_new_tittle_id_to_tsv(param_json):
 def main():
     #print('waiting...10 seconds')
     #time.sleep(10)
-    
+
     ## データ初期化
     error_count = 0
     while True:
         #download_ps5_xml_tsv(sys.argv[1])
-    
+
         xml_link_dict = {}
         in_file = 'PS5_XML.tsv'
         with open(in_file, encoding='utf-8') as f_in:
@@ -188,7 +188,7 @@ def main():
         #snoretoast('PS5 XML Check', 'チェック開始')
         print(f'[{datetime.datetime.now()}] Update check started...')
         running_log('check started')
-        
+
         ## データ初期化
         updated_title = []
         for title_id in xml_link_dict:
@@ -198,15 +198,14 @@ def main():
 
             ## データ初期化
             xml_data = None
-            
-            
+
             xml_link = xml_link_dict[title_id]['XML_LINK']
             xml_file_name = xml_link.split('/')[-1]
             title_name = xml_link_dict[title_id]['TITLE_NAME']
-            
+
             print(title_id, title_name+' '*50,'\r', end='')
             time.sleep(1)
-            
+
             try:
                 with urllib.request.urlopen(xml_link) as res:
                     headers = res.getheaders()
@@ -236,7 +235,7 @@ def main():
                 error_count += 1
                 time.sleep(180)
                 continue
-            
+
             ## エラーチェック
             if xml_data:
                 error_count = 0
@@ -284,7 +283,7 @@ def main():
                 param_json = ps5meta.get_param_json(delta_url)
                 append_new_tittle_id_to_tsv(param_json)
                 updated_title.append(delta_url_titileId)
-                
+
                 #ps5meta.print_param(param_json)
                 running_log(f'PS5_XML.tsv added {delta_url_titileId}')
                 snoretoast('PS5 XML Check', f'PS5_XML.tsv 追加 {delta_url_titileId}')
@@ -294,7 +293,7 @@ def main():
         print(f'[{datetime.datetime.now()}] Update check ended...')
         print('-'*80)
         running_log('check ended')
-        
+
         if updated_title:
             snoretoast('PS5 XML Check', f'XML 更新')
             git_commit('Update xml')
@@ -309,7 +308,7 @@ if __name__ == '__main__':
     os.chdir(dpath)
     
     os.makedirs(f'LOG', exist_ok=True)
-    
+
     in_file = 'LOG/error.log'
     if not os.path.isfile(in_file):
         with open(in_file, mode='w') as f:
