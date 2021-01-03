@@ -160,8 +160,11 @@ def append_new_tittle_id_to_tsv(param_json):
 
 
 def main():
-    print('waiting...10 seconds')
+    #print('waiting...10 seconds')
     #time.sleep(10)
+    
+    ## データ初期化
+    error_count = 0
     while True:
         #download_ps5_xml_tsv(sys.argv[1])
     
@@ -189,9 +192,13 @@ def main():
         ## データ初期化
         updated_title = []
         for title_id in xml_link_dict:
+            ## エラーチェック
+            if error_count >= 5:
+                raise Exception('ERROR! Script stopped working with error')
+
             ## データ初期化
             xml_data = None
-
+            
             
             xml_link = xml_link_dict[title_id]['XML_LINK']
             xml_file_name = xml_link.split('/')[-1]
@@ -212,21 +219,28 @@ def main():
             except urllib.error.HTTPError as err:
                 if err.code == 404:
                     print(f'error {err.code}')
-                    
                     continue
                 elif err.code == 403:
                     snoretoast('PS5 XML Check', f'ERROR! http_code: {err.code}')
                     print(f'ERROR! http_code: {err.code}')
                     raise
                 else:
-                    raise
+                    print(f'error {err.code}')
+                    error_log(f'[WARN] ERROR CODE: {err.code}')
+                    error_count += 1
+                    time.sleep(180)
+                    continue
             except urllib.error.URLError as err:
                 print(f'error {err}')
-                error_log(f'error {err}')
+                error_log(err)
+                error_count += 1
+                time.sleep(180)
                 continue
             
             ## エラーチェック
-            if not xml_data:
+            if xml_data:
+                error_count = 0
+            else:
                 continue
 
             sha256_hash = get_hash_value(xml_data)
@@ -285,10 +299,7 @@ def main():
             snoretoast('PS5 XML Check', f'XML 更新')
             git_commit('Update xml')
             running_log('XML Updated')
-        else:
-            #git_commit('Update')
-            pass
-            
+
         wait_interval(1800)
 
 
