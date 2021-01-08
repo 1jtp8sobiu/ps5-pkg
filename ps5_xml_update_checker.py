@@ -193,7 +193,9 @@ def main():
         updated_title = []
         for title_id in xml_link_dict:
             ## エラーチェック
-            if error_count >= 5:
+            if error_count == 4:
+                time.sleep(3600)
+            if error_count > 4:
                 raise Exception('ERROR! Script stopped working with error')
 
             ## データ初期化
@@ -225,13 +227,13 @@ def main():
                     raise
                 else:
                     print(f'error {err.code}')
-                    error_log(f'[WARN] ERROR CODE: {err.code}')
+                    #error_log(f'[WARN] ERROR CODE: {err.code}')
                     error_count += 1
                     time.sleep(180)
                     continue
             except urllib.error.URLError as err:
                 print(f'error {err}')
-                error_log(err)
+                #error_log(err)
                 error_count += 1
                 time.sleep(180)
                 continue
