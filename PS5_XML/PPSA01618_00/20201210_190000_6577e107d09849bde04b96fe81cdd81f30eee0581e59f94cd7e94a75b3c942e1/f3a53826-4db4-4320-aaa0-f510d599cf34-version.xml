@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01618_00" schema_ver="1.0">
+<app_tag content_id="UP1018-PPSA01618_00-00MORTALKOMBAT11" name="_Import20201209222517" revision="54">
+<package bootable_content_ver="01.000.003" content_ver="01.000.003" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01617_00/app/pkg/10/f_7ccb6478f2e0601198ed7e34a43445369f2fd22e5988b1f216171387738f0216/UP1018-PPSA01617_00-00MORTALKOMBAT11-DP.pkg" digest="89d1dcd833cc1d581e8fa6252f223b9cbea7605c59e58ac4719241b8645ee0fa" mandatory="true" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01618_00/app/info/54/f_2c945d9831bba78c10b0de5b95ad570175d1020ea9625a8586dc8adb504b8628/UP1018-PPSA01618_00-00MORTALKOMBAT11.json" metadata_ver="54" pfs_revision="10" system_ver="36044800"/>
+</app_tag>
+<pssdc>
+<nptitleid>PPSA01617_00</nptitleid>
+<nptitleid>CUSA11395_00</nptitleid>
+</pssdc>
+</title_patch>
