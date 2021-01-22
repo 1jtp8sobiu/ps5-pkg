@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01857_00" schema_ver="1.0">
+<app_tag content_id="HP0102-PPSA01857_00-DEMOVILLAGE00001" name="_Import20210119031632" revision="5">
+<package bootable_content_ver="01.001.000" content_ver="01.001.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01857_00/app/pkg/5/f_f19d6b45d686872956d25f838ff68eedf9f2a667f146732f52ec571ec1847244/HP0102-PPSA01857_00-DEMOVILLAGE00001-DP.pkg" digest="19d66bfc99ae8b99419e6ced4c9f1de2ba79ecb6a51ce7be9c4da987099fd871" mandatory="true" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01857_00/app/info/5/f_265d101d548dddb59cdcfb02bb1924514810ab225612350c917a119be082f7db/HP0102-PPSA01857_00-DEMOVILLAGE00001.json" metadata_ver="5" pfs_revision="5" system_ver="36700160"/>
+</app_tag>
+<pssdc>
+<nptitleid>PPSA01559_00</nptitleid>
+</pssdc>
+</title_patch>
