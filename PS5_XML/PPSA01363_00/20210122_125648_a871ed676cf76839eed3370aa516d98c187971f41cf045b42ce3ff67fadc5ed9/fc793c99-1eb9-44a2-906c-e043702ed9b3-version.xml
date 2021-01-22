@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="4" nptitleid="PPSA01363_00" schema_ver="1.0">
+<app_tag content_id="EP4008-PPSA01363_00-WRC9SIEE00000000" name="_Import20210112101657" revision="20">
+<package content_ver="01.003.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01363_00/app/pkg/10/f_646f3e676c666ba3d7f35a961bf68facf3fa6af7ed705beb930917abe7fd6549/EP4008-PPSA01363_00-WRC9SIEE00000000-DP.pkg" digest="2a7bcbc45624db0ba56a53d15597b61f14e94b10915f72270bfa0ccd2d835118" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01363_00/app/info/20/f_d4316e158a2c60c3da412641e21e57e5fa8910d5403555bbb40ac96c84468171/EP4008-PPSA01363_00-WRC9SIEE00000000.json" metadata_ver="20" pfs_revision="10" system_ver="36700160"/>
+</app_tag>
+<ac_tag content_id="EP4008-PPSA01363_00-WRC9SIEEDLC00001" name="_Import20201001100641" revision="10">
+<package content_ver="01.000.000" digest="5e4285faa1526fae9e954bc6ca83cd5ca7a14f67724d7c97700fe4dca305520d" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01363_00/ac/EP4008-PPSA01363_00-WRC9SIEEDLC00001/info/10/f_1f5cddb4dc4467c408b3e76198653fcead5bb7ea98a034aca35c96becb605071/EP4008-PPSA01363_00-WRC9SIEEDLC00001.json" metadata_ver="10" pfs_revision="6" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="EP4008-PPSA01363_00-WRC9SIEEDLC00002" name="_Import20201001100711" revision="12">
+<package content_ver="01.000.000" digest="834519ccdee3a015a6787e80e5b361193e1af9de0dd969f0dfffba3a249d03bf" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01363_00/ac/EP4008-PPSA01363_00-WRC9SIEEDLC00002/info/12/f_825e03750cdd2d8c59e4df56eae3b9f19be4aa3fa536708e19e1bfa458fa03d8/EP4008-PPSA01363_00-WRC9SIEEDLC00002.json" metadata_ver="12" pfs_revision="8" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="EP4008-PPSA01363_00-WRC9SIEEDLC00003" name="_Import20201001100659" revision="11">
+<package content_ver="01.000.000" digest="f8b716fe34936eefcfb2e487a476a4379db40dc2f0da868f37118399497322e0" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01363_00/ac/EP4008-PPSA01363_00-WRC9SIEEDLC00003/info/11/f_e3027adda1f875db7392889aeeea729b5871f18553fc2fb977fccdf4238973a8/EP4008-PPSA01363_00-WRC9SIEEDLC00003.json" metadata_ver="11" pfs_revision="7" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="EP4008-PPSA01363_00-WRC9SIEEDLC00004" name="_Import20201001100620" revision="9">
+<package content_ver="01.000.000" digest="0de02e7a2ab56298f118f30baa1771ac4530219b9cccef15bba8a140097d3be1" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01363_00/ac/EP4008-PPSA01363_00-WRC9SIEEDLC00004/info/9/f_a2712b64dc5ce9c707a07e89de3596e0255bc2fdc4a4aff32ffca99904686113/EP4008-PPSA01363_00-WRC9SIEEDLC00004.json" metadata_ver="9" pfs_revision="5" system_ver="18087936"/>
+</ac_tag>
+</title_patch>
