@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="10" nptitleid="PPSA02093_00" schema_ver="1.0">
+<app_tag content_id="UP4108-PPSA02093_00-RYZA200000MASTER" name="_Import20201209062816" revision="22">
+<package content_ver="01.001.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02093_00/app/pkg/11/f_2a44b31e6a6dbcbc4c55b1c068a5079ae3b718c761629a82ce5704f7602e9d10/UP4108-PPSA02093_00-RYZA200000MASTER-DP.pkg" digest="4edba91b7156946fa872628cb0e27f8ac36260d5f0c2c7410b22ee3ff6641d37" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02093_00/app/info/22/f_4dddd31fa9b24ccdbd63e8f375de35518759d721233d28fc1c00eb90c9f5dc82/UP4108-PPSA02093_00-RYZA200000MASTER.json" metadata_ver="22" pfs_revision="11" system_ver="36044800"/>
+</app_tag>
+<ac_tag content_id="UP4108-PPSA02093_00-ADDCOSTUME000000" name="_Import20201118075408" revision="8">
+<package content_ver="01.000.000" digest="bd24d771aabe29b5bca684001e4a87828fd96b3c08ec1a64907e03b1f6bb4bb1" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02093_00/ac/UP4108-PPSA02093_00-ADDCOSTUME000000/info/8/f_8a651783cf4be8698299f3435053991f6ea02982566eaa81156c1fefeafb2e50/UP4108-PPSA02093_00-ADDCOSTUME000000.json" metadata_ver="8" pfs_revision="1" system_ver="35979264"/>
+</ac_tag>
+<ac_tag content_id="UP4108-PPSA02093_00-ADDCOSTUME000001" name="_Import20201118075422" revision="9">
+<package content_ver="01.000.000" digest="018e4cec390c19f24c9a84ef65e6858ae0f06cebadd0aced3972712a7a7c89ce" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02093_00/ac/UP4108-PPSA02093_00-ADDCOSTUME000001/info/9/f_1a698fb041984ec6b401ddc6c1a4204d18888010b6a2a888d3c4c04fdb7d7c42/UP4108-PPSA02093_00-ADDCOSTUME000001.json" metadata_ver="9" pfs_revision="2" system_ver="35979264"/>
+</ac_tag>
+<ac_tag content_id="UP4108-PPSA02093_00-ADDCOSTUME000002" name="_Import20201118075451" revision="10">
+<package content_ver="01.000.000" digest="f2946ea3bea23f41f8613400b46de5ab12afff6c42b09ba089ef3c84e78cb313" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02093_00/ac/UP4108-PPSA02093_00-ADDCOSTUME000002/info/10/f_1e72c1094bfa5ea2cc9c073217e248d4f90cc0dc0d23906ea362ab22851de042/UP4108-PPSA02093_00-ADDCOSTUME000002.json" metadata_ver="10" pfs_revision="3" system_ver="35979264"/>
+</ac_tag>
+<ac_tag content_id="UP4108-PPSA02093_00-ADDCOSTUME000003" name="_Import20201118075515" revision="11">
+<package content_ver="01.000.000" digest="e32d2057ec6a1e869ba4abf206035c1793b2e5dfee4db58a2b9f5d579aa2b960" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02093_00/ac/UP4108-PPSA02093_00-ADDCOSTUME000003/info/11/f_c756b9f4d37c58cd5ce1460ee8d1234f3f86045030fd603ba73c036689c862c1/UP4108-PPSA02093_00-ADDCOSTUME000003.json" metadata_ver="11" pfs_revision="4" system_ver="35979264"/>
+</ac_tag>
+<ac_tag content_id="UP4108-PPSA02093_00-ADDCOSTUME000004" name="_Import20201118075535" revision="12">
+<package content_ver="01.000.000" digest="8a8b03a6ab8d3213052c3631a5295f9c962aa27d3c6da108c29324004ad5b7c7" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02093_00/ac/UP4108-PPSA02093_00-ADDCOSTUME000004/info/12/f_7ad60ae0cd1bf25e06f834ed636b1cce0d8afaa5cac932b1d57cd552adc88bf5/UP4108-PPSA02093_00-ADDCOSTUME000004.json" metadata_ver="12" pfs_revision="5" system_ver="35979264"/>
+</ac_tag>
+<ac_tag content_id="UP4108-PPSA02093_00-ADDCOSTUME000005" name="_Import20201118075547" revision="13">
+<package content_ver="01.000.000" digest="3f465569317b1e677abbe95e196f1d5a07141bee41a6468113f4618fde61474c" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02093_00/ac/UP4108-PPSA02093_00-ADDCOSTUME000005/info/13/f_7bef2f81f40d99c2739e615a5ab2022c967bd69b34dfb5469327518b5ad0b5db/UP4108-PPSA02093_00-ADDCOSTUME000005.json" metadata_ver="13" pfs_revision="6" system_ver="35979264"/>
+</ac_tag>
+<ac_tag content_id="UP4108-PPSA02093_00-ADDMAP0000000000" name="_Import20201118080233" revision="17">
+<package content_ver="01.000.000" digest="68ef72e4aad806803358fd4a22e1c59cc50cf8dbc028c5b31a3f7a8e46295433" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02093_00/ac/UP4108-PPSA02093_00-ADDMAP0000000000/info/17/f_9eebb975955f781c67cb92c2c87c5afc2079bbaa811375bd7ae6ee2d7444a19f/UP4108-PPSA02093_00-ADDMAP0000000000.json" metadata_ver="17" pfs_revision="10" system_ver="35979264"/>
+</ac_tag>
+<ac_tag content_id="UP4108-PPSA02093_00-ADVSYSTEM0000000" name="_Import20201118075629" revision="16">
+<package content_ver="01.000.000" digest="913187e6f03096bf06cb04c0680e69dd4510b2e74ba97d90bca0752a8ce54dc6" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02093_00/ac/UP4108-PPSA02093_00-ADVSYSTEM0000000/info/16/f_bcc71bebc364a4b5cbcb708d96e283ffab278fb6a7077f9176f80cca127a299e/UP4108-PPSA02093_00-ADVSYSTEM0000000.json" metadata_ver="16" pfs_revision="9" system_ver="35979264"/>
+</ac_tag>
+<ac_tag content_id="UP4108-PPSA02093_00-ITEMPACK00000000" name="_Import20201118075602" revision="14">
+<package content_ver="01.000.000" digest="0cac8492b6be6255a26ce277ef85f5d1f54024f04b4a234fb4bb53c81816ef9e" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02093_00/ac/UP4108-PPSA02093_00-ITEMPACK00000000/info/14/f_68d4fccf90ceb88f673eaee70f474faf5965c7bf6f6e15bb489e7bc8a8a902c8/UP4108-PPSA02093_00-ITEMPACK00000000.json" metadata_ver="14" pfs_revision="7" system_ver="35979264"/>
+</ac_tag>
+<ac_tag content_id="UP4108-PPSA02093_00-ITEMPACK00000001" name="_Import20201118075614" revision="15">
+<package content_ver="01.000.000" digest="cc08cc6e07ad82ad53b80a7813216822379194826d71fe3527c78eb21b7eaba6" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02093_00/ac/UP4108-PPSA02093_00-ITEMPACK00000001/info/15/f_23aad6b56acac720a1808d392dba3b8ce568d8e19aa0ee970a2e7854d6dda449/UP4108-PPSA02093_00-ITEMPACK00000001.json" metadata_ver="15" pfs_revision="8" system_ver="35979264"/>
+</ac_tag>
+</title_patch>
