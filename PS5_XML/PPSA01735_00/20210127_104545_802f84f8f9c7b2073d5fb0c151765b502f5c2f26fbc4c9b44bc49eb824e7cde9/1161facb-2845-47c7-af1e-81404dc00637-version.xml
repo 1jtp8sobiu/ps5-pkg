@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01735_00" schema_ver="1.0">
+<app_tag content_id="EP2377-PPSA01735_00-PLANETCOASTER000" name="_Import20210122142708" revision="44">
+<package content_ver="01.010.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01735_00/app/pkg/17/f_6b9976df75bb754d00e6605b4ca7019dbe3be63d80907f6c503223b238c4af1e/EP2377-PPSA01735_00-PLANETCOASTER000-DP.pkg" digest="fd39ac47b219e18c8060069598e98c38a02b553d3bad069a99092f037fd0bc1d" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01735_00/app/info/44/f_49564c10986c0de01af7acbc51f194a3c86cceba7b4272a09efac6fb72a6593c/EP2377-PPSA01735_00-PLANETCOASTER000.json" metadata_ver="44" pfs_revision="17" system_ver="36700160"/>
+</app_tag>
+</title_patch>
