@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01467_00" schema_ver="1.0">
+<app_tag content_id="UP9000-PPSA01467_00-MARVELSSPIDERMAN" name="_Import20210125201920" revision="16">
+<package content_ver="01.003.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01467_00/app/pkg/15/f_7c7b3612dfc11f70ccde670dba0294e85ac70127ee6d296c6e3c6852ee6efe7e/UP9000-PPSA01467_00-MARVELSSPIDERMAN-DP.pkg" digest="15e025036e74226610ee130aa3ab798068bad73060da2e8ead2c3428ceffcec8" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01467_00/app/info/16/f_62d293b84381129229850890b58c220675fe8b6d21f2cc1b0cf8e369096be750/UP9000-PPSA01467_00-MARVELSSPIDERMAN.json" metadata_ver="16" pfs_revision="15" system_ver="36700160"/>
+</app_tag>
+</title_patch>
