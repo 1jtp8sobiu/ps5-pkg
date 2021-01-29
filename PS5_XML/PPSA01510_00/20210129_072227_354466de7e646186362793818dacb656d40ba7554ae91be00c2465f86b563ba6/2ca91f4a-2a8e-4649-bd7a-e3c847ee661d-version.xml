@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="1" nptitleid="PPSA01510_00" schema_ver="1.0">
+<app_tag content_id="EP0001-PPSA01510_00-GAME000000000000" name="_Import20210126201422" revision="32">
+<package content_ver="02.000.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01507_00/app/pkg/10/f_622a2f7047b04525e4e1a2a629c39013a6962911bc07b6625dfa056e9f16144d/UP0001-PPSA01507_00-GAME000000000000-DP.pkg" digest="b70a3c7c426a641c4bdc3525766f12d54edcfb77e0dd516c036fbc41420334f7" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01510_00/app/info/31/f_6e21c19237a0a5642f9d2d9d78d47a5da85eb0aa06dd3aeeaa6b1ace5f6b9c88/EP0001-PPSA01510_00-GAME000000000000.json" metadata_ver="31" pfs_revision="10" system_ver="36700160"/>
+<package content_ver="02.001.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01507_00/app/pkg/11/f_35c6bcef07371486dbda2042e70d7c0fbc999ed158d6748ce4a86b32ea74c791/UP0001-PPSA01507_00-GAME000000000000-DP.pkg" digest="679949f248adf73839d89df493f2612022f906f09b9c86b72c2b16ed8ce24287" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01510_00/app/info/32/f_24a26995bec367fdee9c15e7d30ccd86f4bbbfb7ac239a8de7a92032b08dbcac/EP0001-PPSA01510_00-GAME000000000000.json" metadata_ver="32" pfs_revision="11" selective="true" system_ver="36700160">
+<distro_entitlement>
+<entitlement id="EP0001-CUSA16345_00-PATCH0"/>
+</distro_entitlement>
+</package>
+</app_tag>
+<ac_tag content_id="EP0001-PPSA01510_00-DLCEXPANSION0001" name="_Import20201221165811" revision="30">
+<package content_ver="01.000.000" digest="b1c06080caf3340d68bb50d710947ad8a039bf63fc3c2a7d2a06788d55722664" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01510_00/ac/EP0001-PPSA01510_00-DLCEXPANSION0001/info/30/f_0a4e0f6d663de5658aa1a433bf9d8ad5762e054980d2c07847417c56c455c8c2/EP0001-PPSA01510_00-DLCEXPANSION0001.json" metadata_ver="30" pfs_revision="29" system_ver="36700160"/>
+</ac_tag>
+<pssdc>
+<nptitleid>PPSA01506_00</nptitleid>
+</pssdc>
+</title_patch>
