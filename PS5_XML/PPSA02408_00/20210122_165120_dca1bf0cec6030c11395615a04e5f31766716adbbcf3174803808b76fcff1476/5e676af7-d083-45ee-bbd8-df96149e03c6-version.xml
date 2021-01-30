@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02408_00" schema_ver="1.0">
+<app_tag content_id="UP2373-PPSA02408_00-THEPEDESTRIAN001" name="_Import20210120183849" revision="7">
+<package content_ver="01.001.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02408_00/app/pkg/7/f_ad76703ac84300f4897739a9c391bbacc3828ab46b6b7d086df2f31d51c36008/UP2373-PPSA02408_00-THEPEDESTRIAN001-DP.pkg" digest="cefc22ab87c863f73a4b2abdfa8c8b72f9326bdf4cdfa53edc47ee2d30ba32e2" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02408_00/app/info/7/f_6f908a7ba69197e01fd1193e7304d4235b6b711f7074f72d3693f41a5b7844a2/UP2373-PPSA02408_00-THEPEDESTRIAN001.json" metadata_ver="7" pfs_revision="7" system_ver="36700160"/>
+</app_tag>
+</title_patch>
