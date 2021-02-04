@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01660_00" schema_ver="1.0">
+<app_tag content_id="EP0001-PPSA01660_00-RAINBOWSIXSIEGE0" name="_Import20210201095847" revision="9">
+<package content_ver="01.000.006" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01396_00/app/pkg/12/f_cc2c5cbcb21504a82d147b3d6bb54df0cce2ff5158759f301499afc14621fa3b/UP0001-PPSA01396_00-RAINBOWSIXSIEGE0-DP.pkg" digest="bcfbbd99bf0da9aade97971d9a4c4a0cce93c808f350225405b72a602a35a56d" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01660_00/app/info/9/f_71fe6abaaca7cd15cf1c040bd3113399919d526120f83681d9ad7399724691f8/EP0001-PPSA01660_00-RAINBOWSIXSIEGE0.json" metadata_ver="9" pfs_revision="12" system_ver="36700160"/>
+</app_tag>
+<pssdc>
+<nptitleid>CUSA01788_00</nptitleid>
+</pssdc>
+</title_patch>
