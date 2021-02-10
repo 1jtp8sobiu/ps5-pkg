@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="21" nptitleid="PPSA02097_00" schema_ver="1.0">
+<app_tag content_id="JP0106-PPSA02097_00-RYZA200000MASTER" name="_Import20210119112640" revision="99">
+<package content_ver="01.005.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02097_00/app/pkg/27/f_70769182088540bc53172523841b1eea45ddcbb1dde146312a8496c697252163/JP0106-PPSA02097_00-RYZA200000MASTER-DP.pkg" digest="b6a02fcff68781854b3149f37eb1b15854f27144a9a59e3d34d478aefa744c4f" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/app/info/99/f_846b21e2b48f2d0280118313f969c35b3cee85b0f1a63ae4500856dd74b7e539/JP0106-PPSA02097_00-RYZA200000MASTER.json" metadata_ver="99" pfs_revision="27" system_ver="36700160"/>
+</app_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ADDCOSTUME000000" name="_Import20201023101709" revision="39">
+<package content_ver="01.000.000" digest="ec3ba66268de78346e7a66eb7463fff5ef9de03156827c4875c2f730895598df" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ADDCOSTUME000000/info/39/f_638448c124bc8435e4654b74ef281a4d145b70dc547d52e32daa303f1a5c388b/JP0106-PPSA02097_00-ADDCOSTUME000000.json" metadata_ver="39" pfs_revision="34" system_ver="33554432"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ADDCOSTUME000001" name="_Import20201023101720" revision="40">
+<package content_ver="01.000.000" digest="7409306dc89eb5d1c6b53d5988658ca538d0129ee42b382e003c0623fd751bda" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ADDCOSTUME000001/info/40/f_01043b9113456363435ddb6f2c2469e8df7fe3d774430b8385a40f46ab3a6b0f/JP0106-PPSA02097_00-ADDCOSTUME000001.json" metadata_ver="40" pfs_revision="35" system_ver="33554432"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ADDCOSTUME000002" name="_Import20201023101738" revision="41">
+<package content_ver="01.000.000" digest="d0983b02c403134f96208591e1cd660e5fc02b30d58293c860ada0b0a3b3ba5b" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ADDCOSTUME000002/info/41/f_3541096be31f517885d279a9b80437c370e3e181c814bbc7deabbc527e39915e/JP0106-PPSA02097_00-ADDCOSTUME000002.json" metadata_ver="41" pfs_revision="36" system_ver="33554432"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ADDCOSTUME000003" name="_Import20201023101755" revision="42">
+<package content_ver="01.000.000" digest="97b13b47d026d05ae65f13c9d7b187077fe6a8a07260deca89a34461419dc1c2" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ADDCOSTUME000003/info/42/f_2fa27e2e08f26addb127144e8d131089bbcbfd64b65f4596f5d5f80a27946e26/JP0106-PPSA02097_00-ADDCOSTUME000003.json" metadata_ver="42" pfs_revision="37" system_ver="33554432"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ADDCOSTUME000004" name="_Import20201023101818" revision="43">
+<package content_ver="01.000.000" digest="7039c072078f0ce759d3b71762acd9f629a9431af71cab811dcd5f409decf459" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ADDCOSTUME000004/info/43/f_1ee2e1d747282f69d8f3ff84a68fe8dba751f5ccbd50bb7bb0e189539272ae53/JP0106-PPSA02097_00-ADDCOSTUME000004.json" metadata_ver="43" pfs_revision="38" system_ver="33554432"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ADDCOSTUME000005" name="_Import20201023101830" revision="44">
+<package content_ver="01.000.000" digest="0006d4156d9056c7e5f2a9aa670c08411717fff00bf63c60ec07091aba9e2923" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ADDCOSTUME000005/info/44/f_59280a485712dc0b2d93e292e058ced52470248f5f5c02f458f7afce038a12d3/JP0106-PPSA02097_00-ADDCOSTUME000005.json" metadata_ver="44" pfs_revision="39" system_ver="33554432"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ADDCOSTUME000007" name="_Import20210115075743" revision="89">
+<package content_ver="01.000.000" digest="7a4430e3fb4bdecf6be0b8e8fb98c501c5157031cd91f712071d1aced15950b3" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ADDCOSTUME000007/info/89/f_98f39e1f517f36d3d2457da4f65a3e2d98eb38395c8040fb8b59841f1368faa9/JP0106-PPSA02097_00-ADDCOSTUME000007.json" metadata_ver="89" pfs_revision="65" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ADDCOSTUME000008" name="_Import20210115075755" revision="90">
+<package content_ver="01.000.000" digest="1e3db248c075936ff829b6100c0f81f4272ad53cdd1a1432f7706f0fbbebdad4" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ADDCOSTUME000008/info/90/f_368be544a7dcc70cef07746f15aa6bddf01e6a6212d08a930aa2f745ec84b796/JP0106-PPSA02097_00-ADDCOSTUME000008.json" metadata_ver="90" pfs_revision="66" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ADDCOSTUME000009" name="_Import20210115075807" revision="91">
+<package content_ver="01.000.000" digest="e2b97f6a48f2aa611f3b6fc478d4f56ee676adbdc77b38aa76fdd6f14c318759" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ADDCOSTUME000009/info/91/f_976cfdc3203c34c7d804ad572af00feed4fd3c79e39d0877230e713919cffb9b/JP0106-PPSA02097_00-ADDCOSTUME000009.json" metadata_ver="91" pfs_revision="67" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ADDCOSTUME000010" name="_Import20210115075818" revision="92">
+<package content_ver="01.000.000" digest="5098b8d6620eedba0500465e5e20fcfec7ae385aa4edf059ce5f1c3b31c54bcd" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ADDCOSTUME000010/info/92/f_d5494dcb6687285ad5201c5483d8ea474c7e0856fb2c8d96feebad5f6e9f6cd6/JP0106-PPSA02097_00-ADDCOSTUME000010.json" metadata_ver="92" pfs_revision="68" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ADDCOSTUME000011" name="_Import20210118042932" revision="96">
+<package content_ver="01.000.000" digest="25902b8e906bc70b295cb37cb6c70ff50ea73fcb3252cde8ef8ce6025d3f4921" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ADDCOSTUME000011/info/96/f_5cb7677a705a8641c82c5308d571a4c075bd357d3789d318a22b62d73f38b529/JP0106-PPSA02097_00-ADDCOSTUME000011.json" metadata_ver="96" pfs_revision="72" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ADDCOSTUME000012" name="_Import20210115075848" revision="94">
+<package content_ver="01.000.000" digest="aa63e20b5a3ed8950fb1853fd36f433ce82c05b1f9f6186c8fbb525e748485ee" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ADDCOSTUME000012/info/94/f_87772b25652108b8b511c51f76fb1536be206d25492f3c03ae395b11fc64f2e2/JP0106-PPSA02097_00-ADDCOSTUME000012.json" metadata_ver="94" pfs_revision="70" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ADDCOSTUME000013" name="_Import20210115075903" revision="95">
+<package content_ver="01.000.000" digest="22b16f10d474c1ba31cd0da12de3d56a23f07cd6218b74b5aa56fb32f241bd27" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ADDCOSTUME000013/info/95/f_0a1cf9ddec9a2493426be6dbc2a1bca1c9b87fa2468bb655e1dcbb421e7512dd/JP0106-PPSA02097_00-ADDCOSTUME000013.json" metadata_ver="95" pfs_revision="71" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ADDMAP0000000000" name="_Import20201023102309" revision="48">
+<package content_ver="01.000.000" digest="d837103393c279e514dd9789c19083a5c52fab2262471f2ab4e9573af9aa93c2" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ADDMAP0000000000/info/48/f_071aad2804e9b12569446d7ca2c6e306c4024d56398343cca48641ca829e97ac/JP0106-PPSA02097_00-ADDMAP0000000000.json" metadata_ver="48" pfs_revision="42" system_ver="33554432"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ADDMAP0000000001" name="_Import20201207034348" revision="64">
+<package content_ver="01.000.000" digest="9fd9aec9a0b2ad4ddd7d23c0139bdf304fb6875db31254f8d2428c73feddbeaf" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ADDMAP0000000001/info/64/f_01e5def6ab79441c647cce303f66acf9c1f75e97362d1280456afb51fa88bfcc/JP0106-PPSA02097_00-ADDMAP0000000001.json" metadata_ver="64" pfs_revision="46" system_ver="36044800"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ADVSYSTEM0000000" name="_Import20201023102240" revision="47">
+<package content_ver="01.000.000" digest="248681c65dacfe49f701d0c6e8dfd23aa802abfaca80fc9a7878b2403f55cefc" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ADVSYSTEM0000000/info/47/f_1d434a063a45a7e36cb568becb302d9f42bd1750ef8f8bd7cada2e1f3332cb11/JP0106-PPSA02097_00-ADVSYSTEM0000000.json" metadata_ver="47" pfs_revision="43" system_ver="33554432"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ADVSYSTEM0000001" name="_Import20201203015529" revision="61">
+<package content_ver="01.000.000" digest="8b10482095ee824bf45f46bdc0731bd9132c892e31737385663b169b58f35a54" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ADVSYSTEM0000001/info/61/f_e71cd5897ab2d97149c87367acbcbe1d45ab001eb3ff9d9d0e5bc91bec902ce9/JP0106-PPSA02097_00-ADVSYSTEM0000001.json" metadata_ver="61" pfs_revision="45" system_ver="36044800"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-BGMPACK000000000" name="_Import20210108090007" revision="71">
+<package content_ver="01.000.000" digest="e92e3904da822da7092308a3346e84c8d5ac211f1cc18f900362152de9bcee4d" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-BGMPACK000000000/info/71/f_b2dc4a986df7fa3b874d98a0ff038205779db5113ce1ff52375ec5d71694d0ba/JP0106-PPSA02097_00-BGMPACK000000000.json" metadata_ver="71" pfs_revision="49" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-BGMPACK000000001" name="_Import20210108090252" revision="72">
+<package content_ver="01.000.000" digest="364c3b9b6dd7ce5df3060d72542f0ed7ad00117c2525aed29bd23bd58d01e3e3" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-BGMPACK000000001/info/72/f_addbcdfb099610b005c637959f016c7d80dcfc52f72bef80aded0d08eb25f041/JP0106-PPSA02097_00-BGMPACK000000001.json" metadata_ver="72" pfs_revision="50" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ITEMPACK00000000" name="_Import20201023101846" revision="45">
+<package content_ver="01.000.000" digest="ceb07f86dd16bf768316d5a4c1db6b291fb22ca3d2ebe6ef5876592ab64dcdcb" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ITEMPACK00000000/info/45/f_504ca49c176c82bfe5f807a25590141468100c41b5c2af3c0e9e60d06bbde136/JP0106-PPSA02097_00-ITEMPACK00000000.json" metadata_ver="45" pfs_revision="40" system_ver="33554432"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02097_00-ITEMPACK00000001" name="_Import20201023101902" revision="46">
+<package content_ver="01.000.000" digest="b14d2d93e55592274dde5091ba97a839c45028e4bdedfdbb6f6a8938a245539c" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02097_00/ac/JP0106-PPSA02097_00-ITEMPACK00000001/info/46/f_38eaf2b1179e75881a075f08750c7e48533196f46abafe828ec4acd5096bce38/JP0106-PPSA02097_00-ITEMPACK00000001.json" metadata_ver="46" pfs_revision="41" system_ver="33554432"/>
+</ac_tag>
+</title_patch>
