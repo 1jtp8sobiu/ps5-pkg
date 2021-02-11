@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01347_00" schema_ver="1.0">
+<app_tag content_id="UP0292-PPSA01347_00-GODFALL000000000" name="_Import20210205175439" revision="21">
+<package bootable_content_ver="02.004.044" content_ver="02.004.044" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01347_00/app/pkg/13/f_e09421fea3c8397dc3a86524e83287c424bcc1cc379c3dea310d25b61254fc51/UP0292-PPSA01347_00-GODFALL000000000-DP.pkg" digest="5a622a636d102649551ab07c90ed65fa29f9d5b5da4823847723f35da1543f72" mandatory="true" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01347_00/app/info/21/f_0616db07152179a332654d518ea925ab628d8bd9e8a6a5d12cdf88804725cea9/UP0292-PPSA01347_00-GODFALL000000000.json" metadata_ver="21" pfs_revision="13" system_ver="36700160"/>
+</app_tag>
+</title_patch>
