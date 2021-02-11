@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01288_00" schema_ver="1.0">
+<app_tag content_id="EP9000-PPSA01288_00-SACKBOYADVENTURE" name="_Import20210209132528" revision="56">
+<package content_ver="01.005.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01288_00/app/pkg/23/f_27481c071368e64b483306e432c58d5f64978370a6bac19efc0fe47f34a6a82c/EP9000-PPSA01288_00-SACKBOYADVENTURE-DP.pkg" digest="4d43d56ebcb6d095a94ded2a101770bad2aa5ee0e153a90a5cacee93711777d9" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01288_00/app/info/56/f_5075392e7b57d621711c65c48316417392388948614c2ca92b18ada322c438fd/EP9000-PPSA01288_00-SACKBOYADVENTURE.json" metadata_ver="56" pfs_revision="23" system_ver="38797312"/>
+</app_tag>
+</title_patch>
