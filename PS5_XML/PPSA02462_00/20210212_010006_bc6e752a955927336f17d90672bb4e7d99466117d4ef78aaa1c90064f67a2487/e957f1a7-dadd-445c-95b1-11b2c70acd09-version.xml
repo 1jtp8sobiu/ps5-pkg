@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="4" nptitleid="PPSA02462_00" schema_ver="1.0">
+<app_tag content_id="JP0106-PPSA02462_00-NIOH2JP000000000" name="_Import20210210140705" revision="21">
+<package content_ver="01.025.001" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02488_00/app/pkg/7/f_58ef77b6674fd724d1d1ed921e38c00b6d51965bbaabffb402ca652bf32b05f2/EP9000-PPSA02488_00-NIOH2EU000000000-DP.pkg" digest="ec171873751ea736cbd5ddb4056506676b13f655e973f1e676ff8ef7af5a1445" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02462_00/app/info/21/f_d00cd2bbab9d874ba12d7f620958822e7bf0f431ddc304a3f8bc4b9e35b0c392/JP0106-PPSA02462_00-NIOH2JP000000000.json" metadata_ver="21" pfs_revision="7" system_ver="38797312"/>
+</app_tag>
+<ac_tag content_id="JP0106-PPSA02462_00-NIOH2SHIP01AC000" name="_Import20201210020433" revision="3">
+<package content_ver="01.000.000" digest="547410999ab91b03e1f665fd7028e341e73a215297cbd1ce9f43cbf01fed99a0" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02462_00/ac/JP0106-PPSA02462_00-NIOH2SHIP01AC000/info/3/f_12e6696da80ed91d5eb70def0c40ac6808f28cd7cc6b85e78bc8754eabcfb07f/JP0106-PPSA02462_00-NIOH2SHIP01AC000.json" metadata_ver="3" pfs_revision="1" system_ver="36044800"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02462_00-NIOH2STORYDLC100" name="_Import20201221100200" revision="17">
+<package content_ver="01.000.000" digest="9641e5589d6ba06e3111373f2c46ba17b416a2dd34bb04954a4dd108ad77362a" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02462_00/ac/JP0106-PPSA02462_00-NIOH2STORYDLC100/info/17/f_5140952a3e5c31e33d024fe3345b400a931170eceaed78b5788e7d4ea1b33ea5/JP0106-PPSA02462_00-NIOH2STORYDLC100.json" metadata_ver="17" pfs_revision="1" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02462_00-NIOH2STORYDLC200" name="_Import20201221100155" revision="16">
+<package content_ver="01.000.000" digest="9370e89f5b44e6b111d657f6dc4706e2c9b808ba3456d8a1e10c348f4ffc1f1c" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02462_00/ac/JP0106-PPSA02462_00-NIOH2STORYDLC200/info/16/f_29ff0504a00015f0fb7bf379920b36cf0958e8a2d4af7d13f69925a380caf9a1/JP0106-PPSA02462_00-NIOH2STORYDLC200.json" metadata_ver="16" pfs_revision="2" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="JP0106-PPSA02462_00-NIOH2STORYDLC300" name="_Import20201221100154" revision="15">
+<package content_ver="01.000.000" digest="f071b1b2ce75d8755960a7019e69c2f8ca0ee0e6cfd83fd96ca10121657e559d" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02462_00/ac/JP0106-PPSA02462_00-NIOH2STORYDLC300/info/15/f_5b6c976702593ecc683305252ed93eca13bd98afcb617fb44ad32c8515694601/JP0106-PPSA02462_00-NIOH2STORYDLC300.json" metadata_ver="15" pfs_revision="3" system_ver="36700160"/>
+</ac_tag>
+<pssdc>
+<nptitleid>PPSA02464_00</nptitleid>
+</pssdc>
+</title_patch>
