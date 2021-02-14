@@ -275,7 +275,6 @@ MISSING	PPSA02114	UP4008-PPSA02114_00-WTASIEA000000000	Werewolf: The Apocalypse 
 	PPSA01527	UP4064-PPSA01527_00-6386505284144437	Worms Rumble	['en-AR', 'en-BR', 'en-CA', 'en-CL', 'en-CO', 'en-MX', 'en-PE', 'en-US', 'es-AR', 'es-BO', 'es-CL', 'es-CO', 'es-CR', 'es-EC', 'es-GT', 'es-HN', 'es-MX', 'es-NI', 'es-PA', 'es-PE', 'es-PY', 'es-SV', 'es-UY', 'fr-CA', 'pt-BR']
 	PPSA01363	EP4008-PPSA01363_00-WRC9SIEE00000000	WRC 9 FIA World Rally Championship	['ar-AE', 'ar-BH', 'ar-KW', 'ar-LB', 'ar-OM', 'ar-QA', 'ar-SA', 'da-DK', 'de-AT', 'de-CH', 'de-DE', 'de-LU', 'en-AE', 'en-AU', 'en-BG', 'en-BH', 'en-CY', 'en-CZ', 'en-DK', 'en-FI', 'en-GB', 'en-GR', 'en-HK', 'en-HR', 'en-HU', 'en-ID', 'en-IE', 'en-IL', 'en-IN', 'en-IS', 'en-KW', 'en-LB', 'en-MT', 'en-MY', 'en-NO', 'en-NZ', 'en-OM', 'en-PL', 'en-QA', 'en-RO', 'en-SA', 'en-SE', 'en-SG', 'en-SI', 'en-SK', 'en-TH', 'en-TR', 'en-TW', 'en-ZA', 'es-ES', 'fi-FI', 'fr-BE', 'fr-CH', 'fr-FR', 'fr-LU', 'it-CH', 'it-IT', 'ko-KR', 'nl-BE', 'nl-NL', 'no-NO', 'pl-PL', 'pt-PT', 'ru-RU', 'ru-UA', 'sv-SE', 'tr-TR', 'zh-HK', 'zh-TW']
 	PPSA01364	UP4008-PPSA01364_00-WRC9SIEA00000000	WRC 9 FIA World Rally Championship	['en-AR', 'en-BR', 'en-CA', 'en-CL', 'en-CO', 'en-MX', 'en-PE', 'en-US', 'es-AR', 'es-BO', 'es-CL', 'es-CO', 'es-CR', 'es-EC', 'es-GT', 'es-HN', 'es-MX', 'es-NI', 'es-PA', 'es-PE', 'es-PY', 'es-SV', 'es-UY', 'fr-CA', 'pt-BR']
-MISSING	PPSA02690	JP0177-PPSA02690_00	Yakuza: Like a Dragon Legendary Hero Edition	['en-HK', 'en-ID', 'en-MY', 'en-SG', 'en-TH', 'en-TW', 'ja-JP', 'ko-KR', 'zh-HK', 'zh-TW']
 MISSING	PPSA01780	JP0082-PPSA01780_00	アウトライダーズ	['ja-JP']
 MISSING	PPSA01890	JP0082-PPSA01890_00	バランワンダーワールド PS4 and PS5	['ja-JP']
 	PPSA02097	JP0106-PPSA02097_00-RYZA200000MASTER	ライザのアトリエ２ ～失われた伝承と秘密の妖精～	['ja-JP']
@@ -283,3 +282,4 @@ MISSING	PPSA01475	JP9000-PPSA01475_00	ラチェット＆クランク パラレ�
 MISSING	PPSA01815	JP9000-PPSA01815_00-SACKBOYBONUS0001	リビッツ！ビッグ・アドベンチャー ボーナスコンテンツ	['ja-JP']
 MISSING	PPSA01401	JP0001-PPSA01401_00-RAINBOWSIXSIEGE0	レインボーシックス　シージ	['ja-JP']
 	PPSA02095	HP0106-PPSA02095_00-RYZA200000MASTER	萊莎的鍊金工房２ ～失落傳說與秘密妖精～	['en-HK', 'en-ID', 'en-MY', 'en-SG', 'en-TH', 'en-TW', 'zh-HK', 'zh-TW']
+	PPSA02690	JP0177-PPSA02690_00-LIKEADRAGON00000	龍が如く７　光と闇の行方　インターナショナル	['en-HK', 'en-ID', 'en-MY', 'en-SG', 'en-TH', 'en-TW', 'ja-JP', 'ko-KR', 'zh-HK', 'zh-TW']
