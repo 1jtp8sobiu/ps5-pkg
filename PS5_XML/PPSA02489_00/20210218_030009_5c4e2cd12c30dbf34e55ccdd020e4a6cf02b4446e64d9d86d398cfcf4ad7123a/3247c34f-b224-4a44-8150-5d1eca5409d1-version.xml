@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="3" nptitleid="PPSA02489_00" schema_ver="1.0">
+<app_tag content_id="UP9000-PPSA02489_00-NIOH2NA000000000" name="_Import20210217143959" revision="20">
+<package content_ver="01.026.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02488_00/app/pkg/8/f_913c9783f760a5dade0b9e23203190ca400225883e7003dbdd5d9d8ded26c2a8/EP9000-PPSA02488_00-NIOH2EU000000000-DP.pkg" digest="3479c011e3df3ef7c7fd7dfb1fea59b4e3fd6d719b7b1e9664dfc06ceaf9cd2d" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02489_00/app/info/20/f_a08e1ad41a571784de81612c4d317040bb92ba3cf1b0a500fdec62cdd39ef2f1/UP9000-PPSA02489_00-NIOH2NA000000000.json" metadata_ver="20" pfs_revision="8" system_ver="38797312"/>
+</app_tag>
+<ac_tag content_id="UP9000-PPSA02489_00-NIOH2STORYDLC100" name="_Import20201221100245" revision="15">
+<package content_ver="01.000.000" digest="22ae14f73e0be47151b340548b062cb490aa5caa5794f2a67efb87941a049670" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02489_00/ac/UP9000-PPSA02489_00-NIOH2STORYDLC100/info/15/f_413243d933675639d2d2bb8f5ee22b3ec6bf577f3e06b4b14666a12985532630/UP9000-PPSA02489_00-NIOH2STORYDLC100.json" metadata_ver="15" pfs_revision="1" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="UP9000-PPSA02489_00-NIOH2STORYDLC200" name="_Import20201221100244" revision="14">
+<package content_ver="01.000.000" digest="cfb9d7c1ecc25a1f2e2fc222c07b191d2efe8a5856b3b4400f4075e1ac7942be" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02489_00/ac/UP9000-PPSA02489_00-NIOH2STORYDLC200/info/14/f_f1c5cedd31e05fd6540af9cf253506101be6a5daf3c5f53fa5dd543f3dac353b/UP9000-PPSA02489_00-NIOH2STORYDLC200.json" metadata_ver="14" pfs_revision="2" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="UP9000-PPSA02489_00-NIOH2STORYDLC300" name="_Import20201221100239" revision="13">
+<package content_ver="01.000.000" digest="c26955cfeced652d5f9768ef0f66a5fb0684996a05507531f8f4f2fe32b9a2bc" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02489_00/ac/UP9000-PPSA02489_00-NIOH2STORYDLC300/info/13/f_b7dcbfe100ac9a04c2ae6143418f1db32ee099c7c4793e1c79c780d318eb7afe/UP9000-PPSA02489_00-NIOH2STORYDLC300.json" metadata_ver="13" pfs_revision="3" system_ver="36700160"/>
+</ac_tag>
+<pssdc>
+<nptitleid>PPSA02484_00</nptitleid>
+</pssdc>
+</title_patch>
