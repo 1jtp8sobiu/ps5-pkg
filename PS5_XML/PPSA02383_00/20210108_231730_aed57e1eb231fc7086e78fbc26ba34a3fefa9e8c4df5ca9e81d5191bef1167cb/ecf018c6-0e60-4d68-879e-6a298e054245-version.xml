@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02383_00" schema_ver="1.0">
+<app_tag content_id="UP0177-PPSA02383_00-LIKEADRAGON00000" name="_Import20210107215348" revision="45">
+<package content_ver="01.000.000" digest="12602bb9d88ddce821af33b4f82e1c20c1349862ccf30b63d4f673c07a5d8af3" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02383_00/app/info/45/f_0c9dc7cb447b290f34e04c8b5ad16d7f40e83a2ece4c3d92196bc09908f5c7c7/UP0177-PPSA02383_00-LIKEADRAGON00000.json" metadata_ver="45" pfs_revision="6" system_ver="36700160"/>
+</app_tag>
+<pssdc>
+<nptitleid>CUSA16734_00</nptitleid>
+</pssdc>
+</title_patch>
