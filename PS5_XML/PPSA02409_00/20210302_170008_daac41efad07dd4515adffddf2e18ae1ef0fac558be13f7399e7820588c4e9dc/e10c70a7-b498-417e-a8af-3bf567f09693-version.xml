@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02409_00" schema_ver="1.0">
+<app_tag content_id="UP0002-PPSA02409_00-DESTINYTHEGAME02" name="_Import20210226070800" revision="32">
+<package bootable_content_ver="01.008.000" content_ver="01.008.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02409_00/app/pkg/9/f_e8890d81006be54ce03c012abb789d86d9f005d613495c2e65714f3120fb57f8/UP0002-PPSA02409_00-DESTINYTHEGAME02-DP.pkg" digest="56e60bb2d89122dc0a20670dcb1d7deeb5a4f5bbaee2306f4c7ae1b790036d84" mandatory="true" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02409_00/app/info/32/f_e5d1c0af0d95e555cedafa1c8a12aecbe95167da4abb57c7e256d059d412c033/UP0002-PPSA02409_00-DESTINYTHEGAME02.json" metadata_ver="32" pfs_revision="9" system_ver="38797312"/>
+</app_tag>
+<pssdc>
+<nptitleid>CUSA05042_00</nptitleid>
+</pssdc>
+</title_patch>
