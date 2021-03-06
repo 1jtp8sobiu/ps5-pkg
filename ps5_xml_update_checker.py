@@ -237,6 +237,11 @@ def main():
                 error_count += 1
                 time.sleep(180)
                 continue
+            except http.client.RemoteDisconnected as err:
+                print(f'error {err}')
+                error_count += 1
+                time.sleep(180)
+                continue
 
             ## エラーチェック
             if xml_data:
