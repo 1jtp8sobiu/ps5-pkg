@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02944_00" schema_ver="1.0">
+<app_tag content_id="UP1675-PPSA02944_00-SYPS5DUGEONSBOMB" name="_Import20210312115929" revision="5">
+<package content_ver="01.000.001" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02944_00/app/pkg/5/f_9565281c4ebd9573b3c7ee8545242b99a96c0c8d9eccc82f708e7014781fdb4c/UP1675-PPSA02944_00-SYPS5DUGEONSBOMB-DP.pkg" digest="74995bf1c4c22643eeef3cd23e3af3fe4a5bef93d4b17d25a159d6b8fb1e7f92" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02944_00/app/info/5/f_50c4c084895527e1009e7ccab122102c88f680693baa2195e40a288f2ca26131/UP1675-PPSA02944_00-SYPS5DUGEONSBOMB.json" metadata_ver="5" pfs_revision="5" system_ver="38797312"/>
+</app_tag>
+</title_patch>

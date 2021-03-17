@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01890_00" schema_ver="1.0">
+<app_tag content_id="JP0082-PPSA01890_00-BALANWW500000001" name="_Import20210108064738" revision="5">
+<package content_ver="01.000.000" digest="323d09f9c215cef647941d1aa73a35db2711a6361ba114b642e9d85f9918db6b" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01890_00/app/info/5/f_8cebec6a24fb0cef75add5d27d9e7831f16d2071e3e6bace59326eb0e85262bf/JP0082-PPSA01890_00-BALANWW500000001.json" metadata_ver="5" pfs_revision="4" system_ver="36700160"/>
+</app_tag>
+<pssdc>
+<nptitleid>PPSA02445_00</nptitleid>
+</pssdc>
+</title_patch>

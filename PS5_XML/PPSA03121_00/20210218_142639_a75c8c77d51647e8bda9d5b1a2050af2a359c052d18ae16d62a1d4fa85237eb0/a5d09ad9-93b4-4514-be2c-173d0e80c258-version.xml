@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA03121_00" schema_ver="1.0">
+<app_tag content_id="EP6876-PPSA03121_00-SYPS5SIRLOVELOT0" name="_Import20210218135447" revision="4">
+<package content_ver="01.000.002" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA03121_00/app/pkg/4/f_6617ce577553a7933c7f2f926cfe632b1bed003c008a1364d481c9316ff90ff2/EP6876-PPSA03121_00-SYPS5SIRLOVELOT0-DP.pkg" digest="a95f2a6ebfcc987b9d6a7cc85c3ecf7a5daa7ef9b9a28f1e6253bab5ffbfa3a0" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA03121_00/app/info/4/f_c6aab5f8975aa13bdaad8cf8561caee423c3b0b270bbb3048ceedac3a91b4b5d/EP6876-PPSA03121_00-SYPS5SIRLOVELOT0.json" metadata_ver="4" pfs_revision="4" system_ver="38797312"/>
+</app_tag>
+</title_patch>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02925_00" schema_ver="1.0">
+<app_tag content_id="UP0891-PPSA02925_00-RATATHUNDERFLASH" name="_Import20210129175352" revision="2">
+<package content_ver="01.001.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02925_00/app/pkg/2/f_b4ae818a3a2ae1a5d1359322c7f7737c97a1283fc20a5ee7825e6e6c16c25f3c/UP0891-PPSA02925_00-RATATHUNDERFLASH-DP.pkg" digest="36d881fa231cc7aaaa24835ef1517d4d0a01025dc5d6c27629451536d0e4cb52" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02925_00/app/info/2/f_71d167ba021996cee501c9c85149a81229529922873c70f65117b03fa6b389c6/UP0891-PPSA02925_00-RATATHUNDERFLASH.json" metadata_ver="2" pfs_revision="2" system_ver="36700160"/>
+</app_tag>
+</title_patch>

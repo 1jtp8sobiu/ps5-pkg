@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02792_00" schema_ver="1.0">
+<app_tag content_id="UP1675-PPSA02792_00-SYPS5ACTIVENEUR3" name="_Import20210224134906" revision="7">
+<package content_ver="01.000.001" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02792_00/app/pkg/7/f_ed8d21c020439623dae241a601a43877f00ad2da2004ed5454cddf21333ff243/UP1675-PPSA02792_00-SYPS5ACTIVENEUR3-DP.pkg" digest="6908a9a2e282f2aea41adba21841b288c49ddb12af9e4a8070f6c15674e02840" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02792_00/app/info/7/f_6103349125ad3f9dbc756d8b6d53c3e1ce8a3f76d8b6b47f503e87c48a44ba51/UP1675-PPSA02792_00-SYPS5ACTIVENEUR3.json" metadata_ver="7" pfs_revision="7" system_ver="38797312"/>
+</app_tag>
+</title_patch>

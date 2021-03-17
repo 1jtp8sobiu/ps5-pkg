@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01883_00" schema_ver="1.0">
+<app_tag content_id="EP8903-PPSA01883_00-CYBERSHADOW00001" name="_Import20201218145337" revision="2">
+<package content_ver="01.000.001" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01882_00/app/pkg/2/f_f812c74df9f2b9f159e64e73ed26e29815630854e835d7e805c32ff6dfe18f8e/UP2200-PPSA01882_00-CYBERSHADOW00001-DP.pkg" digest="e907e018e97490ee28fc2135f6e8ea0a9053495f9e05830e51005581cfeabc9f" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01883_00/app/info/2/f_988ed56ab51d11bfad55a4f404fd7426a05d33049a768d108fee118f2106ab0a/EP8903-PPSA01883_00-CYBERSHADOW00001.json" metadata_ver="2" pfs_revision="2" system_ver="36700160"/>
+</app_tag>
+</title_patch>

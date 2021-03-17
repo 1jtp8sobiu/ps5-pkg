@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02271_00" schema_ver="1.0">
+<app_tag content_id="EP4403-PPSA02271_00-TESLAFORCE000000" name="_Import20201203134516" revision="5">
+<package content_ver="01.002.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02270_00/app/pkg/5/f_4afe0d83d95d65ae6f20728fc5f801cf81fffc6a082aabc0c48aa14d815a6259/UP4403-PPSA02270_00-TESLAFORCE000000-DP.pkg" digest="07788e61e0760587da2b712840fedfc4d22a8af5dec65b343155121a93fc8f44" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02271_00/app/info/5/f_b6c55711422a7218fe058a7f8241bb39bea0f568c4c00990fef6f25ee8c5173f/EP4403-PPSA02271_00-TESLAFORCE000000.json" metadata_ver="5" pfs_revision="5" system_ver="36044800"/>
+</app_tag>
+</title_patch>

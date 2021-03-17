@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01832_00" schema_ver="1.0">
+<app_tag content_id="EP2333-PPSA01832_00-MAQUETTESIEE0000" name="_Import20210315155248" revision="10">
+<package content_ver="01.004.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01831_00/app/pkg/9/f_5bc3068d5eed42cf7bd5f7a1c3c037c51348d5719b9e8b7db548b169b33a7af8/UP2470-PPSA01831_00-MAQUETTESIEA0000-DP.pkg" digest="98041c147769153cfb9d80fb24c887a2041126476a48db484a46f5b486209425" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01832_00/app/info/10/f_2d433f1bb66d89d96630885e0880f3dd9df8cc8599a87fc9ccc987aba4109d54/EP2333-PPSA01832_00-MAQUETTESIEE0000.json" metadata_ver="10" pfs_revision="9" system_ver="38797312"/>
+</app_tag>
+</title_patch>

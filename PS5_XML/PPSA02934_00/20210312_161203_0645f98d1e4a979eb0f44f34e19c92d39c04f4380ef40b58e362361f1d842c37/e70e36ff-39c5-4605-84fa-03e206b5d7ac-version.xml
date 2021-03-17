@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02934_00" schema_ver="1.0">
+<app_tag content_id="EP0896-PPSA02934_00-RATALAIKAPINKMAN" name="_Import20210129185858" revision="4">
+<package content_ver="01.001.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02934_00/app/pkg/4/f_a4e7be3a41c26aaddfd27bed77fe83fc4f9dbcb09f5b239e1f0443dc3e71291e/EP0896-PPSA02934_00-RATALAIKAPINKMAN-DP.pkg" digest="b7b561f25d2942b40cd596570eb451b1207f7e37ef7c8c9502db4f968e715c81" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02934_00/app/info/4/f_5789b36e50a93f85b08e700d5450880e4abd6545ab6023c612a0ac1f101c50af/EP0896-PPSA02934_00-RATALAIKAPINKMAN.json" metadata_ver="4" pfs_revision="4" system_ver="36700160"/>
+</app_tag>
+</title_patch>

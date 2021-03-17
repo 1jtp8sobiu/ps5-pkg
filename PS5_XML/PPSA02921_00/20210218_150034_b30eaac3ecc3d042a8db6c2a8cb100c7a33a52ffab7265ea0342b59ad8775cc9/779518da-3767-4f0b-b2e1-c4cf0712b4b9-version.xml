@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="5" nptitleid="PPSA02921_00" schema_ver="1.0">
+<app_tag content_id="JP4860-PPSA02921_00-7227145746686481" name="_Import20210209190234" revision="11">
+<package content_ver="01.001.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01772_00/app/pkg/7/f_e955365d50b45a6ace2ef7339b43682a480385591985d7a4419b9f2c6bbf5df9/EP5205-PPSA01772_00-THESINKINGCITYUA-DP.pkg" digest="79a3bc625c0690f126b17927f35cd0736698c716970e9dfe2d2b58020d4db410" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02921_00/app/info/11/f_25785a35564a2d6e7a5af024917a4d86451ee946dad35c1c36dc1cf0446f69b3/JP4860-PPSA02921_00-7227145746686481.json" metadata_ver="11" pfs_revision="7" system_ver="38797312"/>
+</app_tag>
+<ac_tag content_id="JP4860-PPSA02921_00-2283684511916002" name="_Import20210129093132" revision="3">
+<package content_ver="01.000.000" digest="fc9721d908023d6fd4465dbab682de779bb804d0138cc136c38ae5ddef5fe738" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02921_00/ac/JP4860-PPSA02921_00-2283684511916002/info/3/f_f51e7971d964231bc1e2e71deefd7eb9aead5382d0854a2731bc8f9d2598d7eb/JP4860-PPSA02921_00-2283684511916002.json" metadata_ver="3" pfs_revision="7" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="JP4860-PPSA02921_00-4149655130353349" name="_Import20210129093133" revision="4">
+<package content_ver="01.000.000" digest="1da9a6b208bdea57f8d3d973d1c25e54a8e6931c60d3350d33f67c46c7499fc4" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02921_00/ac/JP4860-PPSA02921_00-4149655130353349/info/4/f_4e1a2dad800c60750fc7869f778297d523e403f507642ad3ee6bfe7ab00eeb49/JP4860-PPSA02921_00-4149655130353349.json" metadata_ver="4" pfs_revision="8" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="JP4860-PPSA02921_00-4992521207525449" name="_Import20210129093136" revision="5">
+<package content_ver="01.000.000" digest="3674be99f6570392f3d84d3cea2f8f9c415bf76c9ef49152c6d048767a34b5f4" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02921_00/ac/JP4860-PPSA02921_00-4992521207525449/info/5/f_6412ab9d1fea3b21291173ed73e0d3d31d863ac99edbec87616c9046ed90e0d4/JP4860-PPSA02921_00-4992521207525449.json" metadata_ver="5" pfs_revision="6" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="JP4860-PPSA02921_00-5580328944378172" name="_Import20210129093138" revision="6">
+<package content_ver="01.000.000" digest="67c4e1219c49b0a8ac879a5bbe54d0de163372a5a9bc0b94fb7689a8a1d1634c" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02921_00/ac/JP4860-PPSA02921_00-5580328944378172/info/6/f_4de33886de067151024acd078d4fe69f4d14039bca7a467130c811904e26aca8/JP4860-PPSA02921_00-5580328944378172.json" metadata_ver="6" pfs_revision="10" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="JP4860-PPSA02921_00-9329305639516002" name="_Import20210129093131" revision="2">
+<package content_ver="01.000.000" digest="d27261a5c7cfc8fd9852ba21ee7654da733010ff563b19264dca9462630d6d8f" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02921_00/ac/JP4860-PPSA02921_00-9329305639516002/info/2/f_c880bc560d708999027f9d02c18222a90b38dff232355b4fbe2dc1e990678c0e/JP4860-PPSA02921_00-9329305639516002.json" metadata_ver="2" pfs_revision="9" system_ver="36700160"/>
+</ac_tag>
+</title_patch>

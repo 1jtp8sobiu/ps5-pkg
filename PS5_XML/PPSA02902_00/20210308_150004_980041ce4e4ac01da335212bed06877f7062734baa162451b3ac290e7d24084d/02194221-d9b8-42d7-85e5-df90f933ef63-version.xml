@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02902_00" schema_ver="1.0">
+<app_tag content_id="UP1675-PPSA02902_00-SYPS5THELIGHTREM" name="_Import20210308135428" revision="5">
+<package content_ver="01.000.001" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02902_00/app/pkg/5/f_ee1ba7e2c31bffcad1d7cd844588ce6fa912eadb1ed2b47fe694f3c683e96002/UP1675-PPSA02902_00-SYPS5THELIGHTREM-DP.pkg" digest="3b4ca4ad4d2d35a9db8d1121d43043f8ca48c5549fa6bf650e20ad6bcfba4537" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02902_00/app/info/5/f_76fff1a5c0de4a1c2c803f5aeb9a41595fb65a8496b17976f97a61beff0e7e19/UP1675-PPSA02902_00-SYPS5THELIGHTREM.json" metadata_ver="5" pfs_revision="5" system_ver="38797312"/>
+</app_tag>
+</title_patch>
