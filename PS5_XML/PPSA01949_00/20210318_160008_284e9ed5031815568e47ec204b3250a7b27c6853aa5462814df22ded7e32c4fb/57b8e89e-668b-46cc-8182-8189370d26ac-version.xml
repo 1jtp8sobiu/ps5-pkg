@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01949_00" schema_ver="1.0">
+<app_tag content_id="UP4040-PPSA01949_00-CONTROLUEPS50000" name="_Import20210310100635" revision="10">
+<package content_ver="01.000.003" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01949_00/app/pkg/10/f_dfebe8d5405ee9f91aa4f006da3ff21c5d08ecd8a3e7e3122436bf3bd7f70b8c/UP4040-PPSA01949_00-CONTROLUEPS50000-DP.pkg" digest="11dacae47184e7c4cd8bd65cfc50d872b673151d6749e646a832066a39e4e17b" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01949_00/app/info/10/f_82873c281c0982ec009821202286f3c82b62d7b59f62d5ce71d80b3f8ae68a4a/UP4040-PPSA01949_00-CONTROLUEPS50000.json" metadata_ver="10" pfs_revision="10" system_ver="38797312"/>
+</app_tag>
+</title_patch>
