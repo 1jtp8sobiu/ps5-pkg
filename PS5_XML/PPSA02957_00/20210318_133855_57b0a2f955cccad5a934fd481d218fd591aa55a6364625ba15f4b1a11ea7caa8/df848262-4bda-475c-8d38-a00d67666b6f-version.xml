@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02957_00" schema_ver="1.0">
+<app_tag content_id="UP4396-PPSA02957_00-SHINGGAME0000002" name="_Import20210309111257" revision="5">
+<package content_ver="01.001.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02806_00/app/pkg/6/f_fa9d436c1410b56d0f391d777e1f7d802c1dbf7fbd48f134ecc5ee0ed61a582d/EP4396-PPSA02806_00-SHINGGAME0000002-DP.pkg" digest="512f3e94fc0f23487a1a1cfbfdf1dd63a74c660354cec3ce51f17d5e0875c8bd" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02957_00/app/info/5/f_999f6740ceab0273ae491e5f302187d320536bd0729427c8e879b27ad3c01ff8/UP4396-PPSA02957_00-SHINGGAME0000002.json" metadata_ver="5" pfs_revision="6" system_ver="38797312"/>
+</app_tag>
+</title_patch>
