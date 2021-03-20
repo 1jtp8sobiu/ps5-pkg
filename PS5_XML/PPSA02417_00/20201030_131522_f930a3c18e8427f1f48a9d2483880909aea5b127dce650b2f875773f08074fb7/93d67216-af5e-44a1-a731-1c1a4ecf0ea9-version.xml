@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02417_00" schema_ver="1.0">
+<app_tag content_id="UP4735-PPSA02417_00-OVERRIDE2BETA000" name="_Import20201030010837" revision="5">
+<package content_ver="01.000.000" digest="efbed6b86cdca61c7ea9e6864bae73efc38e4f3d67e983b2adc37ccecf1ff495" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02417_00/app/info/5/f_afc6e51d0ceacffb0e5701a23b7290dd16ef97a141ecb9d057f518c633d31750/UP4735-PPSA02417_00-OVERRIDE2BETA000.json" metadata_ver="5" pfs_revision="1" system_ver="33554432"/>
+</app_tag>
+</title_patch>
