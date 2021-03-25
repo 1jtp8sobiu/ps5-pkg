@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02081_00" schema_ver="1.0">
+<app_tag content_id="UP2064-PPSA02081_00-6604754658486500" name="_Import20210325120212" revision="27">
+<package bootable_content_ver="01.011.000" content_ver="01.011.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02081_00/app/pkg/24/f_db04c829ceaf278724a0ac923d326071e4e10b673bb2088c421dfc729c0c92ba/UP2064-PPSA02081_00-6604754658486500-DP.pkg" digest="b0445e74d4ba5eb2c9ff5c2e37133edab08e6b43f94cbccd2ce7be076fc32130" mandatory="true" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02081_00/app/info/25/f_084f06d310ec9bfc132391961d7b913f6a3f0266a2b155beca432c616c0bc6d9/UP2064-PPSA02081_00-6604754658486500.json" metadata_ver="25" pfs_revision="24" system_ver="36700160"/>
+<package bootable_content_ver="01.013.000" content_ver="01.013.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02081_00/app/pkg/26/f_a9fe24f2da80bf89a3458cc25e06d39cdf6ca66a890ef90eb6ec10ac9d54c452/UP2064-PPSA02081_00-6604754658486500-DP.pkg" digest="a8b7cc2e94ded1f9a035742dd3132c8ab41d250c2820cef059429a5f3c72bb4c" mandatory="true" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02081_00/app/info/27/f_56d2948b09ccdbd86746d884dc47c32934aea98851855d2067d436cdaced3767/UP2064-PPSA02081_00-6604754658486500.json" metadata_ver="27" pfs_revision="26" selective="true" system_ver="38797312">
+<distro_predownload>
+<distribution_date date="2021-03-25T02:00:00Z" percentage="5"/>
+<distribution_date date="2021-03-25T19:00:00Z" percentage="20"/>
+<installable_date date="2021-03-25T19:00:00Z"/>
+</distro_predownload>
+</package>
+</app_tag>
+</title_patch>
