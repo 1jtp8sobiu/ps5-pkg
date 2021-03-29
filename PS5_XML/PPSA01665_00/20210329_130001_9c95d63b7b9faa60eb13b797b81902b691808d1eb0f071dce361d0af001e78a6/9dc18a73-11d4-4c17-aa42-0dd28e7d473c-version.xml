@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01665_00" schema_ver="1.0">
+<app_tag content_id="UP8902-PPSA01665_00-TWITCHPS5APPSCEA" name="_Import20210324212429" revision="5">
+<package bootable_content_ver="07.000.000" content_ver="07.000.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01665_00/app/pkg/4/f_f7b98a602e1826d803f67ea30c98ef52b88eba6a8fd0d0ae729e026aaca78f02/UP8902-PPSA01665_00-TWITCHPS5APPSCEA-DP.pkg" digest="73067682f8c02375cd585002d176381a71422c79060f70863e127cd6525d46fd" mandatory="true" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01665_00/app/info/4/f_a774d63e9a0356819fed4d1e37fb2bd7ecc2f71a483ea9fdee9181259b99fb54/UP8902-PPSA01665_00-TWITCHPS5APPSCEA.json" metadata_ver="4" pfs_revision="4" system_ver="38797312"/>
+<package bootable_content_ver="08.000.000" content_ver="08.000.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01665_00/app/pkg/5/f_55c03c31eea58324302dc192f4c3b8d359f44c7b8b1b6bfb6ee0ca78c9de5439/UP8902-PPSA01665_00-TWITCHPS5APPSCEA-DP.pkg" digest="af8ef50bc1aaacd2d40030b62ba5ae9c869d2c2677c5dc06c1e768d88eace110" mandatory="true" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01665_00/app/info/5/f_4bf2b33a4590030d954722d593b87cbb7007fb6a7ce76cc2326d71fd9fd1abcd/UP8902-PPSA01665_00-TWITCHPS5APPSCEA.json" metadata_ver="5" pfs_revision="5" selective="true" system_ver="38797312">
+<distro_predownload>
+<distribution_date date="2021-03-29T13:00:00Z" percentage="50"/>
+<installable_date date="2021-03-29T13:00:00Z"/>
+</distro_predownload>
+</package>
+</app_tag>
+</title_patch>
