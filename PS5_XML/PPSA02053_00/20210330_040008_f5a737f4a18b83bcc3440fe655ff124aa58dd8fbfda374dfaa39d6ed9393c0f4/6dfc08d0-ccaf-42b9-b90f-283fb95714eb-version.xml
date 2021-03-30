@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="3" nptitleid="PPSA02053_00" schema_ver="1.0">
+<app_tag content_id="HP0002-PPSA02053_00-CODCWTHEGAME0001" name="_Import20210319225207" revision="22">
+<package content_ver="01.014.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02053_00/app/pkg/16/f_70f33ec71d3aa3165829cb7b54e074313d7b1b984bfdced0e3bf770351fa2296/HP0002-PPSA02053_00-CODCWTHEGAME0001-DP.pkg" digest="e9d9bb953c3f8df3e104847d100caf142293c2fbab1d468d8382d9086b82d021" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02053_00/app/info/22/f_02928a995117b0d4ef90cfff10161c040d9dd88e42d44c935e6463313a11c919/HP0002-PPSA02053_00-CODCWTHEGAME0001.json" metadata_ver="22" pfs_revision="16" system_ver="38797312"/>
+</app_tag>
+<ac_tag content_id="HP0002-PPSA02053_00-CODCWCONTENTSP01" name="_Import20201024202801" revision="5">
+<package content_ver="01.000.000" digest="0c933cfd03e96b3c89896663e64b85adfbc89f6d53f4959b842c320ec2e854de" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02053_00/ac/HP0002-PPSA02053_00-CODCWCONTENTSP01/info/5/f_70ca4646e61d341c54b58bce2a70b9af4e6a4bedf255c89050b6974faec9eb51/HP0002-PPSA02053_00-CODCWCONTENTSP01.json" metadata_ver="5" pfs_revision="4" system_ver="33554432"/>
+</ac_tag>
+<ac_tag content_id="HP0002-PPSA02053_00-CODCWCONTENTSP02" name="_Import20201024213402" revision="7">
+<package content_ver="01.000.000" digest="fc3f68d26526debbf7a4d60ebe68f3107e49230f6dc860f9a354a20e23590d6d" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02053_00/ac/HP0002-PPSA02053_00-CODCWCONTENTSP02/info/7/f_b2574118351fd7eb2ba009dabe2376f84a41fa4a98811c74aa167df47740bf30/HP0002-PPSA02053_00-CODCWCONTENTSP02.json" metadata_ver="7" pfs_revision="5" system_ver="33554432"/>
+</ac_tag>
+<ac_tag content_id="HP0002-PPSA02053_00-CODCWCONTENTSP03" name="_Import20201024221306" revision="8">
+<package content_ver="01.000.000" digest="b9480dbadde6afa26db43114e6a8385cd038b09049f90e5d63566de316b3ec3a" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02053_00/ac/HP0002-PPSA02053_00-CODCWCONTENTSP03/info/8/f_bbe6c45677c2515602df725f98ff59346e5d529582ca370bbb88b38425dbfe4d/HP0002-PPSA02053_00-CODCWCONTENTSP03.json" metadata_ver="8" pfs_revision="6" system_ver="33554432"/>
+</ac_tag>
+<pssdc>
+<nptitleid>CUSA24269_00</nptitleid>
+</pssdc>
+</title_patch>
