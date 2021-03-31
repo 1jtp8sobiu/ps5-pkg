@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02918_00" schema_ver="1.0">
+<app_tag content_id="UP1675-PPSA02918_00-SYPS5ESCAPELIFEI" name="_Import20210204152730" revision="6">
+<package content_ver="01.000.001" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02918_00/app/pkg/6/f_979902df27ce193962d7e9188fc9276c9d7e74c21ceb6f83cf987bb2393130a6/UP1675-PPSA02918_00-SYPS5ESCAPELIFEI-DP.pkg" digest="0b3814bb6a8364adbe8fbe4ad73b72d5248ddf74fd658b6674e31b7ef8bd07bd" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02918_00/app/info/6/f_913d25b6c856b07e572ca0cc29d9a78301d34a3a04d57bd66bec95ffe3191a2d/UP1675-PPSA02918_00-SYPS5ESCAPELIFEI.json" metadata_ver="6" pfs_revision="6" system_ver="36700160"/>
+</app_tag>
+</title_patch>
