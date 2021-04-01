@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01343_00" schema_ver="1.0">
+<app_tag content_id="UP0006-PPSA01343_00-MADDENNFL21GAME1" name="_Import20210326155911" revision="22">
+<package content_ver="01.012.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01343_00/app/pkg/22/f_be586cc033537dc69fea035540cac654a42bfeab13868533c6472b340559b416/UP0006-PPSA01343_00-MADDENNFL21GAME1-DP.pkg" digest="8727b22f4c6a8aa4df945625bef08c468d827b5cb9fd7fc71257dd31578292f4" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01343_00/app/info/22/f_f7c8ba995e5cc22bb7c964e9d9edeef9d34d79b7547e26e1e94e28eac91eef65/UP0006-PPSA01343_00-MADDENNFL21GAME1.json" metadata_ver="22" pfs_revision="22" system_ver="38797312"/>
+</app_tag>
+<pssdc>
+<nptitleid>CUSA15087_00</nptitleid>
+<nptitleid>CUSA17707_00</nptitleid>
+</pssdc>
+</title_patch>
