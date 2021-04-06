@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01327_00" schema_ver="1.0">
+<app_tag content_id="UP0006-PPSA01327_00-FIFAFOOTBALL2021" name="_Import20210325175428" revision="17">
+<package bootable_content_ver="01.000.010" content_ver="01.000.010" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01326_00/app/pkg/16/f_40089c43dbfdfde5a2ad96e4e55aefd02d0bee68cf192bf6c2cff0dcaf66c6eb/EP0006-PPSA01326_00-FIFAFOOTBALL2021-DP.pkg" digest="1e15e463c65494ab66beff3dca9b0dc784719b61d85ccfa3f15111b8ec9431d6" mandatory="true" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01327_00/app/info/17/f_34d104034c40cc502c73ec2008c3c753eed9881a30a057d204b2391aff09db23/UP0006-PPSA01327_00-FIFAFOOTBALL2021.json" metadata_ver="17" pfs_revision="16" system_ver="38797312"/>
+</app_tag>
+<pssdc>
+<nptitleid>CUSA15087_00</nptitleid>
+<nptitleid>CUSA19013_00</nptitleid>
+</pssdc>
+</title_patch>
