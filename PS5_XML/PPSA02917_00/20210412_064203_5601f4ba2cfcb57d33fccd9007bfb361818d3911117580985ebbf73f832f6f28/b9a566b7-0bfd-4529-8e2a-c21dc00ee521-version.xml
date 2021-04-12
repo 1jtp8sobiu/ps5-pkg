@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02917_00" schema_ver="1.0">
+<app_tag content_id="UP6254-PPSA02917_00-AUTOCHESS202100A" name="_Import20210409071637" revision="28">
+<package content_ver="01.002.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02916_00/app/pkg/16/f_f85b1c73bb3fda94ed5c28794043850a7f67230196d836caac5e69e5e5bcf343/EP8088-PPSA02916_00-AUTOCHESS202100E-DP.pkg" digest="8b84ef64af692faaf2002a86a7705b3c54dcd134f223e3b764793db6b09bee90" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02917_00/app/info/28/f_7f4a9e6adca8287fab0b74ca846517171fad6248c0bae7260b5d287bc5bc05e1/UP6254-PPSA02917_00-AUTOCHESS202100A.json" metadata_ver="28" pfs_revision="16" system_ver="38797312"/>
+</app_tag>
+</title_patch>
