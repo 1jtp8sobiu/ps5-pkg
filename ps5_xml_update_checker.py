@@ -4,6 +4,7 @@ import json
 import urllib.request
 import urllib.error
 import hashlib
+import http.client
 import sys
 import subprocess
 import time
@@ -237,7 +238,7 @@ def main():
                 error_count += 1
                 time.sleep(180)
                 continue
-            except RemoteDisconnected as err:
+            except http.client.RemoteDisconnected as err:
                 print(f'error {err}')
                 error_count += 1
                 time.sleep(180)
