@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA03700_00" schema_ver="1.0">
+<app_tag content_id="EP1661-PPSA03700_00-SYPS5OVIVO000000" name="_Import20210323180140" revision="1">
+<package content_ver="01.000.000" digest="433cc3468da38c40a530c269a4fc4e1e42f88629366f577b9fae6181a8b45eee" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA03700_00/app/info/1/f_1cbe5a7b7b2d02da5574d4b09dcdb7538ebfb4c159e671618dd38cfbda001ae4/EP1661-PPSA03700_00-SYPS5OVIVO000000.json" metadata_ver="1" pfs_revision="1" system_ver="38797312"/>
+</app_tag>
+</title_patch>
