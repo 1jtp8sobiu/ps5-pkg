@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="9" nptitleid="PPSA01491_00" schema_ver="1.0">
+<app_tag content_id="UP0001-PPSA01491_00-GAME000000000000" name="_Import20210415190037" revision="89">
+<package content_ver="01.020.100" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01490_00/app/pkg/23/f_ac3806d9ccc71933c283d5cb718e9cb8aacc848a1393ae1464e342d2bf06bdc3/EP0001-PPSA01490_00-GAME000000000000-DP.pkg" digest="1e1d81a512a9bbee6a97b2748a9f94705aa349755d8486483fbde02373095ee9" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01491_00/app/info/80/f_32227fc4ae38223f490983e0cfe78569cad83110d0dc1e21c11b7d9976710994/UP0001-PPSA01491_00-GAME000000000000.json" metadata_ver="80" pfs_revision="23" system_ver="38797312"/>
+<package content_ver="01.021.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01490_00/app/pkg/28/f_3f29a9d814a1cef953652a3267fe48d3d2785db19129fe707e4276ece4710e77/EP0001-PPSA01490_00-GAME000000000000-DP.pkg" digest="91db5054bb84cf4a50642e75b67d1145f503f9a5160ab3e5840bb336b42117c5" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01491_00/app/info/89/f_538768d3fe93601f75efa9ac9f3a92a9460f7271389183e898128d91da0fcbf4/UP0001-PPSA01491_00-GAME000000000000.json" metadata_ver="89" pfs_revision="28" selective="true" system_ver="38797312">
+<distro_entitlement>
+<entitlement id="UP0001-CUSA18522_00-PATCH0"/>
+</distro_entitlement>
+</package>
+</app_tag>
+<ac_tag content_id="UP0001-PPSA01491_00-STOREPACK0000000" name="_Import20201203190507" revision="70">
+<package content_ver="01.000.000" digest="dc85c79be95a7f12cc670413f074e29a78de88e4236434d7c402c91907e9ffc2" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01491_00/ac/UP0001-PPSA01491_00-STOREPACK0000000/info/70/f_c53cddf0169a8f5f71053046758347c7108442a6000ff890c0079293dc2919d9/UP0001-PPSA01491_00-STOREPACK0000000.json" metadata_ver="70" pfs_revision="50" system_ver="36044800"/>
+</ac_tag>
+<ac_tag content_id="UP0001-PPSA01491_00-ULCITEM000000001" name="_Import20201007203156" revision="54">
+<package content_ver="01.000.000" digest="e46d11ae0b0fd53ad388ff49d64bcc872458b2c328de014d5b0ed90f82a1634b" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01491_00/ac/UP0001-PPSA01491_00-ULCITEM000000001/info/54/f_dae0bd83749207cd02d5bcac83d68d28973dd82fae264fb4b83e119cad26ba57/UP0001-PPSA01491_00-ULCITEM000000001.json" metadata_ver="54" pfs_revision="42" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP0001-PPSA01491_00-ULCITEM000000002" name="_Import20201007203206" revision="56">
+<package content_ver="01.000.000" digest="66c3fca0c350b50416e175b618008e5af6d4fe501626434627fde20ffed83a95" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01491_00/ac/UP0001-PPSA01491_00-ULCITEM000000002/info/56/f_e71e0df81f2b6b44ff5c079f4d06b69b5b3b12cdbf6b5fff2894f76911b2fc69/UP0001-PPSA01491_00-ULCITEM000000002.json" metadata_ver="56" pfs_revision="43" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP0001-PPSA01491_00-ULCITEM000000003" name="_Import20201007203159" revision="55">
+<package content_ver="01.000.000" digest="3bb202e6b5e5fb875a23634a8a2cb77d5e71e0bf4b990bc00e9a565b1b8acc23" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01491_00/ac/UP0001-PPSA01491_00-ULCITEM000000003/info/55/f_a442c396eeee93f8bb7b0ab2bef48c66cae8fffc53d43c6f552fa79cb58285ab/UP0001-PPSA01491_00-ULCITEM000000003.json" metadata_ver="55" pfs_revision="45" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP0001-PPSA01491_00-ULCITEM000000004" name="_Import20201007152616" revision="53">
+<package content_ver="01.000.000" digest="cc1280c3073c101169d087dd3162cc9efdb759b8d005035b7aeeba158c4a70b1" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01491_00/ac/UP0001-PPSA01491_00-ULCITEM000000004/info/53/f_0ae3e3fd05b9e820184b1903b744f108d9b64d22958fc49f47e1bc79cc6c409c/UP0001-PPSA01491_00-ULCITEM000000004.json" metadata_ver="53" pfs_revision="39" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP0001-PPSA01491_00-ULCITEM000000005" name="_Import20201007152509" revision="51">
+<package content_ver="01.000.000" digest="e6ada856d454afaa8475be0c6986d4daf8fb68af817b43b68d76eb0a2702d9b8" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01491_00/ac/UP0001-PPSA01491_00-ULCITEM000000005/info/51/f_247ae0d6bea5c9e362599b90403ad15936800ecb2e201a5b9849fd42853ec422/UP0001-PPSA01491_00-ULCITEM000000005.json" metadata_ver="51" pfs_revision="38" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP0001-PPSA01491_00-ULCITEM000000006" name="_Import20201007152508" revision="50">
+<package content_ver="01.000.000" digest="8da9bb195654da7d19cb5ee3d9d8463b2c37da116fab79e9b0b96f079c9d0034" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01491_00/ac/UP0001-PPSA01491_00-ULCITEM000000006/info/50/f_04fc08a72f40af1d2358d1a8d587f358ecee809b0b3356821814e0f72b82d516/UP0001-PPSA01491_00-ULCITEM000000006.json" metadata_ver="50" pfs_revision="40" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP0001-PPSA01491_00-ULCQUEST00000001" name="_Import20201007152516" revision="52">
+<package content_ver="01.000.000" digest="982722d9f172f2853fc623f538dbb2cabc5c2cd04029e15958ccd0ff1b933986" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01491_00/ac/UP0001-PPSA01491_00-ULCQUEST00000001/info/52/f_ce43a81895123ed8d441862c10de05386490920ce8cd8dcb54048a4ee6bbbee6/UP0001-PPSA01491_00-ULCQUEST00000001.json" metadata_ver="52" pfs_revision="41" system_ver="18087936"/>
+</ac_tag>
+<ac_tag content_id="UP0001-PPSA01491_00-ULCQUEST00000002" name="_Import20201007203212" revision="57">
+<package content_ver="01.000.000" digest="ff1a16298dba74fd97af46ab4cf1a35216e62cd561e9c2c33a19d630b2fe5555" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01491_00/ac/UP0001-PPSA01491_00-ULCQUEST00000002/info/57/f_2fb8f371039bcb4b694fc1a5030862980387eb104d9983aa903a548374f0f73f/UP0001-PPSA01491_00-ULCQUEST00000002.json" metadata_ver="57" pfs_revision="44" system_ver="18087936"/>
+</ac_tag>
+<pssdc>
+<nptitleid>CUSA18522_00</nptitleid>
+</pssdc>
+</title_patch>
