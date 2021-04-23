@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02739_00" schema_ver="1.0">
+<app_tag content_id="UP0177-PPSA02739_00-JUDGMENTRYUGAENG" name="_Import20210326200438" revision="6">
+<package content_ver="01.001.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02739_00/app/pkg/5/f_2b5c8b6b46fe4eb0a8c6559f5fc2b26136897693b0432be2918b4e6cabf3193d/UP0177-PPSA02739_00-JUDGMENTRYUGAENG-DP.pkg" digest="36cb6f4a6b88c0ea4246b5660367a804df78c90078725bb42d6896b6f108278d" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02739_00/app/info/6/f_7ecd86515142e024879031f64df73920afe19a4d34f851937952548a89a6e8c9/UP0177-PPSA02739_00-JUDGMENTRYUGAENG.json" metadata_ver="6" pfs_revision="5" system_ver="38797312"/>
+</app_tag>
+</title_patch>
