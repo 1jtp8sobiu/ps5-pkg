@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA03346_00" schema_ver="1.0">
+<app_tag content_id="EP0114-PPSA03346_00-CHIVALRY2BETA000" name="_Import20210419152751" revision="3">
+<package content_ver="01.001.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA03345_00/app/pkg/3/f_e5c543299d076983b15bf23582ac72de3c73eb11a2ab56f0ef9722ffa779ef8c/UP0115-PPSA03345_00-CHIVALRY2BETA000-DP.pkg" digest="85b97bbdb95dc36726aab7bc7bc2842931a6ff902f482a75626129a54fde626d" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA03346_00/app/info/3/f_3e371b8c6119ded67fcb5b9a253edb2bdc4a0514f75b1d2735bcfd7823d71e26/EP0114-PPSA03346_00-CHIVALRY2BETA000.json" metadata_ver="3" pfs_revision="3" system_ver="38797312"/>
+</app_tag>
+</title_patch>
