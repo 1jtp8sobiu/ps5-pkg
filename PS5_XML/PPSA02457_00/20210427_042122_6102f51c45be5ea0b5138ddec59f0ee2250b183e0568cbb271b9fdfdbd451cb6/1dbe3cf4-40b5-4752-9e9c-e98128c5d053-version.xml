@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02457_00" schema_ver="1.0">
+<app_tag content_id="EP5426-PPSA02457_00-BELOWZERSUB79247" name="_Import20210415233810" revision="5">
+<package content_ver="01.010.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02457_00/app/pkg/4/f_a286395ac37abb902b2d0cee3a4943e4aa033199501ce17cdb9b60e0fadd34d1/EP5426-PPSA02457_00-BELOWZERSUB79247-DP.pkg" digest="2c427d24ba93b8f44cb5ad740e1ff7d49f9970163a03ccfd4797bd79626788bc" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02457_00/app/info/5/f_be75202e5a84fa04f18b153da30ea602376753db0955ca9335cd2683bd5afe64/EP5426-PPSA02457_00-BELOWZERSUB79247.json" metadata_ver="5" pfs_revision="4" system_ver="38797312"/>
+</app_tag>
+</title_patch>
