@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01285_00" schema_ver="1.0">
+<app_tag content_id="EP9000-PPSA01285_00-RETURNAL00000000" name="_Import20210429030541" revision="22">
+<package content_ver="01.003.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01285_00/app/pkg/15/f_b112c6cd0e3bae2198fb573b746fbc24c3077e4fee09ba4d42923592a542e52f/EP9000-PPSA01285_00-RETURNAL00000000-DP.pkg" digest="fdf2c329b9c6df2cd9101ba67aa4cae18ecd7fa201b516fee4102c9cd57c2d12" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01285_00/app/info/22/f_268fcddc6a90bc9bdbd9d8ec677ac30ff78338603f40b191c34925323b2ba3ab/EP9000-PPSA01285_00-RETURNAL00000000.json" metadata_ver="22" pfs_revision="15" system_ver="50331648"/>
+</app_tag>
+</title_patch>
