@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01614_00" schema_ver="1.0">
+<app_tag content_id="UT0007-PPSA01614_00-NETFLIXGEMINI001" name="_Import20210501182104" revision="8">
+<package content_ver="02.000.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01614_00/app/pkg/8/f_885a0d1794d48124c964aac56d08a3457aa17804b4cdeca96fa237dfa1df6cbd/UT0007-PPSA01614_00-NETFLIXGEMINI001-DP.pkg" digest="b07cfec4d2bd560c49d24d66d7fd27cecb6cad29a307dc04c70e413788cba14d" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01614_00/app/info/8/f_f6e4bd418f9ec64913add98da67889c44d3711ccc9bc7d7bf6222a39a9791327/UT0007-PPSA01614_00-NETFLIXGEMINI001.json" metadata_ver="8" pfs_revision="8" system_ver="50331648"/>
+</app_tag>
+</title_patch>
