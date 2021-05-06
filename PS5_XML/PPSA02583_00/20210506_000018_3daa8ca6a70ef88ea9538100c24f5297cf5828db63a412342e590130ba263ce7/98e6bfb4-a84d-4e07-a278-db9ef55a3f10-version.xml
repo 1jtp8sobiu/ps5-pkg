@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02583_00" schema_ver="1.0">
+<app_tag content_id="JP1201-PPSA02583_00-RIDE4FULLGAME000" name="_Import20210429160549" revision="46">
+<package content_ver="01.013.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02583_00/app/pkg/17/f_2d138c15266118ad61192ee15b9ecf817704d597a5f87ec265edd89bb151be1d/JP1201-PPSA02583_00-RIDE4FULLGAME000-DP.pkg" digest="6e7618a03b9fee455ec6c3556189d7e83c9a9dcc0d8f8da0b6889fa3146d062d" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02583_00/app/info/46/f_b53007395fe03a655d7f51d8c38be6ca9b0562d17bf043d988c6a0c1ff8b556d/JP1201-PPSA02583_00-RIDE4FULLGAME000.json" metadata_ver="46" pfs_revision="17" system_ver="50331648"/>
+</app_tag>
+</title_patch>
