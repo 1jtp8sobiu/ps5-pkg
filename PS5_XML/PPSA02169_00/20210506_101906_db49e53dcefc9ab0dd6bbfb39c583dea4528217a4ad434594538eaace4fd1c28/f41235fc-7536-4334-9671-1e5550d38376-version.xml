@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02169_00" schema_ver="1.0">
+<app_tag content_id="EP4133-PPSA02169_00-00000000HOODGAME" name="_Import20210430161108" revision="9">
+<package content_ver="01.000.002" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02169_00/app/pkg/6/f_0eebcc49b940266752d9511c120a6b7c2d5dd0cd76c64f55c0200dfa215ca4b3/EP4133-PPSA02169_00-00000000HOODGAME-DP.pkg" digest="f7d3f1b0303d9ab5bba6b3fccda16cc55cc159a5444667491ad84e67b1c0757d" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02169_00/app/info/9/f_376baf1bc7e658eee9a03d8be5b02952bea3b262cada6acf5adc55fb334d6cc6/EP4133-PPSA02169_00-00000000HOODGAME.json" metadata_ver="9" pfs_revision="6" system_ver="50331648"/>
+</app_tag>
+</title_patch>
