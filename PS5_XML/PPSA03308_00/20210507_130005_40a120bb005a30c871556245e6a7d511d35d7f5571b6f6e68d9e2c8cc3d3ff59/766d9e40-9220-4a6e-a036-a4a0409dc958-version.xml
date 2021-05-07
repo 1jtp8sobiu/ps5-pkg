@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA03308_00" schema_ver="1.0">
+<app_tag content_id="UP4389-PPSA03308_00-WRECKFESTUS00001" name="_Import20210507094325" revision="21">
+<package bootable_content_ver="01.004.000" content_ver="01.004.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA03308_00/app/pkg/8/f_71a444db3579601172800a2b49701824e1327b6a9ab2a6c87cdeee1b6641f8d8/UP4389-PPSA03308_00-WRECKFESTUS00001-DP.pkg" digest="abbbfc856168201b4edf59d78d3db119f6eaebc3a08d5b08ed2920229edfb85a" mandatory="true" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA03308_00/app/info/21/f_4838f499703b54fdb6b322fb305f4ad4af603fe3d6948e30c13f970ee7408340/UP4389-PPSA03308_00-WRECKFESTUS00001.json" metadata_ver="21" pfs_revision="8" system_ver="50331648"/>
+</app_tag>
+</title_patch>
