@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA03123_00" schema_ver="1.0">
+<app_tag content_id="UP0002-PPSA03123_00-WELOOOOVEDOGS000" name="_Import20210426235310" revision="6">
+<package content_ver="01.007.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA03123_00/app/pkg/6/f_ce06c5307178c2467b8e218ca432b8fbdb93fa88c8a7ad2c5bc7513296b37a5a/UP0002-PPSA03123_00-WELOOOOVEDOGS000-DP.pkg" digest="95034801ea7b5590d916515e29656db1df60355682ecafbf03b724bf8c180665" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA03123_00/app/info/6/f_503f1d0559ab65e4520900f8c0e38bbf163fe8e75577aa9f3d0b1f3a1b41d66e/UP0002-PPSA03123_00-WELOOOOVEDOGS000.json" metadata_ver="6" pfs_revision="6" system_ver="50331648"/>
+</app_tag>
+</title_patch>

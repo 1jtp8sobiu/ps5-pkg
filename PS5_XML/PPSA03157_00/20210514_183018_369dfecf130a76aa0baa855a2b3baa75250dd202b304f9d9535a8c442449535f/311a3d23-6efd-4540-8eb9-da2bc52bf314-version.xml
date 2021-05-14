@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA03157_00" schema_ver="1.0">
+<app_tag content_id="EP3111-PPSA03157_00-JANDUSOFT0000001" name="_Import20210416102801" revision="4">
+<package content_ver="01.002.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA03157_00/app/pkg/4/f_bc597dc22dc3ff3f8f602826b05705aae027433a0682d3295d60f7909e32f3ac/EP3111-PPSA03157_00-JANDUSOFT0000001-DP.pkg" digest="1487c24141265d7e0dc6604a99f45d4bf74d816f4987410dc8497aaa8b59cc0c" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA03157_00/app/info/4/f_10ad721c38e50334ddd3f8f1bbd57b5a67f8d0a9781af1f5d6f26c2511276d68/EP3111-PPSA03157_00-JANDUSOFT0000001.json" metadata_ver="4" pfs_revision="4" system_ver="38797312"/>
+</app_tag>
+</title_patch>
