@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01646_00" schema_ver="1.0">
+<app_tag content_id="EP4356-PPSA01646_00-MXGP2020FULLGAME" name="_Import20210517151258" revision="8">
+<package content_ver="01.006.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01646_00/app/pkg/8/f_a7828931620487ad87ca5567d21e3511b60c2d5edb64916f2a55faee5d54a041/EP4356-PPSA01646_00-MXGP2020FULLGAME-DP.pkg" digest="f8e0a9a3e456e1f119cce610a226856678aadfcbaae02efebaf687036ccd519b" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01646_00/app/info/8/f_3dacd0beb2b480114b46ba9839c330b7064103177ae78f992bdd30b20e9dcf2a/EP4356-PPSA01646_00-MXGP2020FULLGAME.json" metadata_ver="8" pfs_revision="8" system_ver="51380224"/>
+</app_tag>
+</title_patch>
