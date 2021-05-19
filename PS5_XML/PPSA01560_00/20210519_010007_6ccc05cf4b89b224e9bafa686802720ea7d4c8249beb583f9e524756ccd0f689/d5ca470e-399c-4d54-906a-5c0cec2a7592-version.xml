@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01560_00" schema_ver="1.0">
+<app_tag content_id="JP0102-PPSA01560_00-VILLAGEFULLGAMEX" name="_Import20210517074024" revision="4">
+<package bootable_content_ver="01.002.000" content_ver="01.002.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01560_00/app/pkg/4/f_e902f7c711b0cfa7ca687dd67c129396661c9da704e4823398caa3b04c041e5a/JP0102-PPSA01560_00-VILLAGEFULLGAMEX-DP.pkg" digest="ea267301f26c84037ed87e14ee4710824c21c562fd524ad6f303dfd88de2a46b" mandatory="true" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01560_00/app/info/4/f_c76c64f68cf7f658346dd07df173bc3e24eadedf87606983f3dd7ae9740d46ef/JP0102-PPSA01560_00-VILLAGEFULLGAMEX.json" metadata_ver="4" pfs_revision="4" system_ver="51380224"/>
+</app_tag>
+<pssdc>
+<nptitleid>PPSA01558_00</nptitleid>
+</pssdc>
+</title_patch>

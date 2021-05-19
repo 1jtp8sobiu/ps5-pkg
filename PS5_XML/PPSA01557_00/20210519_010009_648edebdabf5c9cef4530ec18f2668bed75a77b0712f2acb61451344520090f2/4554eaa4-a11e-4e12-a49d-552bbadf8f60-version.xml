@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="4" nptitleid="PPSA01557_00" schema_ver="1.0">
+<app_tag content_id="EP0102-PPSA01557_00-VILLAGEFULLGAMEX" name="_Import20210517074131" revision="16">
+<package bootable_content_ver="01.002.000" content_ver="01.002.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01557_00/app/pkg/4/f_4e12cc786df8d73cc3219658954f86411799000db84b600f65034f878185febc/EP0102-PPSA01557_00-VILLAGEFULLGAMEX-DP.pkg" digest="9b5ad15ac0cbc185b2ba429eefa906e92236d2c5374864aa4e24863e0026eca9" mandatory="true" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01557_00/app/info/16/f_0298e8ba850f8b6d6cad199ea75f2b218d6cec3d99f7c54d4652b81bb762b390/EP0102-PPSA01557_00-VILLAGEFULLGAMEX.json" metadata_ver="16" pfs_revision="4" system_ver="51380224"/>
+</app_tag>
+<ac_tag content_id="EP0102-PPSA01557_00-SURVIVALPACK0000" name="_Import20210224071311" revision="13">
+<package content_ver="01.000.000" digest="7ad0eb5d02be472b2a9f59e76fa2c34614b5ffebd09d290b471f2a44fede3b11" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01557_00/ac/EP0102-PPSA01557_00-SURVIVALPACK0000/info/13/f_df5ef4504e3b7ed84074de1ba11c525bc27a0846392bc912b921fcc4bea2b5f1/EP0102-PPSA01557_00-SURVIVALPACK0000.json" metadata_ver="13" pfs_revision="12" system_ver="38797312"/>
+</ac_tag>
+<ac_tag content_id="EP0102-PPSA01557_00-TRAUMAPACK000000" name="_Import20210224071259" revision="10">
+<package content_ver="01.000.000" digest="081b7f2c520deebd979feb33461961dc0c9847a85926c51f9a8fdaccf1f9d2f1" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01557_00/ac/EP0102-PPSA01557_00-TRAUMAPACK000000/info/10/f_eb65bc202f57e7bb9314eaa2994ffabc930f90c9a07053068806fc420aa85120/EP0102-PPSA01557_00-TRAUMAPACK000000.json" metadata_ver="10" pfs_revision="9" system_ver="38797312"/>
+</ac_tag>
+<ac_tag content_id="EP0102-PPSA01557_00-UNLOCKALLREWARDS" name="_Import20210224071308" revision="12">
+<package content_ver="01.000.000" digest="5b3418df9cd6f312769c48b24e3429584d00b303b181f33523cd3ded159f538a" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01557_00/ac/EP0102-PPSA01557_00-UNLOCKALLREWARDS/info/12/f_96f45036c788952ec6b0535c64b6c048e3053dec2a201cde62a01248e99e385e/EP0102-PPSA01557_00-UNLOCKALLREWARDS.json" metadata_ver="12" pfs_revision="10" system_ver="38797312"/>
+</ac_tag>
+<ac_tag content_id="EP0102-PPSA01557_00-WEAPONPARTS00000" name="_Import20210224071307" revision="11">
+<package content_ver="01.000.000" digest="bf1e7e7611f4b9f6e71162c8238fd1b18dddf32d4e931f4743f9e1cbb54f3138" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01557_00/ac/EP0102-PPSA01557_00-WEAPONPARTS00000/info/11/f_31110c0ccb2490ba125c3c20ee895900f5a3ee1a1b51d5440bdc1a412f41910c/EP0102-PPSA01557_00-WEAPONPARTS00000.json" metadata_ver="11" pfs_revision="11" system_ver="38797312"/>
+</ac_tag>
+</title_patch>
