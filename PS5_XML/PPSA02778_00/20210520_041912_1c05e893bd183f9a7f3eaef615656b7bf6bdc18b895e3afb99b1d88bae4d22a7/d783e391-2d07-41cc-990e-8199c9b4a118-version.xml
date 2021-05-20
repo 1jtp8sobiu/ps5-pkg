@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02778_00" schema_ver="1.0">
+<app_tag content_id="UP0692-PPSA02778_00-MANIFGARDENNAPS5" name="_Import20210519202425" revision="5">
+<package content_ver="01.003.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02778_00/app/pkg/4/f_f196cb4bdd7065e35eb56cb47bec4cd3f5e3fe5d103942c97157fca169542d45/UP0692-PPSA02778_00-MANIFGARDENNAPS5-DP.pkg" digest="a58f364a8fdf87667fc6e1eb67fae355c4952a63b784aec6cf2bcdee8c860729" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02778_00/app/info/5/f_de5ae355572ca8c57c9ea067aae9e6f20b5ff6cdaf04fcb08f021655341ffe85/UP0692-PPSA02778_00-MANIFGARDENNAPS5.json" metadata_ver="5" pfs_revision="4" system_ver="51380224"/>
+</app_tag>
+</title_patch>
