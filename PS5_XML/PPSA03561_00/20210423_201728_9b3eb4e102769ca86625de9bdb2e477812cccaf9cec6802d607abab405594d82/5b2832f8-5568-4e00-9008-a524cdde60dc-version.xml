@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA03561_00" schema_ver="1.0">
+<app_tag content_id="HP2005-PPSA03561_00-INFESTOR00000000" name="_Import20210414142350" revision="3">
+<package content_ver="01.000.000" digest="84c32e47f46b78fb7c74613bd8e585c09f6b916cd1af678e7b865aa2ab829638" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA03561_00/app/info/3/f_4da86cbde5d17858e929927857a43040128c752807cf58276d7dae66cd420522/HP2005-PPSA03561_00-INFESTOR00000000.json" metadata_ver="3" pfs_revision="2" system_ver="50331648"/>
+</app_tag>
+</title_patch>
