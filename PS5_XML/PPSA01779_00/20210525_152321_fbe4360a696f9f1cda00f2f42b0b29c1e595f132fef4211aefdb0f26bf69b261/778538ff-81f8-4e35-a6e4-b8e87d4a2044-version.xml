@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="1" nptitleid="PPSA01779_00" schema_ver="1.0">
+<app_tag content_id="EP0082-PPSA01779_00-1955314285649692" name="_Import20210519180420" revision="21">
+<package content_ver="01.008.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01778_00/app/pkg/14/f_976e443c9356077aa61aa82516d56309259ca96671033563c2e9e7e13e7ed33d/UP0082-PPSA01778_00-6924922068772381-DP.pkg" digest="47da7c9b499dad1401e4520997a28c428bc2d2ef77c8f62dff4d8ab24924ba86" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01779_00/app/info/21/f_ebb172e8c5d6aa10f670dd6971c1e8a4d975c02ffe7d719ecca539905e22f9de/EP0082-PPSA01779_00-1955314285649692.json" metadata_ver="21" pfs_revision="14" system_ver="51380224"/>
+</app_tag>
+<ac_tag content_id="EP0082-PPSA01779_00-OUT0000000000001" name="_Import20210309140226" revision="13">
+<package content_ver="01.000.000" digest="b5cb6f80ef66b491963c8e8afd217629aa1660723e81235e1518026046cbb853" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01779_00/ac/EP0082-PPSA01779_00-OUT0000000000001/info/13/f_4f1398256a6d6df4bb57a475d176a6cb608e8732d1bcb291117cb78b5c578476/EP0082-PPSA01779_00-OUT0000000000001.json" metadata_ver="13" pfs_revision="2" system_ver="38797312"/>
+</ac_tag>
+</title_patch>

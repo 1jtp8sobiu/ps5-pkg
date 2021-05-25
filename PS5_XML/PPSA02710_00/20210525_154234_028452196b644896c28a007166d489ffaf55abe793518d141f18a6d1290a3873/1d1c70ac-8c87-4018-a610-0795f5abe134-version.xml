@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02710_00" schema_ver="1.0">
+<app_tag content_id="UP0825-PPSA02710_00-ANEVERYIELDSIEA5" name="_Import20210525150735" revision="5">
+<package content_ver="01.002.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02710_00/app/pkg/5/f_aa3d07e332a0b7da6f207f0b779ec109dd3258c876f60ff974e4e960d7e11c40/UP0825-PPSA02710_00-ANEVERYIELDSIEA5-DP.pkg" digest="b11a834a23df5fcdb23e37a9e8d3ffbd459dfe83fb53bfa7e559a3f7fca5baad" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02710_00/app/info/5/f_b3323d76b19903d157456fbabad54cd886bd5b5ec16934bbf4b848e2eb7d4494/UP0825-PPSA02710_00-ANEVERYIELDSIEA5.json" metadata_ver="5" pfs_revision="5" system_ver="51380224"/>
+</app_tag>
+</title_patch>
