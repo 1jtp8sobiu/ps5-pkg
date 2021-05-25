@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02862_00" schema_ver="1.0">
+<app_tag content_id="JP0082-PPSA02862_00-FFXIVONLPS500000" name="_Import20210518003559" revision="39">
+<package bootable_content_ver="01.000.027" content_ver="01.000.027" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02862_00/app/pkg/33/f_05a82313ce26aca5148ed85d651a91d9d5fbd17d13bdcab809a2acf08e2c4db8/JP0082-PPSA02862_00-FFXIVONLPS500000-DP.pkg" digest="a7bc4ba986ded4402d6e691694ae1343322a9c20d8f055438deee052a1fd186a" mandatory="true" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02862_00/app/info/39/f_d6219e299e38c0bcb5d9c5dbfee05a60a8d4a34c85ba35c1240db2f8c576162e/JP0082-PPSA02862_00-FFXIVONLPS500000.json" metadata_ver="39" pfs_revision="33" system_ver="51380224"/>
+</app_tag>
+<pssdc>
+<nptitleid>CUSA00301_00</nptitleid>
+<nptitleid>NPJB00453_00</nptitleid>
+</pssdc>
+</title_patch>
