@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01475_00" schema_ver="1.0">
+<app_tag content_id="JP9000-PPSA01475_00-RATCHETCLANKRIFT" name="_Import20210519173112" revision="18">
+<package content_ver="01.000.007" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01473_00/app/pkg/16/f_beaee78ee00df66583b834556b9ac345a044f68e866ddf40aabd9eca65c077dd/UP9000-PPSA01473_00-RATCHETCLANKRIFT-DP.pkg" digest="5f9f8ec3eafd7272b918ebcdca24515fe2470b7367656ad7a506df91cdbc532e" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01475_00/app/info/18/f_511110b93f207cd598dfab709df9d15528cd6b73d66bcec3ab2668d79bb5b9e1/JP9000-PPSA01475_00-RATCHETCLANKRIFT.json" metadata_ver="18" pfs_revision="16" system_ver="51380224"/>
+</app_tag>
+</title_patch>
