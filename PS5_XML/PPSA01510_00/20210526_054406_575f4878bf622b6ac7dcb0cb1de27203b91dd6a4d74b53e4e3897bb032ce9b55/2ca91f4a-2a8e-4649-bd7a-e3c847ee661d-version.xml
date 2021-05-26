@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="2" nptitleid="PPSA01510_00" schema_ver="1.0">
+<app_tag content_id="EP0001-PPSA01510_00-GAME000000000000" name="_Import20210525135601" revision="39">
+<package content_ver="04.002.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01507_00/app/pkg/14/f_6bb10079702c6a463b200d58976dd6d99e64767f5d8563efd5ffea3301fda91a/UP0001-PPSA01507_00-GAME000000000000-DP.pkg" digest="d1dec72d196470bcbba3e4f8a38996e9fd5a8d74983845c51910ba09942493f1" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01510_00/app/info/38/f_8e4126db9824326e1223a475396518743194188a0db1e227259cac57a13494f0/EP0001-PPSA01510_00-GAME000000000000.json" metadata_ver="38" pfs_revision="14" system_ver="50331648"/>
+<package content_ver="04.004.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01507_00/app/pkg/15/f_524bb28db602e34c59a2dab1e08ec5082d75c075b46bd5e2459437a8c0f58aba/UP0001-PPSA01507_00-GAME000000000000-DP.pkg" digest="ac7d1617a4143948707e32661ba3a9a8bd95054129a7bef3132afdcfff30ad32" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01510_00/app/info/39/f_d2a6f8c86b4444292375237ad354042e9204d67c2044aec0f710dd984843d7b5/EP0001-PPSA01510_00-GAME000000000000.json" metadata_ver="39" pfs_revision="15" selective="true" system_ver="51380224">
+<distro_entitlement>
+<entitlement id="EP0001-CUSA16345_00-PATCH0"/>
+</distro_entitlement>
+</package>
+</app_tag>
+<ac_tag content_id="EP0001-PPSA01510_00-DLCEXPANSION0001" name="_Import20201221165811" revision="30">
+<package content_ver="01.000.000" digest="b1c06080caf3340d68bb50d710947ad8a039bf63fc3c2a7d2a06788d55722664" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01510_00/ac/EP0001-PPSA01510_00-DLCEXPANSION0001/info/30/f_0a4e0f6d663de5658aa1a433bf9d8ad5762e054980d2c07847417c56c455c8c2/EP0001-PPSA01510_00-DLCEXPANSION0001.json" metadata_ver="30" pfs_revision="29" system_ver="36700160"/>
+</ac_tag>
+<ac_tag content_id="EP0001-PPSA01510_00-DLCEXPANSION0002" name="_Import20210324203255" revision="36">
+<package content_ver="01.000.000" digest="9ca227a2b3d67a2252b7175926f47f67739fcd22e8a8eff3835fe881702b7f79" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01510_00/ac/EP0001-PPSA01510_00-DLCEXPANSION0002/info/36/f_1a2ce479b098df779fef83343f365c733c2ebed8a26ff84bd3b695519ca43db0/EP0001-PPSA01510_00-DLCEXPANSION0002.json" metadata_ver="36" pfs_revision="32" system_ver="38797312"/>
+</ac_tag>
+<pssdc>
+<nptitleid>PPSA01506_00</nptitleid>
+</pssdc>
+</title_patch>
