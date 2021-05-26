@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02965_00" schema_ver="1.0">
+<app_tag content_id="UP4459-PPSA02965_00-MAIDOFSKERPS5USA" name="_Import20210506113237" revision="4">
+<package content_ver="01.001.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02965_00/app/pkg/4/f_ee5e00a1a04dfa28e0810bb80fb2e279a622935dbeac5aa7c594624a95524229/UP4459-PPSA02965_00-MAIDOFSKERPS5USA-DP.pkg" digest="2551e0b1e303621b7ca7979eaeacd0a0b6e0193615b9c90105c818639681a2da" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02965_00/app/info/4/f_ca347ac95f3bf63475673a1206b7cce0b1aa135ba7c24a7636a17759fc5b1ab9/UP4459-PPSA02965_00-MAIDOFSKERPS5USA.json" metadata_ver="4" pfs_revision="4" system_ver="50331648"/>
+</app_tag>
+</title_patch>
