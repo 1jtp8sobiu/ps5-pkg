@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02658_00" schema_ver="1.0">
+<app_tag content_id="UP1594-PPSA02658_00-DEATHTALES000000" name="_Import20210224031115" revision="11">
+<package content_ver="01.002.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02658_00/app/pkg/7/f_2d753bc13e7dd09e33a4c385e5b3d699176995834a70301f5b24b215299e9ace/UP1594-PPSA02658_00-DEATHTALES000000-DP.pkg" digest="a3082fe34825eb9dbf76dd7c56fc5bd877550cfd1634aea81bf85baa7b05c35e" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02658_00/app/info/11/f_455d8dc663c674b6666c450d21265381b9996d9b77c0ca79eab90458a0b8a4e3/UP1594-PPSA02658_00-DEATHTALES000000.json" metadata_ver="11" pfs_revision="7" system_ver="38797312"/>
+</app_tag>
+</title_patch>
