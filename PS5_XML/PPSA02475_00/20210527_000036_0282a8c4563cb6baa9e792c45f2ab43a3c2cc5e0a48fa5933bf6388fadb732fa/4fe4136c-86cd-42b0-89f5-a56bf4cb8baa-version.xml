@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02475_00" schema_ver="1.0">
+<app_tag content_id="JP5918-PPSA02475_00-TERMINATORPS5VER" name="_Import20210326001835" revision="4">
+<package content_ver="01.000.100" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02475_00/app/pkg/4/f_c99c184404ec7c9e07ef19497d0446dc423d5e7fd306f93000ef9cdf7d25ed76/JP5918-PPSA02475_00-TERMINATORPS5VER-DP.pkg" digest="a8d7d716859f1b5ccb028db95de9276a146f337de828716ab90c847aac02d978" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02475_00/app/info/4/f_70898f5c1a2eab347d2710a1b96a828fc22b44f6a7ab133e1cc18a00f60409fb/JP5918-PPSA02475_00-TERMINATORPS5VER.json" metadata_ver="4" pfs_revision="4" system_ver="38797312"/>
+</app_tag>
+</title_patch>
