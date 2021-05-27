@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01607_00" schema_ver="1.0">
+<app_tag content_id="UP1981-PPSA01607_00-SUPERCROSS4FGAME" name="_Import20210526220848" revision="26">
+<package content_ver="01.010.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01607_00/app/pkg/11/f_aa2aebe49ccd3556db22aac2a911bda9468c1108d342b6e61c1ae15b0ca12672/UP1981-PPSA01607_00-SUPERCROSS4FGAME-DP.pkg" digest="fc3207cadf05b95ddc6ec163dde02bccf085b37778ea7f7916b779f18111d760" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01607_00/app/info/26/f_7561246c523ad9a5ca116b11ef87bd6a726a78e02a03eb7c709f8b4bcfa2085c/UP1981-PPSA01607_00-SUPERCROSS4FGAME.json" metadata_ver="26" pfs_revision="11" system_ver="51380224"/>
+</app_tag>
+</title_patch>
