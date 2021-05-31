@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02449_00" schema_ver="1.0">
+<app_tag content_id="EP4133-PPSA02449_00-NECROMUMHIREDGUN" name="_Import20210531165314" revision="16">
+<package content_ver="01.002.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02449_00/app/pkg/10/f_28449c33f6b8e5e76d7212aedd38e00ba439ab7c8dca0313226f75c1e1d29657/EP4133-PPSA02449_00-NECROMUMHIREDGUN-DP.pkg" digest="43a53aaf384c184afe341dc719c071030f5e9a9a72ad06165929dbb40a6c09c8" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02449_00/app/info/16/f_bad06baaac914c729f65d3d0750cc7b1bebf91409c963bf34890f9e6b004b8fc/EP4133-PPSA02449_00-NECROMUMHIREDGUN.json" metadata_ver="16" pfs_revision="10" system_ver="51380224"/>
+</app_tag>
+</title_patch>
