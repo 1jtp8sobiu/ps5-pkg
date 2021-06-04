@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="1" nptitleid="PPSA02868_00" schema_ver="1.0">
+<app_tag content_id="UP3639-PPSA02868_00-MORTALSHELL00001" name="_Import20210408232925" revision="18">
+<package content_ver="01.000.005" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02868_00/app/pkg/15/f_8a5da44cf9c71fe7d2ac9dc418ffdbdffbf781fee1e11bb4bcedc1431b076f62/UP3639-PPSA02868_00-MORTALSHELL00001-DP.pkg" digest="a14e5ae062b847922354e8cee63c7c7d931d14a4252a5bf4ac1be2e8ad82dbfe" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02868_00/app/info/18/f_a812c52c1b84887b074b8f53b809991d2c3d5d2e489110571f618191abd82ec8/UP3639-PPSA02868_00-MORTALSHELL00001.json" metadata_ver="18" pfs_revision="15" system_ver="38797312"/>
+</app_tag>
+<ac_tag content_id="UP3639-PPSA02868_00-ADDCONT000000001" name="_Import20210228155653" revision="15">
+<package content_ver="01.000.000" digest="4e9754fab18fa184ed38f4d02a84cc318818a899cfbc49ddddaa4c6372a7b828" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02868_00/ac/UP3639-PPSA02868_00-ADDCONT000000001/info/15/f_6db82efc97c9e0fa806c7a214fede53006a8c5389867a4e4e5d4fa28df72fc6c/UP3639-PPSA02868_00-ADDCONT000000001.json" metadata_ver="15" pfs_revision="2" system_ver="38797312"/>
+</ac_tag>
+</title_patch>
