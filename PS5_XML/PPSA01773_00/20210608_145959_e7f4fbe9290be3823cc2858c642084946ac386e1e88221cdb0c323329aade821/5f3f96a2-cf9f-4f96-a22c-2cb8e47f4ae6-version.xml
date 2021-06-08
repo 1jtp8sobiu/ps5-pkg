@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="3" nptitleid="PPSA01773_00" schema_ver="1.0">
+<app_tag content_id="HP0082-PPSA01773_00-7462776201452750" name="_Import20210421064155" revision="14">
+<package content_ver="01.000.000" digest="bf92c6cc76772d677a78fdc3b3780e64b83caaa34010713d03e6cc7493448733" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01773_00/app/info/14/f_419ec4806b066814e7d8f1583eec56d1b3faba2c7aa501c3469695615a55ac1d/HP0082-PPSA01773_00-7462776201452750.json" metadata_ver="14" pfs_revision="3" system_ver="50331648"/>
+</app_tag>
+<ac_tag content_id="HP0082-PPSA01773_00-5864421088254914" name="_Import20210409093216" revision="10">
+<package content_ver="01.000.000" digest="0e281ab041b651fe8d9339832504e93f2d50073de7b7926adc7e330106fc74fe" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01773_00/ac/HP0082-PPSA01773_00-5864421088254914/info/10/f_d4fc58da716181dfe7d65e92ab7fbcb752d113da2caf397543f0e8794508b8f6/HP0082-PPSA01773_00-5864421088254914.json" metadata_ver="10" pfs_revision="10" system_ver="38797312"/>
+</ac_tag>
+<ac_tag content_id="HP0082-PPSA01773_00-8094607291671776" name="_Import20210412065018" revision="12">
+<package content_ver="01.000.000" digest="9d109d1a5579bb33945683769629195a410a09cfbebd541e7e3dab057a5dc254" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01773_00/ac/HP0082-PPSA01773_00-8094607291671776/info/12/f_82d4aa0d06332db45b5cbfa701d7eb3f1f87f1f7d9a9a6009a4209ec9cab203d/HP0082-PPSA01773_00-8094607291671776.json" metadata_ver="12" pfs_revision="11" system_ver="38797312"/>
+</ac_tag>
+<ac_tag content_id="HP0082-PPSA01773_00-9404265555077044" name="_Import20210409093050" revision="7">
+<package content_ver="01.000.000" digest="963ec64e25605ba02ea14f37cc101e2b0898c2bc4bcc8454de9caa86b4efa8fa" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01773_00/ac/HP0082-PPSA01773_00-9404265555077044/info/7/f_b3f135fe1ef5d745cc4c3f1609dbcaa424155415002f5306e7c811a863544e2f/HP0082-PPSA01773_00-9404265555077044.json" metadata_ver="7" pfs_revision="7" system_ver="38797312"/>
+</ac_tag>
+</title_patch>
