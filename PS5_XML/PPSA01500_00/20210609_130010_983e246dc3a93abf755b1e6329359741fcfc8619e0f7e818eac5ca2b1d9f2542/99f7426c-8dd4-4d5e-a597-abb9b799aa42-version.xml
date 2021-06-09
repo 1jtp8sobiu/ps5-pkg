@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01500_00" schema_ver="1.0">
+<app_tag content_id="EP0001-PPSA01500_00-ORWFULLGAME00000" name="_Import20210607155820" revision="23">
+<package content_ver="01.130.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01500_00/app/pkg/21/f_b0512167811acd1e982d1142395595bbfb610501ffb98fa3fa3960fc9cc26ace/EP0001-PPSA01500_00-ORWFULLGAME00000-DP.pkg" digest="f4b2ac88f1d3edb33a8fef7367e8b00e8e8e15ec677ece9a7d99f70cb825cbec" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01500_00/app/info/23/f_94574afd338b7d9afacf20d81e8b5da3ffbef627a6193f6d1afc080ebd49b857/EP0001-PPSA01500_00-ORWFULLGAME00000.json" metadata_ver="23" pfs_revision="21" system_ver="51380224"/>
+</app_tag>
+<pssdc>
+<nptitleid>PPSA01488_00</nptitleid>
+</pssdc>
+</title_patch>
