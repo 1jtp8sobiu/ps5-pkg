@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="1" nptitleid="PPSA02721_00" schema_ver="1.0">
+<app_tag content_id="UP0031-PPSA02721_00-NEPREVERSEGAME01" name="_Import20210325042353" revision="1">
+<package content_ver="01.000.000" digest="54538babcf46c3c911677cd04144322f9b5a8bd403b0ec3ab48fe7ec832bc592" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02721_00/app/info/1/f_a56ee93495bf631ea941e207c37b07b19a039ac6f71c9cc0d8f167df955be4ea/UP0031-PPSA02721_00-NEPREVERSEGAME01.json" metadata_ver="1" pfs_revision="1" system_ver="38797312"/>
+</app_tag>
+<ac_tag content_id="UP0031-PPSA02721_00-DLCNEPSHOOTER001" name="_Import20210331002813" revision="2">
+<package content_ver="01.000.000" digest="79a75accdb9b7aa5cf0524d1fd1618e6608d3a3522ada50114ad90116dc6e839" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02721_00/ac/UP0031-PPSA02721_00-DLCNEPSHOOTER001/info/2/f_9656696ebd87d56e33cbd96352bf30ab4947817869c7e541960c7307f6f30f17/UP0031-PPSA02721_00-DLCNEPSHOOTER001.json" metadata_ver="2" pfs_revision="1" system_ver="38797312"/>
+</ac_tag>
+</title_patch>
