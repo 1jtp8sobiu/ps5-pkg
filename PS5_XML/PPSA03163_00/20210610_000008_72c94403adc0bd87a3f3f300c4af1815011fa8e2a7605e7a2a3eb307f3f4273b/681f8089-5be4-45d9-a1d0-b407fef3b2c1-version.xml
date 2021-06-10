@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA03163_00" schema_ver="1.0">
+<app_tag content_id="EP1667-PPSA03163_00-SKYLAND00PS5SIEE" name="_Import20210609185323" revision="4">
+<package content_ver="01.001.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA03163_00/app/pkg/4/f_5057cdec727b9e6b92e7a8af333ed70999f5fade2a3f55573f16835da159ea6f/EP1667-PPSA03163_00-SKYLAND00PS5SIEE-DP.pkg" digest="f19a64325a3938ab384f396a6b6d9968faa712fc26e46e7c0c147ce7c916d30e" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA03163_00/app/info/4/f_04b7431b57e529b36e74cf05e8fff23f227a437f169548a4ee23c066c486d557/EP1667-PPSA03163_00-SKYLAND00PS5SIEE.json" metadata_ver="4" pfs_revision="4" system_ver="51380224"/>
+</app_tag>
+</title_patch>
