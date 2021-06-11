@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="1" nptitleid="PPSA02199_00" schema_ver="1.0">
+<app_tag content_id="EP0006-PPSA02199_00-RESPAWNSWBIRDDOG" name="_Import20210506102634" revision="2">
+<package content_ver="01.000.000" digest="a52b905f5d30a0f2ea5fdfeca732da60d6faa2815e5cf8c6ec43fbc63f341514" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02199_00/app/info/2/f_1bae9fb848d0e58f5bd7328a924d1422df029962296ddf52b1a32b48d44968fb/EP0006-PPSA02199_00-RESPAWNSWBIRDDOG.json" metadata_ver="2" pfs_revision="2" system_ver="50331648"/>
+</app_tag>
+<ac_tag content_id="EP0006-PPSA02199_00-JEDIFO1DELUXE000" name="_Import20210528155330" revision="3">
+<package content_ver="01.000.000" digest="e883887b81c9a55d6d481d3d50a04b2a7304326e67b098ba77ab8608597f6990" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02199_00/ac/EP0006-PPSA02199_00-JEDIFO1DELUXE000/info/3/f_951e1dd26b92c6831866758f26b866ce5ceb7dfcedad4f47913a036c66bd414f/EP0006-PPSA02199_00-JEDIFO1DELUXE000.json" metadata_ver="3" pfs_revision="1" system_ver="51380224"/>
+</ac_tag>
+</title_patch>
