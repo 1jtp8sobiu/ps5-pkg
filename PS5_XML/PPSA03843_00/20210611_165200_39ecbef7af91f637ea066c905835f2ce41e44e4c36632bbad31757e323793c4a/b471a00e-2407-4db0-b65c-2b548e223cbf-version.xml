@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA03843_00" schema_ver="1.0">
+<app_tag content_id="UP1681-PPSA03843_00-FAMILMYS3PS5SIEA" name="_Import20210611163008" revision="5">
+<package content_ver="01.003.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA03842_00/app/pkg/5/f_4a4ecc45eb9ffd396e0ed9a25937fb11c9a368068daca560783a115f70152a19/EP1667-PPSA03842_00-FAMILMYS3PS5SIEE-DP.pkg" digest="544ce48acdac2aabd84300b715bb75908e8852306c71e454e7e1e552a7f5d0f4" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA03843_00/app/info/5/f_5f55d5cfcd6cbee3e7ff972f3b322f2decd8deaf649e2c6c03b3d62510284e4a/UP1681-PPSA03843_00-FAMILMYS3PS5SIEA.json" metadata_ver="5" pfs_revision="5" system_ver="51380224"/>
+</app_tag>
+</title_patch>
