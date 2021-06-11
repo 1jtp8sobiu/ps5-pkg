@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="1" nptitleid="PPSA02763_00" schema_ver="1.0">
+<app_tag content_id="EP4060-PPSA02763_00-NEPTUNIAREVERSE0" name="_Import20210413105306" revision="2">
+<package content_ver="01.000.000" digest="4643ad38e4f6e81e15f5cfd50e9eecb9a47fa30ba555f55992d13ec7a41b2cac" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02763_00/app/info/2/f_e1b7a2a1406b18cc606a571e625f93f4172f626f9953861fcfe6bb158b3732ce/EP4060-PPSA02763_00-NEPTUNIAREVERSE0.json" metadata_ver="2" pfs_revision="1" system_ver="38797312"/>
+</app_tag>
+<ac_tag content_id="EP4060-PPSA02763_00-DLCNEPSHOOTER001" name="_Import20210413102215" revision="1">
+<package content_ver="01.000.000" digest="a3c44fbd10c8b318c5a723bdbb6d21c3f715b40cc21cf559d027d57b08182b76" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02763_00/ac/EP4060-PPSA02763_00-DLCNEPSHOOTER001/info/1/f_455ef9addd9b744e8c277b3aad3f8198bb3f46f4a5c790256ec1b256db1dbbf1/EP4060-PPSA02763_00-DLCNEPSHOOTER001.json" metadata_ver="1" pfs_revision="1" system_ver="38797312"/>
+</ac_tag>
+</title_patch>

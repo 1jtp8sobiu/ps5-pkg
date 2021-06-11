@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01913_00" schema_ver="1.0">
+<app_tag content_id="EP3393-PPSA01913_00-PERSISTENCEX2020" name="_Import20210430100509" revision="2">
+<package content_ver="01.000.000" digest="6aaca7df07d4afef11706143cabed68b8060b45d0cf41a6130ec1c227d2564fa" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01913_00/app/info/2/f_afe08a91eae8ce2cbe0bd952e80b51b3dea41059dfdbccd4ff145637f948ea5c/EP3393-PPSA01913_00-PERSISTENCEX2020.json" metadata_ver="2" pfs_revision="3" system_ver="50331648"/>
+</app_tag>
+</title_patch>
