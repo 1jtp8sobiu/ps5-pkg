@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="1" nptitleid="PPSA02450_00" schema_ver="1.0">
+<app_tag content_id="UP4133-PPSA02450_00-NECROMUMHIREDGUN" name="_Import20210611143327" revision="13">
+<package content_ver="01.003.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02450_00/app/pkg/9/f_30985091077a18562d25905611e8ddad6ecdb2f4b2305044a839ce30c8d9ee14/UP4133-PPSA02450_00-NECROMUMHIREDGUN-DP.pkg" digest="5982400b1ed08708a8ff02b093975458ac8a8159a9355bed900c711898da55bb" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02450_00/app/info/13/f_849d4b52c47fe06f3bd028cfc3f8b2349341619a0332551ba524b6394808ecac/UP4133-PPSA02450_00-NECROMUMHIREDGUN.json" metadata_ver="13" pfs_revision="9" system_ver="51380224"/>
+</app_tag>
+<ac_tag content_id="UP4133-PPSA02450_00-HIREDGUNHUNTBDLC" name="_Import20210511143448" revision="3">
+<package content_ver="01.000.000" digest="76ee1ca1e30d558a02aeb0e49e490a61f19994b798ae4f59e3b39cae812d708e" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02450_00/ac/UP4133-PPSA02450_00-HIREDGUNHUNTBDLC/info/3/f_8732a1212fe22461635e64c2897e23c30f74af3457f174693696d3e630caad0f/UP4133-PPSA02450_00-HIREDGUNHUNTBDLC.json" metadata_ver="3" pfs_revision="1" system_ver="51380224"/>
+</ac_tag>
+</title_patch>
