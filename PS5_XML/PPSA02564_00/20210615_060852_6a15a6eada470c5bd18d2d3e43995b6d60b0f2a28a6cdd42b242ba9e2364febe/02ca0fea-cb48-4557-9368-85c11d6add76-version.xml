@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02564_00" schema_ver="1.0">
+<app_tag content_id="UP3385-PPSA02564_00-DARKSIDE2NAPS500" name="_Import20210517183505" revision="4">
+<package content_ver="01.600.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02564_00/app/pkg/4/f_b8f70370c00680fc93aebbb98b9b045147216658939e0b2d95909ba25d83247f/UP3385-PPSA02564_00-DARKSIDE2NAPS500-DP.pkg" digest="16b538a111f5d4c43e2d0ec07144c239960192653b0b685a77e209919164b5a9" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02564_00/app/info/4/f_00faa5ed157cfe5955bf9ff58ab2538fe68edad8fa228337d131265cc1b4a808/UP3385-PPSA02564_00-DARKSIDE2NAPS500.json" metadata_ver="4" pfs_revision="4" system_ver="51380224"/>
+</app_tag>
+</title_patch>
