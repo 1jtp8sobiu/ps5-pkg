@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02713_00" schema_ver="1.0">
+<app_tag content_id="JP9000-PPSA02713_00-DALLSTARSPLUS001" name="_Import20210614104943" revision="32">
+<package content_ver="02.002.001" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02630_00/app/pkg/25/f_37357669fe4d3218356c27d4a81d3b79bb1e77a5545446fdde35c31db65f2c1f/EP9000-PPSA02630_00-DALLSTARSPLUS001-DP.pkg" digest="b8cbc6c9390cdeaa0b3cbd9d9a1d5fd9a2542559d056fc869253a06e72561606" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02713_00/app/info/32/f_a8951dae534b7ea15ca18f99ac38b0e1cf9af1fc30ab8f0038d7c466545ce00b/JP9000-PPSA02713_00-DALLSTARSPLUS001.json" metadata_ver="32" pfs_revision="25" system_ver="52428800"/>
+</app_tag>
+</title_patch>
