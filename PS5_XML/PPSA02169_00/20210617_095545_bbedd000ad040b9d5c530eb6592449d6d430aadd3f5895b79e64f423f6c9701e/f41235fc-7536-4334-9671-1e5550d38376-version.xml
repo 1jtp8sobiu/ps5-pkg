@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="1" nptitleid="PPSA02169_00" schema_ver="1.0">
+<app_tag content_id="EP4133-PPSA02169_00-00000000HOODGAME" name="_Import20210616153620" revision="21">
+<package content_ver="01.000.500" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02169_00/app/pkg/14/f_a91848bcf4cc1f9daadb577455c1978f8be9e6db1fec6644c8d6ed8ace16bfd8/EP4133-PPSA02169_00-00000000HOODGAME-DP.pkg" digest="1cc2d92b53d131e93bb14a3ca2f7d8fb3d2bfb1ae74c17db7138f381aed8a7f0" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02169_00/app/info/21/f_b0b7802a123f18a7aa5fc15718e1c39e6ade859b6083f068b26429611aca894c/EP4133-PPSA02169_00-00000000HOODGAME.json" metadata_ver="21" pfs_revision="14" system_ver="52428800"/>
+</app_tag>
+<ac_tag content_id="EP4133-PPSA02169_00-HOODPREMIUMTRACK" name="_Import20210427185634" revision="7">
+<package content_ver="01.000.000" digest="effe758581a4d17482c0717e40e2c4f97ec2d6cde4771654799c7eeca399f43f" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02169_00/ac/EP4133-PPSA02169_00-HOODPREMIUMTRACK/info/7/f_a575eac84b42872df4e21acfea82fd535fe9c71080c6ab6bb76497938b6dee6f/EP4133-PPSA02169_00-HOODPREMIUMTRACK.json" metadata_ver="7" pfs_revision="2" system_ver="50331648"/>
+</ac_tag>
+</title_patch>
