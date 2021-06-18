@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="2" nptitleid="PPSA01749_00" schema_ver="1.0">
+<app_tag content_id="EP4062-PPSA01749_00-METROEXODUS0GEN9" name="_Import20210512174614" revision="13">
+<package content_ver="01.001.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01749_00/app/pkg/7/f_77175ae07cdf938e7dddf08f2ab067d0bbab5b3101a202d060873b0e8662d4af/EP4062-PPSA01749_00-METROEXODUS0GEN9-DP.pkg" digest="734aab66a7848f150528806f8066ea1f5121d274ed4d7965d3f5b7959b6b3a47" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01749_00/app/info/13/f_833b3daf17388948c65c5994b02570817ff0cb05d3c4e8e04db993e10e997626/EP4062-PPSA01749_00-METROEXODUS0GEN9.json" metadata_ver="13" pfs_revision="7" system_ver="51380224"/>
+</app_tag>
+<ac_tag content_id="EP4062-PPSA01749_00-METROEXODUSDLC01" name="_Import20210315103858" revision="8">
+<package content_ver="01.000.000" digest="29cad441f6ebaa2170a3a50a7600c10d7f28a1c210717dbc38f31c84cbf175e6" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01749_00/ac/EP4062-PPSA01749_00-METROEXODUSDLC01/info/8/f_47c0c5f2251fca2872b75c98c85fc9feec98a5a2e6288041b1a89eb3c2243320/EP4062-PPSA01749_00-METROEXODUSDLC01.json" metadata_ver="8" pfs_revision="5" system_ver="38797312"/>
+</ac_tag>
+<ac_tag content_id="EP4062-PPSA01749_00-METROEXODUSDLC02" name="_Import20210315104923" revision="9">
+<package content_ver="01.000.000" digest="162760749d104a143c53a17e53953086c6512e52329ddac58e4aba41faca0dbc" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01749_00/ac/EP4062-PPSA01749_00-METROEXODUSDLC02/info/9/f_b332f1e57bbe4a4161fada3e7fde2720416d19a2f1d81788d7766c9b6e60fdbf/EP4062-PPSA01749_00-METROEXODUSDLC02.json" metadata_ver="9" pfs_revision="6" system_ver="38797312"/>
+</ac_tag>
+</title_patch>
