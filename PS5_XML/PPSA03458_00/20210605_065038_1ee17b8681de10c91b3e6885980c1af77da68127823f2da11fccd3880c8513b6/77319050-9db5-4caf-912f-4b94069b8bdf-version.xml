@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA03458_00" schema_ver="1.0">
+<app_tag content_id="JP0122-PPSA03458_00-MIGHTYGOOSE00001" name="_Import20210605045210" revision="6">
+<package content_ver="01.000.002" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA03458_00/app/pkg/5/f_cf85f958ab113119e749bbc6f38df7561e9ec142cc56529ac8722da04ba4cb09/JP0122-PPSA03458_00-MIGHTYGOOSE00001-DP.pkg" digest="1cf5f93d7ebaef4788525f88c3e427999c623ede80bdb31339887798a4fe7ebb" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA03458_00/app/info/6/f_5ef664ccf990da6f2ca32b810f4eba7965ccab6279d59b0939be875e28f13c8e/JP0122-PPSA03458_00-MIGHTYGOOSE00001.json" metadata_ver="6" pfs_revision="5" system_ver="51380224"/>
+</app_tag>
+</title_patch>
