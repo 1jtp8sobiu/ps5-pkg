@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01929_00" schema_ver="1.0">
+<app_tag content_id="HP0700-PPSA01929_00-SCRLTNXS00000000" name="_Import20210527054918" revision="29">
+<package content_ver="01.001.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01929_00/app/pkg/2/f_b8a201a5e63e179d6c4e0636049c5cee9a18ad6fd51c2f885868940725b681d4/HP0700-PPSA01929_00-SCRLTNXS00000000-DP.pkg" digest="ba0dcaf3429b0d30e0735565c43352f247dc7b15e1b047d848e442da0dd48510" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01929_00/app/info/29/f_4a3d6acd014788c6dbf01a6e5966360fca5118dc025c8ca3ae8b0693436a2209/HP0700-PPSA01929_00-SCRLTNXS00000000.json" metadata_ver="29" pfs_revision="2" system_ver="51380224"/>
+</app_tag>
+</title_patch>
