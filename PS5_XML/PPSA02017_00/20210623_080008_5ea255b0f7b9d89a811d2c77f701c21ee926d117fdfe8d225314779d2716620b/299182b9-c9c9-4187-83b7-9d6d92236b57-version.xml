@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02017_00" schema_ver="1.0">
+<app_tag content_id="UP1003-PPSA02017_00-OSPREYGAMECLIENT" name="_Import20210617012809" revision="6">
+<package content_ver="01.000.001" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02017_00/app/pkg/7/f_67b50641851d96c9e1603c6b81048a402b5b535fb38ae1099b62098a37886f3f/UP1003-PPSA02017_00-OSPREYGAMECLIENT-DP.pkg" digest="98afe6802e98507cfa1f0fc40c44b1fe38f4bf14a5804345f4604ba89925f50d" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02017_00/app/info/6/f_6b5e72187b5db63dcd6fd274b87d0fae9e5a6234f6f0acbde47d4f0b4f9d6f23/UP1003-PPSA02017_00-OSPREYGAMECLIENT.json" metadata_ver="6" pfs_revision="7" system_ver="52428800"/>
+</app_tag>
+<pssdc>
+<nptitleid>CUSA00132_00</nptitleid>
+</pssdc>
+</title_patch>
