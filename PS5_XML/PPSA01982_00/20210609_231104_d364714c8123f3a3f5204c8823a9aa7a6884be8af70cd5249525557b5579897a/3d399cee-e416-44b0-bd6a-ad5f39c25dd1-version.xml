@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01982_00" schema_ver="1.0">
+<app_tag content_id="EP1003-PPSA01982_00-DOOM05PS50000000" name="_Import20210609193846" revision="9">
+<package content_ver="01.000.000" digest="dfb2ab37027c2254370258144a3a4b4efdb5fcf9fc6652a79a91a33c6226b090" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01982_00/app/info/9/f_feb4a5bf55b681895cd986f5ac1a8affbbc045b39574e84cdc72442871b04e05/EP1003-PPSA01982_00-DOOM05PS50000000.json" metadata_ver="9" pfs_revision="4" system_ver="51380224"/>
+</app_tag>
+<pssdc>
+<nptitleid>CUSA13275_00</nptitleid>
+</pssdc>
+</title_patch>

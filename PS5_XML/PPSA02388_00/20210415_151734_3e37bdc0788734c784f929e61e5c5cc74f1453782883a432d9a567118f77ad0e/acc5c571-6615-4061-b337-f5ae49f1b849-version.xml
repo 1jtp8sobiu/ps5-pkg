@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02388_00" schema_ver="1.0">
+<app_tag content_id="UP4133-PPSA02388_00-APLAGUETALEGAME0" name="_Import20210413190140" revision="2">
+<package content_ver="01.000.000" digest="73c63dad4fa25cbd9bbad1f7e7be4e9dc6ad379a8a7d94a8790fb9092ac7acab" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02388_00/app/info/2/f_c170d60f13edbb77b6e982ad569a45f254a705a8502e703d6b681d0e1754daf7/UP4133-PPSA02388_00-APLAGUETALEGAME0.json" metadata_ver="2" pfs_revision="2" system_ver="38797312"/>
+</app_tag>
+<pssdc>
+<nptitleid>CUSA11032_00</nptitleid>
+</pssdc>
+</title_patch>
