@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02048_00" schema_ver="1.0">
+<app_tag content_id="UP3509-PPSA02048_00-DEADBYDAYLIGHT00" name="_Import20210625210923" revision="61">
+<package bootable_content_ver="05.000.200" content_ver="05.000.200" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02048_00/app/pkg/32/f_4d0a5f748cafbf9c0988f2da9484541b22698b9795c8fe11e34797771b3b3da5/UP3509-PPSA02048_00-DEADBYDAYLIGHT00-DP.pkg" digest="21460b37e60beba1c010796c2e7a7ea4e7fd42817fddde430ee10fbd95a07ecc" mandatory="true" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02048_00/app/info/61/f_23f6f20bf03f3c3f52fe0a6d8b570bcbb87b394987b84e3d054a162bf7435762/UP3509-PPSA02048_00-DEADBYDAYLIGHT00.json" metadata_ver="61" pfs_revision="32" system_ver="52428800"/>
+</app_tag>
+<pssdc>
+<nptitleid>CUSA08444_00</nptitleid>
+</pssdc>
+</title_patch>
