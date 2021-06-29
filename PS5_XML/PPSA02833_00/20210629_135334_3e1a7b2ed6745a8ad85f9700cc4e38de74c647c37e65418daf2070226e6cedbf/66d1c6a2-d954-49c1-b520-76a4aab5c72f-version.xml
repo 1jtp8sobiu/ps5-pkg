@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02833_00" schema_ver="1.0">
+<app_tag content_id="EP6839-PPSA02833_00-FARMFORYOURLIFE0" name="_Import20210629101041" revision="24">
+<package bootable_content_ver="01.260.000" content_ver="01.260.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02833_00/app/pkg/18/f_c159eabe939c542e39aafd119a760ae39c51e5dc2e3d41e89a1ccf43bac44175/EP6839-PPSA02833_00-FARMFORYOURLIFE0-DP.pkg" digest="efa2595d37419cb35420b4ebccfcbd61a455aa8f8c3db0ddc4a50792ddd8b06e" mandatory="true" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02833_00/app/info/24/f_450d788ce82fc1e7e04d0dc3c6d7ae64f6439ba8cb859292dc724afab869494b/EP6839-PPSA02833_00-FARMFORYOURLIFE0.json" metadata_ver="24" pfs_revision="18" system_ver="52428800"/>
+</app_tag>
+</title_patch>
