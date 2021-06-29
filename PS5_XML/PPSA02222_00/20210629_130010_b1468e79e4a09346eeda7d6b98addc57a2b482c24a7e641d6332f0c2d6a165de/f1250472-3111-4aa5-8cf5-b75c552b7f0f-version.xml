@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="3" nptitleid="PPSA02222_00" schema_ver="1.0">
+<app_tag content_id="HP1003-PPSA02222_00-DOOM05PS50000000" name="_Import20210618174323" revision="11">
+<package content_ver="01.001.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01981_00/app/pkg/5/f_a6df9698f8a6606fb59a2f3dddf15cba3354120047478a5cad198a1f4a606bef/UP1003-PPSA01981_00-DOOM05PS50000000-DP.pkg" digest="e8c4d63dd3774437ab5de9fe7d6ad0fccf454a48fbadcbebdc7216bfc463da84" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02222_00/app/info/11/f_949d5300bdd9edfe26f625127d53848b3d51ffe96bb313c1444a8e441c962f60/HP1003-PPSA02222_00-DOOM05PS50000000.json" metadata_ver="11" pfs_revision="5" system_ver="52428800"/>
+</app_tag>
+<ac_tag content_id="HP1003-PPSA02222_00-DETERNALCAMPAIGN" name="_Import20210527033713" revision="5">
+<package content_ver="01.000.000" digest="275c6014943c5b9c5e245e1fa70dd41dca159ae910990feae37e49d90741576c" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02222_00/ac/HP1003-PPSA02222_00-DETERNALCAMPAIGN/info/5/f_17de72e0af1931565994ea85b26b3959f8b32d9b050033cf645784e459a101d1/HP1003-PPSA02222_00-DETERNALCAMPAIGN.json" metadata_ver="5" pfs_revision="4" system_ver="51380224"/>
+</ac_tag>
+<ac_tag content_id="HP1003-PPSA02222_00-DOOMETERNALDLC01" name="_Import20210527033735" revision="6">
+<package content_ver="01.000.000" digest="7fa46586e2c3e3540479c8e2df17a0efad1aa924e6b8771ba8bfb7d8dcc69b09" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02222_00/ac/HP1003-PPSA02222_00-DOOMETERNALDLC01/info/6/f_982e21e925a44fdb0bc9702b005a3b7330dc7cc1eaae73ae765264ac95406858/HP1003-PPSA02222_00-DOOMETERNALDLC01.json" metadata_ver="6" pfs_revision="5" system_ver="51380224"/>
+</ac_tag>
+<ac_tag content_id="HP1003-PPSA02222_00-DOOMETERNALDLC02" name="_Import20210527033801" revision="7">
+<package content_ver="01.000.000" digest="8ba1f7de9a92968921ea7f84947600e17effacee37e92cbca68b65d7511bb787" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02222_00/ac/HP1003-PPSA02222_00-DOOMETERNALDLC02/info/7/f_eef498768ef21018dd5e83c06982cf7aa45fb33c28c68b2c528c355149163a2b/HP1003-PPSA02222_00-DOOMETERNALDLC02.json" metadata_ver="7" pfs_revision="6" system_ver="51380224"/>
+</ac_tag>
+<pssdc>
+<nptitleid>CUSA15414_00</nptitleid>
+</pssdc>
+</title_patch>

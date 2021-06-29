@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="1" nptitleid="PPSA02981_00" schema_ver="1.0">
+<app_tag content_id="EP4133-PPSA02981_00-GREEDFALL0000000" name="_Import20210624225657" revision="8">
+<package content_ver="01.002.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02981_00/app/pkg/6/f_38b808175b88e911b433909b49383ccc159065971bd23fb4a63b6b9116aad1bf/EP4133-PPSA02981_00-GREEDFALL0000000-DP.pkg" digest="2882ae5f3f6d2012b6d019c26d212380398c8c9d2255bdd3e6617c99e3fa56a6" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02981_00/app/info/8/f_d377cc827a9e29586cb8b87f9d20883a71faee0423b0478118b110331597b2bf/EP4133-PPSA02981_00-GREEDFALL0000000.json" metadata_ver="8" pfs_revision="6" system_ver="52428800"/>
+</app_tag>
+<ac_tag content_id="EP4133-PPSA02981_00-GREEDFALL00DLC02" name="_Import20210514115930" revision="3">
+<package content_ver="01.000.000" digest="04c478d22271718cae6d0075bc2b4f860b6b5fc98d133c2f8e3abc13928997f4" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02981_00/ac/EP4133-PPSA02981_00-GREEDFALL00DLC02/info/3/f_ba65ec53fd501c492ce766eecc75a9b443b6c6033655923bfc54c14875f2579f/EP4133-PPSA02981_00-GREEDFALL00DLC02.json" metadata_ver="3" pfs_revision="1" system_ver="51380224"/>
+</ac_tag>
+</title_patch>
