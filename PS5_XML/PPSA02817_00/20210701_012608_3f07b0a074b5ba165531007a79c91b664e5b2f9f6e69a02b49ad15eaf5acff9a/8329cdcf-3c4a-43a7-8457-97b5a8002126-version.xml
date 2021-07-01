@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02817_00" schema_ver="1.0">
+<app_tag content_id="UP2080-PPSA02817_00-CURVEDSPACE00000" name="_Import20210630050213" revision="4">
+<package content_ver="01.002.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02817_00/app/pkg/5/f_a2a208d01bfa799c09193f239949da66a10cf94ca09be3378c94b22c75841f7e/UP2080-PPSA02817_00-CURVEDSPACE00000-DP.pkg" digest="de1f8e867f371b6162124c10e50d5dc95a7fe42dcb361828c3bb3f187fab98a1" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02817_00/app/info/4/f_320a0f8232080eb6d066e4b30cde2ec2d9a9ba559a91ed9b5003fb7a1644e2ad/UP2080-PPSA02817_00-CURVEDSPACE00000.json" metadata_ver="4" pfs_revision="5" system_ver="52428800"/>
+</app_tag>
+</title_patch>
