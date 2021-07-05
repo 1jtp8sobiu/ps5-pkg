@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02376_00" schema_ver="1.0">
+<app_tag content_id="UP1981-PPSA02376_00-MOTOGP21FULLGAME" name="_Import20210702134953" revision="20">
+<package content_ver="01.012.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02376_00/app/pkg/14/f_ff335c7698d35b3e1423d5950b5581afff10abcdac4aba304dada319c4063dee/UP1981-PPSA02376_00-MOTOGP21FULLGAME-DP.pkg" digest="26992b7e28e5ddffb1688703c3d231f447f97baca61f12bbebe03cc35409e100" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02376_00/app/info/20/f_29deeb7c75fd288003715c164e41175a2ec35eebddf1d43f3eac349451b5820d/UP1981-PPSA02376_00-MOTOGP21FULLGAME.json" metadata_ver="20" pfs_revision="14" system_ver="52428800"/>
+</app_tag>
+</title_patch>
