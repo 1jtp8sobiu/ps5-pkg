@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01416_00" schema_ver="1.0">
+<app_tag content_id="UP9000-PPSA01416_00-MLBTHESHOW21SHIP" name="_Import20210709174800" revision="35">
+<package content_ver="01.011.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01416_00/app/pkg/35/f_58f33a97960b8790c1e9468e7c61bc18b6baa126e2254dff041255fbfab52f72/UP9000-PPSA01416_00-MLBTHESHOW21SHIP-DP.pkg" digest="bdd4cb7f1ed6ff9887f3ab9a193a84292ef2e05df534de0d6c14e3e3118f8d9e" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01416_00/app/info/35/f_3163cfd0040f7ede378fa007a8cad01407c3017b659425a7276e02d331361e48/UP9000-PPSA01416_00-MLBTHESHOW21SHIP.json" metadata_ver="35" pfs_revision="35" system_ver="52428800"/>
+</app_tag>
+<pssdc>
+<nptitleid>CUSA25016_00</nptitleid>
+</pssdc>
+</title_patch>
