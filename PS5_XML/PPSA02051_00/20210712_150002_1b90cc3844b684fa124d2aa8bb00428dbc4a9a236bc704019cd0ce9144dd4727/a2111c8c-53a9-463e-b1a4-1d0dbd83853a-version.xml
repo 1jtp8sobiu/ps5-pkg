@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02051_00" schema_ver="1.0">
+<app_tag content_id="EP0002-PPSA02051_00-CODCWTHEGAME0001" name="_Import20210703015556" revision="23">
+<package content_ver="01.019.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02051_00/app/pkg/22/f_d305fc6e41813b10e2c9c687c9f012a526ec65b140dc1e6ba28ee593b0b8523c/EP0002-PPSA02051_00-CODCWTHEGAME0001-DP.pkg" digest="3fb9a269518f0ea2a7a04c9b912a3c263cb638fa3849fa5b8bb71f1f790c1f17" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02051_00/app/info/22/f_5b3fe97ce6619940c7b363a85feac7de852e7e16dbd6a16e625c08158b087f85/EP0002-PPSA02051_00-CODCWTHEGAME0001.json" metadata_ver="22" pfs_revision="22" system_ver="52428800"/>
+<package content_ver="01.020.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02051_00/app/pkg/23/f_7e9f989836bc6e8fd26e0f5a6951be0f57d846dbd164d4cf4b71bc307830f44a/EP0002-PPSA02051_00-CODCWTHEGAME0001-DP.pkg" digest="535672a532ce0eaab251158e2f7ddf78cf97f3b08f9c49d8016becd48a32c4de" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02051_00/app/info/23/f_de139b9e8b4ac807a854bf60cc89140428a88dd2f1f30f5d4454b8aa5ba843d0/EP0002-PPSA02051_00-CODCWTHEGAME0001.json" metadata_ver="23" pfs_revision="23" selective="true" system_ver="52428800">
+<distro_predownload>
+<distribution_date date="2021-07-12T17:00:00Z" percentage="33"/>
+<distribution_date date="2021-07-13T01:00:00Z" percentage="66"/>
+<distribution_date date="2021-07-13T17:00:00Z" percentage="100"/>
+<installable_date date="2021-07-14T04:00:00Z"/>
+</distro_predownload>
+</package>
+</app_tag>
+<pssdc>
+<nptitleid>PPSA02050_00</nptitleid>
+<nptitleid>CUSA24267_00</nptitleid>
+</pssdc>
+</title_patch>
