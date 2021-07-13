@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA03051_00" schema_ver="1.0">
+<app_tag content_id="EP4432-PPSA03051_00-5760264094567222" name="_Import20210712171253" revision="80">
+<package content_ver="01.000.048" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA03051_00/app/pkg/59/f_0db4d60f8a94e11634a0b4b514f6113d8570a1638a5fd425343b53f167ae9110/EP4432-PPSA03051_00-5760264094567222-DP.pkg" digest="0e78d2d1cb30669e3400b5b78797f6382d68555e9e192674e3f211d769c49182" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA03051_00/app/info/80/f_23117f0516e4f932d825ba4af881643e66fe3fe28855e4dea7f450b5d2539ab0/EP4432-PPSA03051_00-5760264094567222.json" metadata_ver="80" pfs_revision="59" system_ver="52428800"/>
+</app_tag>
+</title_patch>
