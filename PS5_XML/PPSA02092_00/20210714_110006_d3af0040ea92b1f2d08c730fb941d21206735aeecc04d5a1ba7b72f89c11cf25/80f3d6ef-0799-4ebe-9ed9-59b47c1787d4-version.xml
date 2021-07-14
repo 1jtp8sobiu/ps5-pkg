@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02092_00" schema_ver="1.0">
+<app_tag content_id="EP0331-PPSA02092_00-ROGUECOMPANYXXXX" name="_Import20210712185233" revision="24">
+<package content_ver="01.000.010" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02091_00/app/pkg/21/f_400eb5b5e2a656a832c4b4b5681ee77f471de940f90db5fbdd6a315221bd28af/UP0334-PPSA02091_00-ROGUECOMPANYXXXX-DP.pkg" digest="d9d63c7d9034b1fccaf1f51170ebafc44a1f54034733da8dc45a89ff1fe288bb" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02092_00/app/info/24/f_c96edd779ea2a617e61ae95abcbd3624984078db405171dd4556392f833f7f8a/EP0331-PPSA02092_00-ROGUECOMPANYXXXX.json" metadata_ver="24" pfs_revision="21" system_ver="52428800"/>
+</app_tag>
+<pssdc>
+<nptitleid>CUSA15138_00</nptitleid>
+</pssdc>
+</title_patch>
