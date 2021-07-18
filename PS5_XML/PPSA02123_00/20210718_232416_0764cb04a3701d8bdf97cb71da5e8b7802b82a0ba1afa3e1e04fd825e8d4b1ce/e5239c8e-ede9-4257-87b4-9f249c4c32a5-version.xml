@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02123_00" schema_ver="1.0">
+<app_tag content_id="EP4908-PPSA02123_00-CRISTALES0000000" name="_Import20210718223537" revision="4">
+<package content_ver="01.003.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02121_00/app/pkg/4/f_040648f701a2e357bd8e3becbbcb66fe9a81a5698e5e3cd97f82b794eb71f295/UP4735-PPSA02121_00-CRISTALES0000000-DP.pkg" digest="710e4465aecf92ff9954ca7f32d5990d948276c8fbb1e2ded631ca5826c71b37" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02123_00/app/info/4/f_b215efa6d72b6e908be146bee21304154204069049e4cd5390ab028fa4056445/EP4908-PPSA02123_00-CRISTALES0000000.json" metadata_ver="4" pfs_revision="4" system_ver="52494336"/>
+</app_tag>
+</title_patch>
