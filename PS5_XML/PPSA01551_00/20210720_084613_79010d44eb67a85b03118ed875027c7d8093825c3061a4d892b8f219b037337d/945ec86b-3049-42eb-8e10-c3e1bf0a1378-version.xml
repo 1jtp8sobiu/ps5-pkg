@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01551_00" schema_ver="1.0">
+<app_tag content_id="EP4001-PPSA01551_00-DIRTFIVEPS5EDITI" name="_Import20210712104646" revision="59">
+<package content_ver="05.001.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01551_00/app/pkg/44/f_4997318d98f08c12cd91136130871b654e8c5ecdef0c5ea231e1233e509dfb97/EP4001-PPSA01551_00-DIRTFIVEPS5EDITI-DP.pkg" digest="491677d3898c981a58e5217a3367b736b781a6a5a3fbd3906253fe49c7b8308a" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01551_00/app/info/59/f_87017e8abbb563dde69456da6f8abb1c0d4fe9fd8331cb258a6990a23e2a9f81/EP4001-PPSA01551_00-DIRTFIVEPS5EDITI.json" metadata_ver="59" pfs_revision="44" system_ver="52428800"/>
+</app_tag>
+</title_patch>
