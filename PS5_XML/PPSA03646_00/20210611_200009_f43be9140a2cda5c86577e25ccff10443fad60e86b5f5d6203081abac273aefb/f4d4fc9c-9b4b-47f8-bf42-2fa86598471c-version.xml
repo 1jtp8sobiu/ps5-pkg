@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA03646_00" schema_ver="1.0">
+<app_tag content_id="EP1629-PPSA03646_00-3DMINIGOLFGAME00" name="_Import20210603115000" revision="4">
+<package content_ver="01.002.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA03646_00/app/pkg/4/f_a739c3665c83f604e1c903f8d8ab6f4ccef40a7382526acdaa5950b4887778e5/EP1629-PPSA03646_00-3DMINIGOLFGAME00-DP.pkg" digest="fa5b075ab082fc410c6088c23f971ee7c457206cd4289aaef9d7abf959cefa51" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA03646_00/app/info/4/f_a269fe85ced48620f4323cc7e6597df3e435a702a705f2c76e457cd3c1001ce5/EP1629-PPSA03646_00-3DMINIGOLFGAME00.json" metadata_ver="4" pfs_revision="4" system_ver="51380224"/>
+</app_tag>
+</title_patch>
