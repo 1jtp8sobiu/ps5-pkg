@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA02799_00" schema_ver="1.0">
+<app_tag content_id="EP1629-PPSA02799_00-THREEDBILLIARDSX" name="_Import20210611145228" revision="6">
+<package content_ver="01.002.000" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA02799_00/app/pkg/4/f_5f7632c52444746b3ccbf85a1d629d4db46049b1cdccdf01f25ef47280fffa6e/EP1629-PPSA02799_00-THREEDBILLIARDSX-DP.pkg" digest="b980fdec5a41f06e4861593456ad78a72da4cd51a33c57d7c5c3bc77199c789f" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA02799_00/app/info/6/f_439296836c2be6de2764337f58e02e9f0375f7acc6b40e1c0d46418fbc6c37c4/EP1629-PPSA02799_00-THREEDBILLIARDSX.json" metadata_ver="6" pfs_revision="4" system_ver="51380224"/>
+</app_tag>
+</title_patch>
