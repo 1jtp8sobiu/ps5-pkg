@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><title_patch ac_set_rev="0" nptitleid="PPSA01923_00" schema_ver="1.0">
+<app_tag content_id="EP1464-PPSA01923_00-FORTNITETESTING2" name="_Import20210723191325" revision="44">
+<package content_ver="01.000.035" delta_url="http://gst.prod.dl.playstation.net/gst/prod/00/PPSA01922_00/app/pkg/42/f_079fe7b4d71bfa486f3844808f49d3b9f7264515a2cf67b728535609c7923533/UP1477-PPSA01922_00-FORTNITETESTING2-DP.pkg" digest="573d7ef1dd4f383bcb950253a6ee3ec1b2fc1e4f7bf35d8d1af4c9207972b865" mandatory="false" manifest_url="https://sgst.prod.dl.playstation.net/sgst/prod/00/PPSA01923_00/app/info/44/f_b4a30168f04a6462e125b25842140153b25d35893e927d523f541fcb2209af2c/EP1464-PPSA01923_00-FORTNITETESTING2.json" metadata_ver="44" pfs_revision="42" system_ver="52494336"/>
+</app_tag>
+<pssdc>
+<nptitleid>CUSA07669_00</nptitleid>
+</pssdc>
+</title_patch>
